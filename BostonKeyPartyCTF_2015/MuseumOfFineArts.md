@@ -87,3 +87,5 @@ for ($seed = 1; $seed <= 10000; $seed++) {
 
 When login page displays login form, we can use any of displayed number to find proper sequence and use 4th number to log in.
 
+Other solution:
+https://github.com/ctfs/write-ups-2015/tree/master/boston-key-party-2015/school-bus/museum-of-fine-arts

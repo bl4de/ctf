@@ -1,0 +1,5 @@
+#!/usr/bin/python
+
+print len("9d009637c6eec7fcaf3844d573d5ccce7bccb1789db94745abf246943ce90b47a22a7fa8f81a2722cb4e33452e8bec099ff650020d4e8660")
+
+print 112/32

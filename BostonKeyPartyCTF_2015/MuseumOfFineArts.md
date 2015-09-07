@@ -55,19 +55,19 @@ mt_srand($seed);
 
 ## Solution
 
-"Unpredictable seed" has only 5 digits, so it's possible to create simple "brute force" script to generate every combination of seed + four generated random numbers:
+"Unpredictable seed" has only 10000 possible values, so it's possible to create simple "brute force" script to generate every combination of seed + four generated random numbers:
 
 ```
 
 <?php
 
-// $seed is 5-digit number (99999 possibilities)
+// $seed is 5-digit number from 1 to 10000 (10000 possibilities)
 //$seed = (microtime() ^ rand(1, 10000)) % rand(1, 10000) + rand(1, 10000);
 
 $pass = $_GET['pass'];
 $found = false;
 
-for ($seed = 0; $seed <= 99999; $seed++) {
+for ($seed = 1; $seed <= 10000; $seed++) {
 	mt_srand($seed);
 	$found = false;
 	for($i = 0; $i < 3; $i++) {
@@ -87,3 +87,5 @@ for ($seed = 0; $seed <= 99999; $seed++) {
 
 When login page displays login form, we can use any of displayed number to find proper sequence and use 4th number to log in.
 
+Other solution:
+https://github.com/ctfs/write-ups-2015/tree/master/boston-key-party-2015/school-bus/museum-of-fine-arts

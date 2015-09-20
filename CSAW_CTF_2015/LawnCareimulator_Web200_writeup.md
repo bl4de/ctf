@@ -1,4 +1,4 @@
-### Lawn Care Simulator (Web, 200pts)
+# Lawn Care Simulator (Web, 200pts)
 
 ## Problem
 
@@ -10,7 +10,7 @@ Lawn Care Simulator is a simple web application to show how the grass is growing
 
 ## Solution
 
-# Phase 1 - explore .git repository
+### Phase 1 - explore .git repository
 
 In source code of index.html there's an AJAX request to Git repository (to find current application version). So we can exploit .git folder on remote server.
 
@@ -80,7 +80,7 @@ File HINT does not contain anything helpful. But as we can analyze source code o
 ```
 
 
-# Phase 2 - find username
+### Phase 2 - find username
 
 Let's get through those lines (sign_up.php):
 

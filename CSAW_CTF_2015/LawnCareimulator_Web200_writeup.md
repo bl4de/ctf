@@ -95,7 +95,7 @@ First of all - mysql_real_escape_string() does not allow SQL Injection here. But
 
 So when we try to register with username eg. '%%', we see this screen:
 
-We have existing username (~~FLAG~~), now we have to try to find the password.
+We have existing username, now we have to try to find the password.
 
 ![Got username]
 (https://github.com/bl4de/ctf/blob/master/CSAW_CTF_2015/Lawn_Care_Simulator_web200/lawncare02.png)

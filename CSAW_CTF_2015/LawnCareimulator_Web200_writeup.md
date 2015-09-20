@@ -4,8 +4,8 @@
 
 Lawn Care Simulator is a simple web application to show how the grass is growing. Yeah, ok. It has premium content, but it requires registration. Registration not working and there's no way to log in as we can't register any account.
 
+![Lawn Care Simulator]
 (https://github.com/bl4de/ctf/blob/master/CSAW_CTF_2015/Lawn_Care_Simulator_web200/lawncare01.png)
-
 
 
 ## Solution
@@ -40,7 +40,8 @@ $ git cat-file -p 731924d14616f3f95c1d75e822a6a97a69f1a32f
 100644 blob 637c8e963a5fb7080ff639b5297bb10bca491bda	validate_pass.php
 ```
 
-File *__HINT__* does not contain anything helpful. But as we can analyze source code of some files and after a few minutes of reading it, we can identify some key points:
+File HINT does not contain anything helpful. But as we can analyze source code of some files and after a few minutes of reading it, we can identify some key points:
+
 
 * registration is NOT working, BUT we can try guess/find already existing username(s):
 
@@ -96,6 +97,7 @@ So when we try to register with username eg. '%%', we see this screen:
 
 We have existing username (~~FLAG~~), now we have to try to find the password.
 
+![Got username]
 (https://github.com/bl4de/ctf/blob/master/CSAW_CTF_2015/Lawn_Care_Simulator_web200/lawncare02.png)
 
 
@@ -247,6 +249,7 @@ time for 9 - 3.290462
 
 After *667e217666* time of responses stopped to change, so I've decided to try only with this (I've added some random chars to get 32 characters length of the whole hash) - and it was enough:
 
+![Grab the flag]
 (https://github.com/bl4de/ctf/blob/master/CSAW_CTF_2015/Lawn_Care_Simulator_web200/lawncare03.png)
 
 

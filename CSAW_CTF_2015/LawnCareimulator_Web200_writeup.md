@@ -14,7 +14,7 @@ Lawn Care Simulator is a simple web application to show how the grass is growing
 
 In source code of index.html there's an AJAX request to Git repository (to find current application version). So we can exploit .git folder on remote server.
 
-Following SHA-1 Git objects hash, we can find and download ource files (not all, unfortunately):
+Following SHA-1 Git objects hash, we can find and download source files (not all, unfortunately):
 
 Here's tree hash:
 ```
@@ -60,7 +60,7 @@ File HINT does not contain anything helpful. But as we can analyze source code o
     }
 ```
 
-* logging is working, but we have to find valid username and try to pass login validation. After succesful login we will be able to get the flag:
+* login is working, but we have to find valid username and try to pass login validation. After succesful login we will be able to get the flag:
 
 ```php
     require_once 'validate_pass.php';
@@ -82,7 +82,7 @@ File HINT does not contain anything helpful. But as we can analyze source code o
 
 ### Phase 2 - find username
 
-Let's get through those lines (sign_up.php):
+Let's get throug these lines (sign_up.php):
 
 ```php
     $user = mysql_real_escape_string($_POST['username']);
@@ -121,7 +121,7 @@ Validation of password looks a little bit tricky at the first look:
     return true;
 ```
 
-*$hash* is value from DB and *$pass* is MD5 hash of password from login form. First check is the length - if the length of $pass not equals the length of $hash, validation returns false. So even if we spoofing login form (eg. via Burp Suite or ZAP) we still have to send 32 signs (MD5 hash).
+*$hash* is value from DB and *$pass* is MD5 hash of password from login form. First check is the length - if the length of $pass not equals the length of $hash, validation returns false. So even if we spoof login form we still have to send 32 signs (MD5 hash).
 
 Then script checks sign by sign if $hash and $pass are equal and it returns false right after first difference. If signs are the same, it waits 0.3 sec before next check. And this is exactly what we need to bruteforce this validation.
 
@@ -169,7 +169,7 @@ print "\n\ncurrent final password: {} ({} chars)\n\n".format(final_password,
 
 ```
 
-I took some time, but finally I was able to find 10 first characters in MD5 hash of ~~FLAG~~'s user password - and when I've sent it I've got the flag (sample try after three signs (667) - script shows 4th sign, which is 'e' - timing is ~0.3s more than average, then one of the final try with 667e217666 as the beginning, when times were not changing anymore):
+It took some time, but finally I was able to find 10 first characters in MD5 hash of FLAG user password - and when I've sent it I've got the flag. Below are console outputs from sample try after three signs (667) - script shows 4th sign, which is 'e' - timing is ~0.3s more than average, then one of the final try with 667e217666 as the beginning, when times were not changing anymore:
 
 ```
 

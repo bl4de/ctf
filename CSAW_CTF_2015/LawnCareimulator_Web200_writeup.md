@@ -101,7 +101,7 @@ We have existing username, now we have to try to find the password.
 (https://github.com/bl4de/ctf/blob/master/CSAW_CTF_2015/Lawn_Care_Simulator_web200/lawncare02.png)
 
 
-# Phase 3 - bruteforce password validation
+### Phase 3 - bruteforce password validation
 
 Validation of password looks a little bit tricky at the first look:
 

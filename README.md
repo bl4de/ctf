@@ -1,7 +1,7 @@
-# CTF (Capture The Flag) writeups, code snippets, notes and so on
----------------------------------------------------------------
+# CTF (Capture The Flag) writeups repository
 
-Here's some writeups and notes from various CTFs events which I've competed in.
+
+Writeups, code snippets and notes collection from CTF events.
 
 
 ## Team stats

@@ -258,3 +258,15 @@ And the flag was: *gr0wth__h4ck!nG!1!1!*
 (I don't know why it has worked just after 10 characters, but I suppose that there was some kind of pre-validation, which was not visible in the code and CTF organizers were able to determine valid solution a little bit earlier than after all guessed hash.)
 
 
+## Other solutions
+
+Very similar approach from _smoke leet everyday_ team:
+
+https://github.com/Alpackers/CTF-Writeups/tree/master/2015/CSAW-CTF/Web/Lawn-Care-Simulator
+
+And totaly different and much more straightforward from _Alpackers_:
+
+https://github.com/Alpackers/CTF-Writeups/tree/master/2015/CSAW-CTF/Web/Lawn-Care-Simulator
+
+
+

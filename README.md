@@ -14,7 +14,7 @@ https://ctftime.org/rating-formula/
 There's an open issue for this here:
 https://github.com/ctftime/ctftime.org/issues/25
 
-This script will be updated when I'll be sure how this rating formula works :)
+This script will be updated when I'll be sure how this rating formula works (for now my script calculation are about 25-30% less than added points) :)
 
 https://github.com/bl4de/ctf/blob/master/calculatePoints.py
 

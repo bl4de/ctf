@@ -7,6 +7,18 @@ Writeups, code snippets and notes collection from CTF events.
 ## Team stats
 https://ctftime.org/team/12769
 
+## CTFtime.org ranking points calculator
+
+Simple Python script to calculate CTFtime.org ranking points from particular CTF event points based on formula from
+https://ctftime.org/rating-formula/
+There's an open issue for this here:
+https://github.com/ctftime/ctftime.org/issues/25
+
+This script will be updated when I'll be sure how this rating formula works :)
+
+https://github.com/bl4de/ctf/blob/master/calculatePoints.py
+
+For now calculated points are not relevant to added points in CTFtime.org ranking.
 
 # Writeups
 

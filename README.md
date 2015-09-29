@@ -4,11 +4,14 @@
 Writeups, code snippets and notes collection from CTF events.
 
 
-## Team stats
+## Actual stats
 https://ctftime.org/team/12769
 
-## Actual teams from Poland rating
+## Actual rating of teams from Poland
 https://ctftime.org/stats/2015/PL
+
+## Previous seasons stats
+[TBD]
 
 ## CTFtime.org ranking points calculator
 

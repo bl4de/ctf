@@ -7,6 +7,9 @@ Writeups, code snippets and notes collection from CTF events.
 ## Team stats
 https://ctftime.org/team/12769
 
+## Actual teams from Poland rating
+https://ctftime.org/stats/2015/PL
+
 ## CTFtime.org ranking points calculator
 
 Simple Python script to calculate CTFtime.org ranking points from particular CTF event points based on formula from

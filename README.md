@@ -10,7 +10,7 @@ https://ctftime.org/team/12769
 ## Actual rating of teams from Poland
 https://ctftime.org/stats/2015/PL
 
-## Previous seasons stats
+## Previous years stats
 [TBD]
 
 ## CTFtime.org ranking points calculator

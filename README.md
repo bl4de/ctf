@@ -26,7 +26,7 @@ https://github.com/bl4de/ctf/blob/master/calculatePoints.py
 
 For now calculated points are not relevant to added points in CTFtime.org ranking.
 
-# Writeups
+# Writeups (2015)
 
 ### CSAW CTF Qualification Round 2015
 

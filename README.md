@@ -5,7 +5,7 @@ Writeups, code snippets and notes collection from CTF events.
 ### Actual 'bl4de' stats
 https://ctftime.org/team/12769
 
-### Actual rating of teams from Poland
+### Actual Poland teams rating
 https://ctftime.org/stats/2015/PL
 
 ### Previous years stats

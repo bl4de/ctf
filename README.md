@@ -1,10 +1,8 @@
 ## CTF (Capture The Flag) writeups repository
 
-
 Writeups, code snippets and notes collection from CTF events.
 
-
-### Actual stats
+### Actual 'bl4de' stats
 https://ctftime.org/team/12769
 
 ### Actual rating of teams from Poland

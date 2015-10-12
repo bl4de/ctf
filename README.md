@@ -2,14 +2,11 @@
 
 Writeups, code snippets and notes collection from CTF events.
 
-### Actual 'bl4de' stats
+### My CTFtime.org stats for 'bl4de' 
 https://ctftime.org/team/12769
 
-### Actual Poland teams rating
+### CTFtime.org Poland teams rating
 https://ctftime.org/stats/2015/PL
-
-### Previous years stats
-[TBD]
 
 ### CTFtime.org ranking points calculator
 
@@ -25,7 +22,6 @@ https://github.com/bl4de/ctf/blob/master/calculatePoints.py
 For now calculated points are not relevant to added points in CTFtime.org ranking.
 
 ## Writeups (2015)
-
 
 ### ASIS CTF Finals 2015
 

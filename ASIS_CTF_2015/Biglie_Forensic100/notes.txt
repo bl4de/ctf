@@ -1,0 +1,60 @@
+1. biglie.pcap
+
+0bin.asis.io
+
+Uploading some pastebins - they are encrypted with SJCL library (https://crypto.stanford.edu/sjcl/)
+
+Key is not passed to server (it's appended after # sign in url), so there aren't any key in URLs.
+
+But Piwik is used (for web stats). Requests to Piwik contains original FULL request, with # part.
+In PCAP file we have to find Piwik requests with http://0bin.asis.io/paste/ in it. There are three:
+
+
+1.
+http://0bin.asis.io/paste/TINcoc0f
+{"iv":"adzR1bn929d5vf53R6BuDg","salt":"4SYEnmaSS58","ct":"J7QU491qMea5JTkR1y5MSH/UBp5QHIjHq7PeRRaqYn/rPsY1h1wiPbFp/gMufQ1w"}
+ 
+http://0bin.asis.io/paste/TINcoc0f#-krvZ7lGwZ4e2JQ8n+3dfsMBqyN6Xk6SUzY7i0JKbpo
+hi all,
+Where is the flag? :-)
+
+
+2.
+http://0bin.asis.io/paste/Vyk5W274
+{"iv":"cg0Ep/SMSSG13vFJj5qj5Q","salt":"iGWh0On71+I","ct":"0ImBWPypPj4a/dzTJaN36zVlCkNF8GDvEME1QoKncwqGpa0KPAc8m7CkAs7Z3+FhyW/eqbw4xNG4WJ+VOTWVnGA6sXFfjmRA4VdwgZritXNATi1CLueSuw"}
+
+http://0bin.asis.io/paste/Vyk5W274#1L8OT3oT7Xr0ryJlS5ASprAqgsQysKeebbSK90gGyQo
+this is not flag :|
+ASIS{64672fabdbd51e841c54c53b9c83c6fd}
+
+
+3.
+http://0bin.asis.io/paste/1ThAoKv4#Zz-nHPnr0vGGg3s/7/RWD2pnZPZl580x9Y2G3IUehfc
+
+
+    _    ____ ___ ____    __   ____   ___        _____       __  __    __ _     _ _____ _     _  ___  _  _        ____   __ _  ___ _____    _    _____       __   _  _   
+   / \  / ___|_ _/ ___|  / /__|___ \ / _ \  __ _|___ /  ___ / _|/ /_  / _/ | __| |___  / | __| |/ _ \| || |   ___| ___| / _/ |/ _ \___  |__| |__|___ /  ___ / /_ | || | 
+  / _ \ \___ \| |\___ \ | / _ \ __) | (_) |/ _` | |_ \ / _ \ |_| '_ \| |_| |/ _` |  / /| |/ _` | | | | || |_ / __|___ \| |_| | | | | / / _ \ '_ \ |_ \ / __| '_ \| || 
+ / ___ \ ___) | | ___) < <  __// __/ \__, | (_| |___) |  __/  _| (_) |  _| | (_| | / / | | (_| | |_| |__   _| (__ ___) |  _| | |_| |/ /  __/ |_) |__) | (__| (_) |__   
+/_/   \_\____/___|____/ | \___|_____|  /_/ \__,_|____/ \___|_|  \___/|_| |_|\__,_|/_/  |_|\__,_|\___/   |_|  \___|____/|_| |_|\___//_/ \___|_.__/____/ \___|\___/   |_| 
+                         \_\                                                                                                                                                                	
+   _     _     _     _  __
+  | |__ | |__ | |__ | |_\ \
+|_| '_ \| '_ \| '_ \| '_ \ |
+ _| |_) | |_) | |_) | |_) > >
+  |_.__/|_.__/|_.__/|_.__/ | 
+	  				  /_/
+					  
+Last one contains the flag:
+
+ASIS{e29a3ef6f1d71d04c5f107eb3c64bbbb}
+
+
+/piwik.php?action_name=0bin%20-%20encrypted%20pastebin&idsite=1&rec=1&r=175474&h=11&m=29&s=4&url=http%3A%2F%2F0bin.asis.io%2Fpaste%2F1ThAoKv4%23Zz-nHPnr0vGGg3s%2F7%2FRWD2pnZPZl580x9Y2G3IUehfc&urlref=http%3A%2F%2F0bin.asis.io%2F%3F&_id=dd17974841486b63&_idts=1443081356&_idvc=1&_idn=0&_refts=0&_viewts=1443081356&send_image=0&pdf=1&qt=0&realp=0&wma=0&dir=0&fla=1&java=1&gears=0&ag=0&cookie=1&res=1440x900&gt_ms=141
+ 
+/piwik.php?action_name=0bin%20-%20encrypted%20pastebin&idsite=1&rec=1&r=048705&h=11&m=27&s=54&url=http%3A%2F%2F0bin.asis.io%2F%3F&urlref=http%3A%2F%2F0bin.asis.io%2Fpaste%2FVyk5W274&_id=dd17974841486b63&_idts=1443081356&_idvc=1&_idn=0&_refts=0&_viewts=1443081356&send_image=0&pdf=1&qt=0&realp=0&wma=0&dir=0&fla=1&java=1&gears=0&ag=0&cookie=1&res=1440x900&gt_ms=129
+
+/piwik.php?action_name=0bin%20-%20encrypted%20pastebin&idsite=1&rec=1&r=776276&h=11&m=27&s=12&url=http%3A%2F%2F0bin.asis.io%2Fpaste%2FTINcoc0f%23-krvZ7lGwZ4e2JQ8n%2B3dfsMBqyN6Xk6SUzY7i0JKbpo&urlref=http%3A%2F%2F0bin.asis.io%2F&_id=dd17974841486b63&_idts=1443081356&_idvc=1&_idn=0&_refts=0&_viewts=1443081356&send_image=0&pdf=1&qt=0&realp=0&wma=0&dir=0&fla=1&java=1&gears=0&ag=0&cookie=1&res=1440x900&gt_ms=108
+
+/piwik.php?action_name=0bin%20-%20encrypted%20pastebin&idsite=1&rec=1&r=217602&h=11&m=27&s=47&url=http%3A%2F%2F0bin.asis.io%2Fpaste%2FVyk5W274%231L8OT3oT7Xr0ryJlS5ASprAqgsQysKeebbSK90gGyQo&urlref=http%3A%2F%2F0bin.asis.io%2Fpaste%2FTINcoc0f&_id=dd17974841486b63&_idts=1443081356&_idvc=1&_idn=0&_refts=0&_viewts=1443081356&send_image=0&pdf=1&qt=0&realp=0&wma=0&dir=0&fla=1&java=1&gears=0&ag=0&cookie=1&res=1440x900&gt_ms=450
+

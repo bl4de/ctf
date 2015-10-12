@@ -1,0 +1,7 @@
+1. http://impossible.asis-ctf.ir/
+
+2. http://impossible.asis-ctf.ir/robots.txt
+
+User-agent: *
+Disallow: /backup
+

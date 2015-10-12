@@ -80,10 +80,11 @@ http://0bin.asis.io/paste/1ThAoKv4#Zz-nHPnr0vGGg3s/7/RWD2pnZPZl580x9Y2G3IUehfc
 
 ```
 
-Last one contains the flag:
+Last one contains the flag as an ASCII graphic:
 
 ![Flag]
 (https://github.com/bl4de/ctf/blob/master/ASIS_CTF_2015/Biglie_Forensic100/biglie-flag.png)
 
+After completing all lines in one file, we can read the flag:
 
 *ASIS{e29a3ef6f1d71d04c5f107eb3c64bbbb}*

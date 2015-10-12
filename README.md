@@ -1,19 +1,19 @@
-# CTF (Capture The Flag) writeups repository
+## CTF (Capture The Flag) writeups repository
 
 
 Writeups, code snippets and notes collection from CTF events.
 
 
-## Actual stats
+### Actual stats
 https://ctftime.org/team/12769
 
-## Actual rating of teams from Poland
+### Actual rating of teams from Poland
 https://ctftime.org/stats/2015/PL
 
-## Previous years stats
+### Previous years stats
 [TBD]
 
-## CTFtime.org ranking points calculator
+### CTFtime.org ranking points calculator
 
 Simple Python script to calculate CTFtime.org ranking points from particular CTF event points based on formula from
 https://ctftime.org/rating-formula/
@@ -26,7 +26,7 @@ https://github.com/bl4de/ctf/blob/master/calculatePoints.py
 
 For now calculated points are not relevant to added points in CTFtime.org ranking.
 
-# Writeups (2015)
+## Writeups (2015)
 
 
 ### ASIS CTF Finals 2015

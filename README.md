@@ -1,19 +1,14 @@
-# CTF (Capture The Flag) writeups repository
-
+## CTF (Capture The Flag) writeups repository
 
 Writeups, code snippets and notes collection from CTF events.
 
-
-## Actual stats
+### My CTFtime.org stats for 'bl4de' 
 https://ctftime.org/team/12769
 
-## Actual rating of teams from Poland
+### CTFtime.org Poland teams rating
 https://ctftime.org/stats/2015/PL
 
-## Previous years stats
-[TBD]
-
-## CTFtime.org ranking points calculator
+### CTFtime.org ranking points calculator
 
 Simple Python script to calculate CTFtime.org ranking points from particular CTF event points based on formula from
 https://ctftime.org/rating-formula/
@@ -26,25 +21,24 @@ https://github.com/bl4de/ctf/blob/master/calculatePoints.py
 
 For now calculated points are not relevant to added points in CTFtime.org ranking.
 
-# Writeups (2015)
+## Writeups (2015)
+
+### ASIS CTF Finals 2015
+
+**Biglie, Forensic 100**            
+https://github.com/bl4de/ctf/blob/master/ASIS_CTF_2015/Biglie_Forensic_100_writeup.md
 
 ### CSAW CTF Qualification Round 2015
-
-Event page: https://ctftime.org/event/227
 
 **Lawn Care Simulator, Web 200**
 https://github.com/bl4de/ctf/blob/master/CSAW_CTF_2015/LawnCareimulator_Web200_writeup.md
 
 ### MMA CTF 2015
 
-Event page: https://ctftime.org/event/234
-
 **Uploader, Web 100**         
 https://github.com/bl4de/ctf/blob/master/MMACTF_2015/Uploader_Web100.md
 
 ### Boston Key Party 2015
-
-Event page: https://ctftime.org/event/163
 
 **Birgham Circle, Web 25**         
 https://github.com/bl4de/ctf/blob/master/BostonKeyPartyCTF_2015/BrighamCircle.md

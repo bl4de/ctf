@@ -20,7 +20,7 @@ After quick research there's an obvious LFI (Local File Include)
 (https://github.com/bl4de/ctf/blob/master/HACK.LU_CTF_2015/Module_Loader_web100/Module_Loader2.png)
 
 
-It looks like we can see any file we want to as they are just printed out, here's source code of date module:
+It looks like we can see any file we want to as they are just printed out, here's source code of _time_ module:
 
 ```php
 <?php 
@@ -47,7 +47,7 @@ setInterval(function(){clock.innerHTML = countdown(new Date(<?= $y; ?>, <?= $m; 
 
 ```
 
-Also, we can display .htaccess, which contains some directory with quite "obvious" name :P
+Also, we can display _.htaccess_, which contains some directory with quite "obvious" name :P
 
 
 <!--

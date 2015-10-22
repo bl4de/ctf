@@ -262,7 +262,7 @@ And the flag was: *gr0wth__h4ck!nG!1!1!*
 
 Very similar approach from _smoke leet everyday_ team:
 
-https://github.com/Alpackers/CTF-Writeups/tree/master/2015/CSAW-CTF/Web/Lawn-Care-Simulator
+https://github.com/smokeleeteveryday/CTF_WRITEUPS/tree/master/2015/CSAWCTF/web/lawncaresimulator
 
 And totaly different and much more straightforward from _Alpackers_:
 

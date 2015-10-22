@@ -1,8 +1,0 @@
-1. First try (62 charaters)
-
-<?=str_replace("\r\n","",ucwords(chunk_split($argv[1],2)));?>
-
-$ php -f phpgolf.php 'We ride off together, ride off forever!'
-We RIdE OfF ToGeThEr, RiDe OFf FOrEvEr
-
-

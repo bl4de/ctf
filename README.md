@@ -2,11 +2,9 @@
 
 Writeups, code snippets and notes collection from CTF events.
 
-### My CTFtime.org stats for 'bl4de' 
-https://ctftime.org/team/12769
+My CTFtime.org stats for 'bl4de': https://ctftime.org/team/12769
 
-### CTFtime.org Poland teams rating
-https://ctftime.org/stats/2015/PL
+CTFtime.org Poland teams rating: https://ctftime.org/stats/2015/PL
 
 ### CTFtime.org ranking points calculator
 

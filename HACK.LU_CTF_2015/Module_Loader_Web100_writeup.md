@@ -36,10 +36,6 @@ else
 $y = (int)$tmp[0];
 $m = (int)$tmp[1];
 $d = (int)$tmp[2];
-
-var_dump($y);
-var_dump($m);
-var_dump($d);
 ?>
 <div id="clock"></div>
 <!-- <script src="countdown.js"></script> -->

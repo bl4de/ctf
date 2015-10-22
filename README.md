@@ -23,6 +23,11 @@ For now calculated points are not relevant to added points in CTFtime.org rankin
 
 ## Writeups (2015)
 
+### Hack.lu CTF 2015
+
+**Module Loader, Web 100**
+https://github.com/bl4de/ctf/blob/master/HACK.LU_CTF_2015/Module_Loader_Web100_writeup.md
+
 ### ASIS CTF Finals 2015
 
 **Biglie, Forensic 100**            

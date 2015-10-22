@@ -19,8 +19,13 @@ After quick research there's an obvious LFI (Local File Include)
 ![LFI]
 (https://github.com/bl4de/ctf/blob/master/HACK.LU_CTF_2015/Module_Loader_web100/Module_Loader2.png)
 
+We can include any file using url:
 
-It looks like we can see any file we want to as they are just printed out, here's source code of _time_ module:
+```
+school.fluxfingers.net:1522/?module=../modules/timer
+```
+
+And here's source code of _timer_ module - it's just printed out, PHP code is not executed here:
 
 ```php
 <?php 
@@ -49,13 +54,14 @@ setInterval(function(){clock.innerHTML = countdown(new Date(<?= $y; ?>, <?= $m; 
 
 Also, we can display _.htaccess_, which contains some directory with quite "obvious" name :P
 
-
+```
 <!--
 # seems to be not working, though
 #<Directory "3cdcf3c63dc02f8e5c230943d9f1f4d75a4d88ae">
 #    Options -Indexes
 #</Directory>
 # -->
+```
 
 Let's take a look there and here we go:
 

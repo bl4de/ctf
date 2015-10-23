@@ -21,6 +21,15 @@ For now calculated points are not relevant to added points in CTFtime.org rankin
 
 ## Writeups (2015)
 
+### Ekoparty 2015 CTF
+
+**Scytcrypto, Crypto 50**
+https://github.com/bl4de/ctf/blob/master/Ekoparty_CTF_2015/Scytcrypto_Crypto50.md
+
+**XOR Crypter, Crypto 200**
+https://github.com/bl4de/ctf/blob/master/Ekoparty_CTF_2015/XOR_Crypter_Crypto200.md
+
+
 ### Hack.lu CTF 2015
 
 **Module Loader, Web 100**

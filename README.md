@@ -24,46 +24,46 @@ For now calculated points are not relevant to added points in CTFtime.org rankin
 ### Ekoparty 2015 CTF
 
 **Scytcrypto, Crypto 50**
-https://github.com/bl4de/ctf/blob/master/Ekoparty_CTF_2015/Scytcrypto_Crypto50.md
+https://github.com/bl4de/ctf/blob/master/2015/Ekoparty_CTF_2015/Scytcrypto_Crypto50.md
 
 **XOR Crypter, Crypto 200**
-https://github.com/bl4de/ctf/blob/master/Ekoparty_CTF_2015/XOR_Crypter_Crypto200.md
+https://github.com/bl4de/ctf/blob/master/2015/Ekoparty_CTF_2015/XOR_Crypter_Crypto200.md
 
 
 ### Hack.lu CTF 2015
 
 **Module Loader, Web 100**
-https://github.com/bl4de/ctf/blob/master/HACK.LU_CTF_2015/Module_Loader_Web100_writeup.md
+https://github.com/bl4de/ctf/blob/master/2015/HACK.LU_CTF_2015/Module_Loader_Web100_writeup.md
 
 ### ASIS CTF Finals 2015
 
 **Biglie, Forensic 100**            
-https://github.com/bl4de/ctf/blob/master/ASIS_CTF_2015/Biglie_Forensic_100_writeup.md
+https://github.com/bl4de/ctf/blob/master/2015/ASIS_CTF_2015/Biglie_Forensic_100_writeup.md
 
 ### CSAW CTF Qualification Round 2015
 
 **Lawn Care Simulator, Web 200**
-https://github.com/bl4de/ctf/blob/master/CSAW_CTF_2015/LawnCareimulator_Web200_writeup.md
+https://github.com/bl4de/ctf/blob/master/2015/CSAW_CTF_2015/LawnCareimulator_Web200_writeup.md
 
 ### MMA CTF 2015
 
 **Uploader, Web 100**         
-https://github.com/bl4de/ctf/blob/master/MMACTF_2015/Uploader_Web100.md
+https://github.com/bl4de/ctf/blob/master/2015/MMACTF_2015/Uploader_Web100.md
 
 ### Boston Key Party 2015
 
 **Birgham Circle, Web 25**         
-https://github.com/bl4de/ctf/blob/master/BostonKeyPartyCTF_2015/BrighamCircle.md
+https://github.com/bl4de/ctf/blob/master/2015/BostonKeyPartyCTF_2015/BrighamCircle.md
 
 **Museum of Fine Arts, Web 25**         
-https://github.com/bl4de/ctf/blob/master/BostonKeyPartyCTF_2015/MuseumOfFineArts.md
+https://github.com/bl4de/ctf/blob/master/2015/BostonKeyPartyCTF_2015/MuseumOfFineArts.md
 
 **North Eastern University, Web 25**        
-https://github.com/bl4de/ctf/blob/master/BostonKeyPartyCTF_2015/NorthEasternUniv.md
+https://github.com/bl4de/ctf/blob/master/2015/BostonKeyPartyCTF_2015/NorthEasternUniv.md
 
 **Prudential, Web 25**        
-https://github.com/bl4de/ctf/blob/master/BostonKeyPartyCTF_2015/Prudential.md
+https://github.com/bl4de/ctf/blob/master/2015/BostonKeyPartyCTF_2015/Prudential.md
 
 **Symphony, Web 25**          
-https://github.com/bl4de/ctf/blob/master/BostonKeyPartyCTF_2015/Symphony.md
+https://github.com/bl4de/ctf/blob/master/2015/BostonKeyPartyCTF_2015/Symphony.md
 

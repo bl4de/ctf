@@ -1,10 +1,9 @@
-## CTF (Capture The Flag) writeups repository
+# CTF (Capture The Flag) writeups repository
 
 Writeups, code snippets and notes collection from CTF events.
 
 **bl4de** CTFtime.org stats: https://ctftime.org/team/12769
 
-CTFtime.org Poland teams rating: https://ctftime.org/stats/2015/PL
 
 ### CTFtime.org ranking points calculator
 
@@ -19,7 +18,7 @@ https://github.com/bl4de/ctf/blob/master/calculatePoints.py
 
 For now calculated points are not relevant to added points in CTFtime.org ranking.
 
-## Writeups (2015)
+# Writeups (2015)
 
 ### Ekoparty 2015 CTF
 

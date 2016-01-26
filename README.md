@@ -2,7 +2,9 @@
 
 Writeups, code snippets and notes collection from CTF events.
 
-**bl4de** CTFtime.org stats: https://ctftime.org/team/12769
+Team **bl4de** 
+
+CTFtime.org stats: https://ctftime.org/team/12769
 
 
 ### CTFtime.org ranking points calculator

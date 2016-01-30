@@ -2,9 +2,7 @@
 
 Writeups, code snippets and notes collection from CTF events.
 
-Team **bl4de** 
-
-CTFtime.org stats: https://ctftime.org/team/12769
+I've started CTFs in 2015, when I've registered a team **bl4de** (https://ctftime.org/team/16701). Since 2016 I play (mostly) on my own as **Stack** (https://ctftime.org/team/12769).
 
 
 ### CTFtime.org ranking points calculator

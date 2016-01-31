@@ -1,0 +1,3165 @@
+<?xml version="1.0" standalone="yes"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+  <Document>
+    <name><![CDATA[GPS data]]></name>
+    <visibility>1</visibility>
+    <open>1</open>
+    <Snippet><![CDATA[created using <A href="http://www.gpsvisualizer.com/?ref=ge&time=20160129152218">GPS Visualizer</A>]]></Snippet>
+    <Style id="gv_legend">
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pal2/icon26.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Folder id="Legend">
+      <name>Legend: Elevation (m)</name>
+      <visibility>1</visibility>
+      <open>1</open>
+      <Placemark>
+        <name><![CDATA[<span style="color:#e600e6;"><b>1093.8</b></span>]]></name>
+        <visibility>1</visibility>
+        <styleUrl>#gv_legend</styleUrl>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[<span style="color:#003ae6;"><b>820.3</b></span>]]></name>
+        <visibility>1</visibility>
+        <styleUrl>#gv_legend</styleUrl>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[<span style="color:#00e674;"><b>546.9</b></span>]]></name>
+        <visibility>1</visibility>
+        <styleUrl>#gv_legend</styleUrl>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[<span style="color:#ace600;"><b>273.4</b></span>]]></name>
+        <visibility>1</visibility>
+        <styleUrl>#gv_legend</styleUrl>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[<span style="color:#e60000;"><b>0.0</b></span>]]></name>
+        <visibility>1</visibility>
+        <styleUrl>#gv_legend</styleUrl>
+      </Placemark>
+    </Folder>
+    <Folder id="Tracks">
+      <name>Tracks</name>
+      <visibility>1</visibility>
+      <open>0</open>
+      <Folder id="track 1">
+        <name><![CDATA[GPS data]]></name>
+        <visibility>1</visibility>
+        <Snippet></Snippet>
+        <description><![CDATA[&nbsp;]]></description>
+        <Placemark>
+          <name><![CDATA[<span style="color:#0084e6">trkpt 1</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ffe68400</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>149.688189453,-35.558210346,750.553 149.688189453,-35.57608366,781.444 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#0061e6">trkpt 2</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ffe66100</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>149.688189453,-35.57608366,781.444 149.688189453,-35.611818327,893.781 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#1400e6">trkpt 3</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ffe60014</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>149.688189453,-35.611818327,893.781 149.688189453,-35.620749501,924.959 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#3400e6">trkpt 4</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ffe60034</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>149.688189453,-35.620749501,924.959 149.666216797,-35.665390407,810.815 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#0043e6">trkpt 5</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ffe64300</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>149.666216797,-35.665390407,810.815 149.666216797,-35.692162977,848.364 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#001ce6">trkpt 6</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ffe61c00</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>149.666216797,-35.692162977,848.364 149.666216797,-35.710006366,754.135 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#007fe6">trkpt 7</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ffe67f00</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>149.666216797,-35.710006366,754.135 149.666216797,-35.745681163,820.94 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#0038e6">trkpt 8</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ffe63800</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>149.666216797,-35.745681163,820.94 149.655230469,-35.754597366,741.102 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#008de6">trkpt 9</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ffe68d00</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>149.655230469,-35.754597366,741.102 149.655230469,-35.799163392,799.428 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#004fe6">trkpt 10</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ffe64f00</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>149.655230469,-35.799163392,799.428 150.501177734,-34.424191458,571.129 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#00e68d">trkpt 11</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ff8de600</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>150.501177734,-34.424191458,571.129 149.655230469,-35.843704432,783.852 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#005fe6">trkpt 12</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ffe65f00</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>149.655230469,-35.843704432,783.852 149.655230469,-35.897120681,826.705 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#0033e6">trkpt 13</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ffe63300</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>149.655230469,-35.897120681,826.705 149.655230469,-35.932711503,831.816 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#002ee6">trkpt 14</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ffe62e00</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>149.655230469,-35.932711503,831.816 149.655230469,-35.95939411,905.715 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#2000e6">trkpt 15</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ffe60020</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>149.655230469,-35.95939411,905.715 149.655230469,-35.96828631,886.255 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#0b00e6">trkpt 16</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ffe6000b</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>149.655230469,-35.96828631,886.255 149.655230469,-35.977177508,956.001 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#5500e6">trkpt 17</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ffe60055</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>149.655230469,-35.977177508,956.001 149.655230469,-35.986067705,980.635 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#6e00e6">trkpt 18</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ffe6006e</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>149.655230469,-35.986067705,980.635 149.655230469,-36.003845094,1076.687 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#d300e6">trkpt 19</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ffe600d3</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>149.655230469,-36.003845094,1076.687 150.479205078,-34.424191458,592.03 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#00e6a2">trkpt 20</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ffa2e600</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>150.479205078,-34.424191458,592.03 149.655230469,-36.048271033,701.674 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#00b6e6">trkpt 21</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ffe6b600</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>149.655230469,-36.048271033,701.674 149.655230469,-36.066034394,447.413 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#00e60a">trkpt 22</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ff0ae600</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>149.655230469,-36.066034394,447.413 149.655230469,-36.101549084,447.261 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#00e60a">trkpt 23</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ff0ae600</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>149.655230469,-36.101549084,447.261 149.655230469,-36.119300412,384.412 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#39e600">trkpt 24</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ff00e639</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>149.655230469,-36.119300412,384.412 149.655230469,-36.314300029,580.36 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#00e696">trkpt 25</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ff96e600</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>149.655230469,-36.314300029,580.36 149.655230469,-36.119300412,384.412 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#39e600">trkpt 26</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ff00e639</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>149.655230469,-36.119300412,384.412 149.655230469,-36.314300029,580.36 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#00e696">trkpt 27</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ff96e600</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>149.655230469,-36.314300029,580.36 149.655230469,-36.314300029,580.36 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#00e696">trkpt 28</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ff96e600</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>149.655230469,-36.314300029,580.36 149.644244141,-36.278881712,610.969 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#00e606">trkpt 30</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ff06e600</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>149.644244141,-36.216860973,443.433 149.644244141,-36.20799685,412.496 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#cce600">trkpt 32</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ff00e6cc</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>149.644244141,-36.137047727,244.097 149.633257813,-36.092671915,242.42 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#cce600">trkpt 33</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ff00e6cc</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>149.633257813,-36.092671915,242.42 149.611285156,-36.03938785,487.758 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#00e636">trkpt 34</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ff36e600</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>149.611285156,-36.03938785,487.758 149.611285156,-36.012732286,652.181 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#00e6e2">trkpt 35</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ffe2e600</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>149.611285156,-36.012732286,652.181 149.600298828,-35.9949569,1093.759 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#e600e6">trkpt 36</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ffe600e6</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>149.600298828,-35.9949569,1093.759 149.600298828,-35.977177508,921.531 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#3000e6">trkpt 37</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ffe60030</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>149.600298828,-35.977177508,921.531 149.600298828,-35.941606706,895.612 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#1700e6">trkpt 38</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ffe60017</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>149.600298828,-35.941606706,895.612 150.457232422,-34.433253313,591.226 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#00e6a2">trkpt 39</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ffa2e600</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>150.457232422,-34.433253313,591.226 149.611285156,-35.879319266,773.74 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#006ae6">trkpt 40</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ffe66a00</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>149.611285156,-35.879319266,773.74 149.611285156,-35.843704432,780.081 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#0063e6">trkpt 41</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ffe66300</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>149.611285156,-35.843704432,780.081 149.611285156,-35.808073599,777.071 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#0066e6">trkpt 42</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ffe66600</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>149.611285156,-35.808073599,777.071 149.611285156,-35.745681163,935.009 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#4000e6">trkpt 43</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ffe60040</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>149.611285156,-35.745681163,935.009 149.611285156,-35.692162977,767.481 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#0071e6">trkpt 44</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ffe67100</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>149.611285156,-35.692162977,767.481 149.611285156,-35.656464221,726.634 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#009be6">trkpt 45</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ffe69b00</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>149.611285156,-35.656464221,726.634 149.611285156,-35.638608856,680.264 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#00cde6">trkpt 46</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ffe6cd00</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>149.611285156,-35.638608856,680.264 149.622271484,-35.611818327,694.119 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#00bde6">trkpt 47</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ffe6bd00</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>149.622271484,-35.611818327,694.119 149.655230469,-35.567147501,744.338 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#0088e6">trkpt 48</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ffe68800</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>149.655230469,-35.567147501,744.338 149.655230469,-35.540333045,706.881 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#00b2e6">trkpt 49</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ffe6b200</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>149.655230469,-35.540333045,706.881 150.446246094,-34.433253313,605.021 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#00e6b0">trkpt 50</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ffb0e600</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>150.446246094,-34.433253313,605.021 149.655230469,-35.522451758,658.634 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#00e4e6">trkpt 51</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ffe6e400</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>149.655230469,-35.522451758,658.634 149.655230469,-35.51350962,698.231 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#00b8e6">trkpt 52</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ffe6b800</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>149.655230469,-35.51350962,698.231 149.655230469,-35.486677231,884.779 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#0b00e6">trkpt 53</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ffe6000b</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>149.655230469,-35.486677231,884.779 149.666216797,-35.468783993,747.939 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#0086e6">trkpt 54</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ffe68600</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>149.666216797,-35.468783993,747.939 149.677203125,-35.406126305,698.838 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#00b8e6">trkpt 55</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ffe6b800</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>149.677203125,-35.406126305,698.838 149.677203125,-35.388215154,670 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#00d6e6">trkpt 56</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ffe6d600</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>149.677203125,-35.388215154,670 149.677203125,-35.379258087,665.537 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#00dbe6">trkpt 57</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ffe6db00</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>149.677203125,-35.379258087,665.537 149.699175781,-35.334457834,662.443 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#00e0e6">trkpt 58</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ffe6e000</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>149.699175781,-35.334457834,662.443 149.699175781,-35.307565755,625.159 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#00e6c4">trkpt 59</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ffc4e600</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>149.699175781,-35.307565755,625.159 149.699175781,-35.289632734,609.007 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#00e6b4">trkpt 60</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ffb4e600</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>149.699175781,-35.289632734,609.007 150.435259766,-34.442314186,637.803 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#00e6d2">trkpt 61</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ffd2e600</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>150.435259766,-34.442314186,637.803 149.699175781,-35.280664734,619.581 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#00e6c0">trkpt 62</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ffc0e600</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>149.699175781,-35.280664734,619.581 149.710162109,-35.27169574,654.202 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#00e6e2">trkpt 63</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ffe2e600</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>149.710162109,-35.27169574,654.202 149.710162109,-35.2447828,680.054 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#00cde6">trkpt 64</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ffe6cd00</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>149.710162109,-35.2447828,680.054 149.710162109,-35.235809834,743.696 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#008ae6">trkpt 65</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ffe68a00</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>149.710162109,-35.235809834,743.696 149.710162109,-35.226835875,734.017 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#0094e6">trkpt 66</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ffe69400</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>149.710162109,-35.226835875,734.017 149.710162109,-35.217860924,706.648 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#00b2e6">trkpt 67</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ffe6b200</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>149.710162109,-35.217860924,706.648 149.710162109,-35.199908045,677.938 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#00cfe6">trkpt 68</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ffe6cf00</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>149.710162109,-35.199908045,677.938 149.710162109,-35.181951196,655.508 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#00e6e5">trkpt 69</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ffe5e600</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>149.710162109,-35.181951196,655.508 149.710162109,-35.172971283,655.908 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#00e6e5">trkpt 70</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ffe5e600</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>149.710162109,-35.172971283,655.908 149.710162109,-35.163990379,663.566 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#00dde6">trkpt 71</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ffe6dd00</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>149.710162109,-35.163990379,663.566 150.424273438,-34.442314186,636.062 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#00e6d0">trkpt 72</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ffd0e600</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>150.424273438,-34.442314186,636.062 149.710162109,-35.155008483,735.861 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#0091e6">trkpt 73</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ffe69100</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>149.710162109,-35.155008483,735.861 149.710162109,-35.146025595,690.136 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#00c2e6">trkpt 74</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ffe6c200</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>149.710162109,-35.146025595,690.136 149.710162109,-35.137041715,665.857 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#00dbe6">trkpt 75</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ffe6db00</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>149.710162109,-35.137041715,665.857 149.710162109,-35.119070982,703.952 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#00b4e6">trkpt 76</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ffe6b400</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>149.710162109,-35.119070982,703.952 149.721148438,-35.119070982,723.57 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#009fe6">trkpt 77</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ffe69f00</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>149.721148438,-35.119070982,723.57 149.732134766,-35.119070982,734.337 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#0094e6">trkpt 78</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ffe69400</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>149.732134766,-35.119070982,734.337 149.776080078,-35.119070982,725.049 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#009de6">trkpt 79</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ffe69d00</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>149.776080078,-35.119070982,725.049 149.831011719,-35.119070982,641.541 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#00e6d7">trkpt 80</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ffd7e600</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>149.831011719,-35.119070982,641.541 149.863970703,-35.119070982,613.42 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#00e6b9">trkpt 81</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ffb9e600</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>149.863970703,-35.119070982,613.42 149.874957031,-35.128056844,598.307 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#00e6a9">trkpt 82</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ffa9e600</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>149.874957031,-35.128056844,598.307 150.402300781,-34.460432983,782.421 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#0061e6">trkpt 83</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ffe66100</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>150.402300781,-34.460432983,782.421 149.896929688,-35.128056844,612.643 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#00e6b9">trkpt 84</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ffb9e600</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>149.896929688,-35.128056844,612.643 149.918902344,-35.137041715,612.204 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#00e6b7">trkpt 85</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ffb7e600</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>149.918902344,-35.137041715,612.204 149.951861328,-35.137041715,577.734 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#00e694">trkpt 86</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ff94e600</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>149.951861328,-35.137041715,577.734 149.962847656,-35.137041715,576.185 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#00e692">trkpt 87</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ff92e600</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>149.962847656,-35.137041715,576.185 150.006792969,-35.137041715,562.216 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#00e682">trkpt 88</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ff82e600</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>150.006792969,-35.137041715,562.216 150.039751953,-35.137041715,578.104 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#00e694">trkpt 89</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ff94e600</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>150.039751953,-35.137041715,578.104 150.061724609,-35.137041715,580.75 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#00e696">trkpt 90</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ff96e600</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>150.061724609,-35.137041715,580.75 150.094683594,-35.137041715,696.839 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#00bbe6">trkpt 91</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ffe6bb00</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>150.094683594,-35.137041715,696.839 150.105669922,-35.137041715,647.272 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#00e6db">trkpt 92</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ffdbe600</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>150.105669922,-35.137041715,647.272 150.138628906,-35.137041715,580.368 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#00e696">trkpt 93</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ff96e600</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>150.138628906,-35.137041715,580.368 150.380328125,-34.460432983,774.353 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#006ae6">trkpt 94</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ffe66a00</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>150.380328125,-34.460432983,774.353 150.160601563,-35.137041715,674.396 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#00d2e6">trkpt 95</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ffe6d200</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>150.160601563,-35.137041715,674.396 150.171587891,-35.137041715,627.523 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#00e6c7">trkpt 96</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ffc7e600</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>150.171587891,-35.137041715,627.523 150.215533203,-35.137041715,759.993 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#0078e6">trkpt 97</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ffe67800</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>150.215533203,-35.137041715,759.993 150.226519531,-35.137041715,697.827 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#00bbe6">trkpt 98</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ffe6bb00</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>150.226519531,-35.137041715,697.827 150.270464844,-35.137041715,646.717 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#00e6db">trkpt 99</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ffdbe600</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>150.270464844,-35.137041715,646.717 150.303423828,-35.137041715,627.415 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#00e6c7">trkpt 100</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ffc7e600</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>150.303423828,-35.137041715,627.415 150.314410156,-35.137041715,568.892 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#00e68b">trkpt 101</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ff8be600</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>150.314410156,-35.137041715,568.892 150.358355469,-35.137041715,390.56 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#32e600">trkpt 102</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ff00e632</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>150.358355469,-35.137041715,390.56 150.402300781,-35.137041715,157.488 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#e6a600">trkpt 103</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ff00a6e6</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>150.402300781,-35.137041715,157.488 150.413287109,-35.137041715,200.381 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#e6d100">trkpt 104</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ff00d1e6</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>150.413287109,-35.137041715,200.381 150.369341797,-34.460432983,748.674 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#0084e6">trkpt 105</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ffe68400</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>150.369341797,-34.460432983,748.674 150.611041016,-34.397,432.255 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#06e600">trkpt 106</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ff00e606</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>150.611041016,-34.397,432.255 150.424273438,-35.137041715,133.64 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#e68c00">trkpt 107</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ff008ce6</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>150.424273438,-35.137041715,133.64 150.435259766,-35.137041715,127.539 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#e68500">trkpt 108</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ff0085e6</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>150.435259766,-35.137041715,127.539 150.446246094,-35.137041715,55.339 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#e63900">trkpt 109</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ff0039e6</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>150.446246094,-35.137041715,55.339 150.46821875,-35.137041715,87.725 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#e65c00">trkpt 110</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ff005ce6</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>150.46821875,-35.137041715,87.725 150.479205078,-35.137041715,66.887 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#e64700">trkpt 111</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ff0047e6</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>150.479205078,-35.137041715,66.887 150.490191406,-35.137041715,59.641 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#e63e00">trkpt 112</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ff003ee6</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>150.490191406,-35.137041715,59.641 150.512164063,-35.119070982,25.472 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#e61c00">trkpt 113</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ff001ce6</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>150.512164063,-35.119070982,25.472 150.545123047,-35.119070982,5.399 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#e60500">trkpt 114</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ff0005e6</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>150.545123047,-35.119070982,5.399 150.567095703,-35.119070982,0 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#e60000">trkpt 115</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ff0000e6</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>150.567095703,-35.119070982,0 150.589068359,-35.119070982,0 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#e60000">trkpt 116</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ff0000e6</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>150.589068359,-35.119070982,0 150.347369141,-34.469490907,686.106 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#00c6e6">trkpt 117</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ffe6c600</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>150.347369141,-34.469490907,686.106 150.611041016,-35.119070982,0 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#e60000">trkpt 118</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ff0000e6</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>150.611041016,-35.119070982,0 150.633013672,-35.110084128,15.598 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#e61000">trkpt 119</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ff0010e6</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>150.633013672,-35.110084128,15.598 150.665972656,-35.110084128,37.836 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#e62700">trkpt 120</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ff0027e6</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>150.665972656,-35.110084128,37.836 150.665972656,-35.101096283,56.688 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#e63c00">trkpt 121</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ff003ce6</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>150.665972656,-35.101096283,56.688 150.676958984,-35.101096283,80.983 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#e65500">trkpt 122</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ff0055e6</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>150.676958984,-35.101096283,80.983 150.676958984,-35.101096283,80.983 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#e65500">trkpt 123</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ff0055e6</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>150.676958984,-35.101096283,80.983 150.709917969,-35.101096283,0 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#e60000">trkpt 124</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ff0000e6</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>150.709917969,-35.101096283,0 150.753863281,-35.092107447,0 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#e60000">trkpt 125</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ff0000e6</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>150.753863281,-35.092107447,0 150.764849609,-35.092107447,0 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#e60000">trkpt 126</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ff0000e6</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>150.764849609,-35.092107447,0 150.786822266,-35.092107447,0 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#e60000">trkpt 127</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ff0000e6</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>150.786822266,-35.092107447,0 150.325396484,-34.469490907,668.739 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#00d9e6">trkpt 128</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ffe6d900</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>150.325396484,-34.469490907,668.739 150.81978125,-35.092107447,0 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#e60000">trkpt 129</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ff0000e6</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>150.81978125,-35.092107447,0 150.830767578,-35.092107447,0 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#e60000">trkpt 130</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ff0000e6</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>150.830767578,-35.092107447,0 150.852740234,-35.092107447,0 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#e60000">trkpt 131</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ff0000e6</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>150.852740234,-35.092107447,0 150.874712891,-35.092107447,0 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#e60000">trkpt 132</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ff0000e6</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>150.874712891,-35.092107447,0 150.885699219,-35.092107447,0 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#e60000">trkpt 133</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ff0000e6</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>150.885699219,-35.092107447,0 150.885699219,-35.092107447,0 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#e60000">trkpt 134</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ff0000e6</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>150.885699219,-35.092107447,0 150.885699219,-35.092107447,0 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#e60000">trkpt 135</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ff0000e6</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>150.885699219,-35.092107447,0 150.303423828,-34.469490907,675.113 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#00e67f">trkpt 137</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ff7fe600</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>150.226519531,-34.478547849,558.453 150.204546875,-34.478547849,584.593 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#00e69b">trkpt 138</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ff9be600</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>150.204546875,-34.478547849,584.593 150.182574219,-34.478547849,669.05 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#00d9e6">trkpt 139</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ffe6d900</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>150.182574219,-34.478547849,669.05 150.160601563,-34.478547849,691.629 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#00bfe6">trkpt 140</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ffe6bf00</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>150.160601563,-34.478547849,691.629 150.149615234,-34.478547849,699.043 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#00b8e6">trkpt 141</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ffe6b800</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>150.149615234,-34.478547849,699.043 150.127642578,-34.478547849,707.811 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#00afe6">trkpt 142</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ffe6af00</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>150.127642578,-34.478547849,707.811 150.611041016,-34.406064802,466.426 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#00e61f">trkpt 143</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ff1fe600</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>150.611041016,-34.406064802,466.426 150.105669922,-34.478547849,645.963 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#00e6db">trkpt 144</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ffdbe600</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>150.105669922,-34.478547849,645.963 150.094683594,-34.478547849,603.493 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#00e6ad">trkpt 145</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ffade600</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>150.094683594,-34.478547849,603.493 150.083697266,-34.478547849,558.015 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#00e67f">trkpt 146</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ff7fe600</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>150.083697266,-34.478547849,558.015 150.072710938,-34.478547849,439.75 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#00e603">trkpt 147</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ff03e600</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>150.072710938,-34.478547849,439.75 150.050738281,-34.478547849,592.399 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#00e6a2">trkpt 148</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ffa2e600</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>150.050738281,-34.478547849,592.399 150.006792969,-34.478547849,608.75 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#00e6b4">trkpt 149</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ffb4e600</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>150.006792969,-34.478547849,608.75 149.984820313,-34.478547849,607.47 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#00e6b2">trkpt 150</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ffb2e600</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>149.984820313,-34.478547849,607.47 149.951861328,-34.478547849,663.903 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#00dde6">trkpt 151</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ffe6dd00</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>149.951861328,-34.478547849,663.903 149.940875,-34.478547849,634.066 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#00e6ce">trkpt 152</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ffcee600</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>149.940875,-34.478547849,634.066 149.918902344,-34.469490907,635.738 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#00e6d0">trkpt 153</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ffd0e600</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>149.918902344,-34.469490907,635.738 150.600054688,-34.406064802,445.653 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#00e608">trkpt 154</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ff08e600</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>150.600054688,-34.406064802,445.653 149.896929688,-34.469490907,697.97 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#00bbe6">trkpt 155</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ffe6bb00</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>149.896929688,-34.469490907,697.97 149.863970703,-34.469490907,891.219 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#1200e6">trkpt 156</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ffe60012</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>149.863970703,-34.469490907,891.219 149.852984375,-34.460432983,839.824 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#0025e6">trkpt 157</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ffe62500</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>149.852984375,-34.460432983,839.824 149.809039063,-34.460432983,877.095 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#0200e6">trkpt 158</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ffe60002</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>149.809039063,-34.460432983,877.095 149.798052734,-34.460432983,906.258 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#2000e6">trkpt 159</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ffe60020</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>149.798052734,-34.460432983,906.258 149.787066406,-34.460432983,929.624 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#3900e6">trkpt 160</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ffe60039</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>149.787066406,-34.460432983,929.624 149.776080078,-34.460432983,940.495 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#4500e6">trkpt 161</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ffe60045</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>149.776080078,-34.460432983,940.495 149.76509375,-34.460432983,935.377 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#4000e6">trkpt 162</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ffe60040</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>149.76509375,-34.460432983,935.377 149.754107422,-34.460432983,968.341 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#6200e6">trkpt 163</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ffe60062</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>149.754107422,-34.460432983,968.341 149.732134766,-34.460432983,928.977 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#3900e6">trkpt 164</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ffe60039</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>149.732134766,-34.460432983,928.977 150.589068359,-34.406064802,427.38 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#0be600">trkpt 165</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ff00e60b</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>150.589068359,-34.406064802,427.38 149.732134766,-34.469490907,863.818 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#000ce6">trkpt 166</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ffe60c00</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>149.732134766,-34.469490907,863.818 149.721148438,-34.487603807,880.442 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#0600e6">trkpt 167</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ffe60006</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>149.721148438,-34.487603807,880.442 149.721148438,-34.496658782,870.937 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#0005e6">trkpt 168</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ffe60500</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>149.721148438,-34.496658782,870.937 149.710162109,-34.514765783,795.554 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#0053e6">trkpt 169</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ffe65300</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>149.710162109,-34.514765783,795.554 149.710162109,-34.523817808,807.455 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#0048e6">trkpt 170</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ffe64800</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>149.710162109,-34.523817808,807.455 149.710162109,-34.532868849,811.957 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#0043e6">trkpt 171</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ffe64300</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>149.710162109,-34.532868849,811.957 149.710162109,-34.541918907,863.137 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#000ce6">trkpt 172</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ffe60c00</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>149.710162109,-34.541918907,863.137 149.699175781,-34.56001607,806.083 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#0048e6">trkpt 173</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ffe64800</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>149.699175781,-34.56001607,806.083 149.699175781,-34.587154434,805.23 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#004ae6">trkpt 174</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ffe64a00</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>149.699175781,-34.587154434,805.23 149.699175781,-34.605241754,895.281 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#1400e6">trkpt 175</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ffe60014</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>149.699175781,-34.605241754,895.281 150.578082031,-34.406064802,474.19 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#00e626">trkpt 176</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ff26e600</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>150.578082031,-34.406064802,474.19 149.677203125,-34.659480077,699.926 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#00b8e6">trkpt 177</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ffe6b800</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>149.677203125,-34.659480077,699.926 149.677203125,-34.677551636,722.298 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#009fe6">trkpt 178</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ffe69f00</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>149.677203125,-34.677551636,722.298 149.677203125,-34.704651582,649.8 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#00e6de">trkpt 179</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ffdee600</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>149.677203125,-34.704651582,649.8 149.677203125,-34.713682926,648 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#00e6de">trkpt 180</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ffdee600</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>149.677203125,-34.713682926,648 149.677203125,-34.722713283,643.918 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#00e6d9">trkpt 181</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ffd9e600</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>149.677203125,-34.722713283,643.918 149.677203125,-34.749798437,677.641 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#00cfe6">trkpt 182</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ffe6cf00</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>149.677203125,-34.749798437,677.641 149.677203125,-34.758824848,699.508 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#00b8e6">trkpt 183</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ffe6b800</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>149.677203125,-34.758824848,699.508 149.677203125,-34.776874711,676.169 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#00d2e6">trkpt 184</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ffe6d200</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>149.677203125,-34.776874711,676.169 149.677203125,-34.785898162,645.526 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#00e6db">trkpt 185</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ffdbe600</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>149.677203125,-34.785898162,645.526 149.688189453,-34.812962593,661.109 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#00e0e6">trkpt 186</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ffe6e000</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>149.688189453,-34.812962593,661.109 150.567095703,-34.406064802,489.111 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#00e636">trkpt 187</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ff36e600</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>150.567095703,-34.406064802,489.111 149.688189453,-34.831000609,658.367 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#00e4e6">trkpt 188</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ffe6e400</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>149.688189453,-34.831000609,658.367 149.688189453,-34.840018136,654.698 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#00e6e5">trkpt 189</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ffe5e600</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>149.688189453,-34.840018136,654.698 149.688189453,-34.858050227,663.114 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#00dde6">trkpt 190</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ffe6dd00</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>149.688189453,-34.858050227,663.114 149.688189453,-34.876078366,649.075 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#00e6de">trkpt 191</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ffdee600</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>149.688189453,-34.876078366,649.075 149.699175781,-34.903113162,669.461 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#00d9e6">trkpt 192</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ffe6d900</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>149.699175781,-34.903113162,669.461 149.699175781,-34.939145717,689.903 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#00c2e6">trkpt 193</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ffe6c200</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>149.699175781,-34.939145717,689.903 149.710162109,-34.966159748,711.384 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#00abe6">trkpt 194</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ffe6ab00</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>149.710162109,-34.966159748,711.384 149.710162109,-34.993164876,681.906 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#00cbe6">trkpt 195</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ffe6cb00</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>149.710162109,-34.993164876,681.906 149.721148438,-35.047148406,680.541 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#00cde6">trkpt 196</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ffe6cd00</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>149.721148438,-35.047148406,680.541 149.743121094,-35.065134995,683.006 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#00c9e6">trkpt 197</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ffe6c900</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>149.743121094,-35.065134995,683.006 150.556109375,-34.406064802,496.889 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#00e63f">trkpt 198</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ff3fe600</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>150.556109375,-34.406064802,496.889 149.743121094,-35.110084128,755.908 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#007de6">trkpt 199</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ffe67d00</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>149.743121094,-35.110084128,755.908 149.732134766,-35.137041715,707.853 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#00afe6">trkpt 200</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ffe6af00</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>149.732134766,-35.137041715,707.853 149.732134766,-35.146025595,658.288 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#00e4e6">trkpt 201</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ffe6e400</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>149.732134766,-35.146025595,658.288 149.721148438,-35.172971283,675.73 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#00d2e6">trkpt 202</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ffe6d200</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>149.721148438,-35.172971283,675.73 149.721148438,-35.199908045,664.279 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#00dde6">trkpt 203</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ffe6dd00</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>149.721148438,-35.199908045,664.279 149.710162109,-35.217860924,706.648 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#00b2e6">trkpt 204</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ffe6b200</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>149.710162109,-35.217860924,706.648 149.710162109,-35.2447828,680.054 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#00cde6">trkpt 205</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ffe6cd00</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>149.710162109,-35.2447828,680.054 149.710162109,-35.253754773,655.634 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#00e6e5">trkpt 206</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ffe5e600</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>149.710162109,-35.253754773,655.634 149.699175781,-35.27169574,628.895 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#00e6c9">trkpt 207</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ffc9e600</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>149.699175781,-35.27169574,628.895 149.688189453,-35.307565755,640.199 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#00e6d4">trkpt 208</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ffd4e600</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>149.688189453,-35.307565755,640.199 150.534136719,-34.406064802,615.343 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#00e6bb">trkpt 209</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ffbbe600</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>150.534136719,-34.406064802,615.343 149.688189453,-35.361340968,655.383 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#00e6e5">trkpt 210</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ffe5e600</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>149.688189453,-35.361340968,655.383 149.688189453,-35.388215154,678.174 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#00cfe6">trkpt 211</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ffe6cf00</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>149.688189453,-35.388215154,678.174 149.688189453,-35.397171227,643.844 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#00e6d9">trkpt 212</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ffd9e600</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>149.688189453,-35.397171227,643.844 149.688189453,-35.432985571,682.885 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#00c9e6">trkpt 213</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ffe6c900</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>149.688189453,-35.432985571,682.885 149.688189453,-35.44193667,694.281 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#00bde6">trkpt 214</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ffe6bd00</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>149.688189453,-35.44193667,694.281 149.688189453,-35.459383588,717.871 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#00a4e6">trkpt 215</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ffe6a400</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>149.688189453,-35.459383588,717.871 149.688189453,-35.486677231,660.493 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#00e2e6">trkpt 216</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ffe6e200</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>149.688189453,-35.486677231,660.493 149.688189453,-35.495622357,658.161 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#00e4e6">trkpt 217</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ffe6e400</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>149.688189453,-35.495622357,658.161 149.688189453,-35.51350962,670.656 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#00d6e6">trkpt 218</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ffe6d600</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>149.688189453,-35.51350962,670.656 149.688189453,-35.549272193,743.418 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#008ae6">trkpt 219</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ffe68a00</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>149.688189453,-35.549272193,743.418 150.512164063,-34.415128621,578.867 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#00e694">trkpt 220</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ff94e600</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>150.512164063,-34.415128621,578.867 150.611041016,-34.397,432.255 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#06e600">trkpt 221</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ff00e606</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>150.611041016,-34.397,432.255 150.611041016,-34.406064802,466.426 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#00e61f">trkpt 222</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ff1fe600</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>150.611041016,-34.406064802,466.426 150.600054688,-34.406064802,445.653 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#00e608">trkpt 223</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ff08e600</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>150.600054688,-34.406064802,445.653 150.611041016,-34.397,432.255 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#06e600">trkpt 224</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ff00e606</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>150.611041016,-34.397,432.255 150.611041016,-34.406064802,466.426 </coordinates>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name><![CDATA[<span style="color:#00e61f">trkpt 225</span>]]></name>
+          <Style>
+            <LineStyle>
+              <color>ff1fe600</color>
+              <width>4</width>
+            </LineStyle>
+          </Style>
+          <LineString>
+            <tessellate>0</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>150.611041016,-34.406064802,466.426 150.600054688,-34.406064802,445.653 </coordinates>
+          </LineString>
+        </Placemark>
+      </Folder>
+    </Folder>
+  </Document>
+</kml>

@@ -18,6 +18,12 @@ https://github.com/bl4de/ctf/blob/master/calculatePoints.py
 
 For now calculated points are not relevant to added points in CTFtime.org ranking.
 
+
+# Writeups (2016)
+
+### nullcon HackIM 2016 CTF
+
+
 # Writeups (2015)
 
 ### Ekoparty 2015 CTF

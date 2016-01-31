@@ -12,12 +12,12 @@ Since his students never know what date it is and how much time they have until 
 We get simple web application with two available options:
 
 ![Welcome screen]
-(https://github.com/bl4de/ctf/blob/master/HACK.LU_CTF_2015/Module_Loader_web100/Module_Loader1.png)
+(https://github.com/bl4de/ctf/blob/master/2015/HACK.LU_CTF_2015/Module_Loader_web100/Module_Loader1.png)
 
 After quick research there's an obvious LFI (Local File Include)
 
 ![LFI]
-(https://github.com/bl4de/ctf/blob/master/HACK.LU_CTF_2015/Module_Loader_web100/Module_Loader2.png)
+(https://github.com/bl4de/ctf/blob/master/2015/HACK.LU_CTF_2015/Module_Loader_web100/Module_Loader2.png)
 
 We can include any file using url:
 
@@ -62,13 +62,13 @@ Also, we can display _.htaccess_, which contains some directory with quite "obvi
 Let's take a look there and here we go:
 
 ![3cdcf3c63dc02f8e5c230943d9f1f4d75a4d88ae content]
-(https://github.com/bl4de/ctf/blob/master/HACK.LU_CTF_2015/Module_Loader_web100/Module_Loader3.png)
+(https://github.com/bl4de/ctf/blob/master/2015/HACK.LU_CTF_2015/Module_Loader_web100/Module_Loader3.png)
 
 
 Last thing is to use LFI and see, what's in flag.php file:
 
 ![Flag]
-(https://github.com/bl4de/ctf/blob/master/HACK.LU_CTF_2015/Module_Loader_web100/Module_Loader4.png)
+(https://github.com/bl4de/ctf/blob/master/2015/HACK.LU_CTF_2015/Module_Loader_web100/Module_Loader4.png)
 
 
 school.fluxfingers.net:1522/?module=../3cdcf3c63dc02f8e5c230943d9f1f4d75a4d88ae/flag.php

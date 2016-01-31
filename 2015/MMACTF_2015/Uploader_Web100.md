@@ -18,7 +18,7 @@ You can only upload files whose name is matched by /^[a-zA-Z0-9]+\.[a-zA-Z0-9]+$
 Web page contains only one simple upload form:
 
 ![Uploader task]
-(https://github.com/bl4de/ctf/blob/master/MMACTF_2015/uploader1.png)
+(https://github.com/bl4de/ctf/blob/master/2015/MMACTF_2015/uploader1.png)
 
 Each file is accesible after uploading, so we can try to upload some simple shell to find the flag, which should be placed somewhere on the server.
 
@@ -54,14 +54,14 @@ This won't work in the future versions of PHP, as from PHP 7 ASP tags and _scrip
 After uploading the shell, let's take a look around:
 
 ![ls -lA executed in /]
-(https://github.com/bl4de/ctf/blob/master/MMACTF_2015/uploader2.png)
+(https://github.com/bl4de/ctf/blob/master/2015/MMACTF_2015/uploader2.png)
 
 We can see file named _flag_ in the root directory of the server.
 
 We can execute _cat flag_ command via the shell and catch the flag:
 
 ![Flag]
-(https://github.com/bl4de/ctf/blob/master/MMACTF_2015/uploader3.png)
+(https://github.com/bl4de/ctf/blob/master/2015/MMACTF_2015/uploader3.png)
 
 
 ## Links

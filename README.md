@@ -1,5 +1,10 @@
 # CTF (Capture The Flag) writeups repository
 
+- [2015 Writeups](#writeups-2015)
+- [2016 Writeups](#writeups-2016)
+
+
+
 Writeups, code snippets and notes collection from CTF events.
 
 I've started CTFs in 2015, when I've registered a team **bl4de** (https://ctftime.org/team/12769). Since 2016 I play also on my own as **Stack** (https://ctftime.org/team/16701).
@@ -15,8 +20,6 @@ https://github.com/ctftime/ctftime.org/issues/25
 This script will be updated when I'll be sure how this rating formula works (for now my script calculation are about 25-30% less than added points) :)
 
 https://github.com/bl4de/ctf/blob/master/calculatePoints.py
-
-For now calculated points are not relevant to added points in CTFtime.org ranking.
 
 
 # Writeups (2016)

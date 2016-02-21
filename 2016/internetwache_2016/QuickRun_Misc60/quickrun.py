@@ -12,9 +12,10 @@ for p in f:
     tmp += p
     if len(p) < 77 and p.endswith(("ilogK","==","Ao=")):
         qrcode = base64.b64decode(tmp)
-        print "[+] save QRcode to file"
+        print "[+] save {} QRcode to file".format(i)
         fout.write(qrcode + "\n\n\n")
         tmp = ""
+        i += 1
         
 fout.close()
 

@@ -24,6 +24,18 @@ https://github.com/bl4de/ctf/blob/master/calculatePoints.py
 
 # Writeups (2016)
 
+### internetwache 2016 CTF
+
+**0ldsk00lBlog, Web 80**      
+https://github.com/bl4de/ctf/blob/master/2016/internetwache_2016/0ldsk00lBlog_Web80_writeup.md
+
+**Quick Run, Misc 60**      
+https://github.com/bl4de/ctf/blob/master/2016/internetwache_2016/QuickRun_Misc60_writeup.md
+
+**Rock With The Shark, Misc 70**
+https://github.com/bl4de/ctf/blob/master/2016/internetwache_2016/RockWithTheShark_Misc70_writeup.md
+
+
 ### nullcon HackIM 2016 CTF
 
 **Unicle, Web 200**

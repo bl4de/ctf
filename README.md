@@ -1,7 +1,7 @@
 # CTF (Capture The Flag) writeups repository
 
-- [2015 Writeups](#writeups-2015)
-- [2016 Writeups](#writeups-2016)
+- [2015 Writeups](#2015)
+- [2016 Writeups](#2016)
 
 
 

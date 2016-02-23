@@ -22,7 +22,7 @@ This script will be updated when I'll be sure how this rating formula works (for
 https://github.com/bl4de/ctf/blob/master/calculatePoints.py
 
 
-# Writeups (2016)
+## 2016
 
 ### internetwache 2016 CTF
 
@@ -42,7 +42,7 @@ https://github.com/bl4de/ctf/blob/master/2016/internetwache_2016/RockWithTheShar
 https://github.com/bl4de/ctf/blob/master/2016/HackIM_2016/Unicle_Web200/Unicle_Web200_writeup.md
 
 
-# Writeups (2015)
+## 2015
 
 ### Ekoparty 2015 CTF
 

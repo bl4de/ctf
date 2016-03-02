@@ -16,7 +16,7 @@ def calculate():
     place_coef = float(1) / team_place
 
     if points_coef > 0:
-        rating = ((points_coef + place_coef) * weight) / (1 + float(team_place)/total_teams)
+        rating = ((points_coef + place_coef) * weight) / (1/(1+(team_place/total_teams)))
 
     return rating
 

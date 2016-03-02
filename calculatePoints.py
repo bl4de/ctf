@@ -28,5 +28,5 @@ if __name__ == '__main__':
     best_points = int(raw_input("winner team points: "))
     weight = int(raw_input("CTF event rating weight (by CTFtime.org): "))
 
-    print "\n### Your team earned {0:.4f} points in this CTF, congrats! ###"\
+    print "\n### Your team earned {0:.3f} points in this CTF, congrats! ###"\
         .format(calculate())

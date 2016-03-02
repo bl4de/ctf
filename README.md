@@ -13,8 +13,8 @@ I've started CTFs in 2015, when I've registered a team **bl4de** (https://ctftim
 ### CTFtime.org ranking points calculator
 
 Simple Python script to calculate CTFtime.org ranking points from particular CTF event points based on formula from
-https://ctftime.org/rating-formula/
-~~There's an open issue for this here:~~
+https://ctftime.org/rating-formula/                 
+~~There's an open issue for this here:~~                
 https://github.com/ctftime/ctftime.org/issues/25 [FIXED]
 
 https://github.com/bl4de/ctf/blob/master/calculatePoints.py

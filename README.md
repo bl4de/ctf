@@ -22,6 +22,22 @@ https://ctftime.org/rating-formula/
 
 ## 2016
 
+###  Google Capture The Flag 2016
+
+**Ernst Echidna, Web 50**       
+https://github.com/bl4de/ctf/tree/master/2016/Google_CTF_2016/Ernst_Echidna_Web_50
+
+**In Recorded Conversation, Forensic 25**   
+https://github.com/bl4de/ctf/tree/master/2016/Google_CTF_2016/In_Recorded_Conversation_Forensic_25
+
+**Spotted Quoll, Web 50**  
+https://github.com/bl4de/ctf/tree/master/2016/Google_CTF_2016/Spotted_Quoll_Web_50
+
+**Wallowing Wallabies, Web 25**  
+https://github.com/bl4de/ctf/tree/master/2016/Google_CTF_2016/Wallowing_Wallabies_Web_25
+
+
+
 ### internetwache 2016 CTF
 
 **0ldsk00lBlog, Web 80**      

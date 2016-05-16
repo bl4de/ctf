@@ -23,6 +23,16 @@ https://ctftime.org/rating-formula/
 
 ## 2016
 
+
+###  TU CTF 2016
+
+**Duck Print, Web 100**              
+https://github.com/bl4de/ctf/tree/master/2016/TUCTF_2016/Duck_Print_Web100
+
+**Student Grades, Web 50**                        
+https://github.com/bl4de/ctf/tree/master/2016/TUCTF_2016/Student_Grades_Web50
+
+
 ###  Google Capture The Flag 2016
 
 **Ernst Echidna, Web 50**       

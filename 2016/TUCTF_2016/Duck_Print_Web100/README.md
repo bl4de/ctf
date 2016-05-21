@@ -14,7 +14,7 @@ We get simple web application, where we can register user and generate something
 ![Duckprint]
 (assets/dp2.png)
 
-After registering a user, Duck print is generated with some additional factors (cookie, token, admin flag):
+After registering a user, Duck print is generated with some additional factors (cookie in format {username:username,admin:0}  and token):
 
 ![Duckprint]
 (assets/dp3.png)
@@ -27,6 +27,7 @@ Also, in _generate.php_ source code there's a comment with SQL query, where we c
 <input type='text' name='username' id='username' maxlength="50" />
 <input type='submit' name='Submit' value='Submit' />
 ```
+
 Using one of the basics SQL Injection payloads as username in _register.php_, there's a long list of many interesting usernames used by other teams to solve this challenge:
 
 ```

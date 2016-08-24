@@ -1,0 +1,19 @@
+0000000000000000000000000000000000000000 fd2ac4d5260ee06f9a0e5f4808bf3862e2065fb8 James Sigurðarson <jamiees2@gmail.com> 1470863392 +0000	commit (initial): initial commit
+fd2ac4d5260ee06f9a0e5f4808bf3862e2065fb8 90c2cd27cabb8ec7f55941ecee004558a070ccde James Sigurðarson <jamiees2@gmail.com> 1470863541 +0000	commit: gitignore
+90c2cd27cabb8ec7f55941ecee004558a070ccde 971c67fd8ed67c3986844f627917c19c151d00bf James Sigurðarson <jamiees2@gmail.com> 1470863629 +0000	commit: added initial app
+971c67fd8ed67c3986844f627917c19c151d00bf 1f601ea8a09052234b53e2cc1bb12e4ceacbf8a6 James Sigurðarson <jamiees2@gmail.com> 1470863643 +0000	commit (amend): added initial app
+1f601ea8a09052234b53e2cc1bb12e4ceacbf8a6 ec95d11bb37f00fb8e17f6bdbb800124b79e3c32 James Sigurðarson <jamiees2@gmail.com> 1470863652 +0000	commit (amend): added initial app
+ec95d11bb37f00fb8e17f6bdbb800124b79e3c32 4de7e6fbbba6f94bc146b33bbfe6c0155f3c2fd4 James Sigurðarson <jamiees2@gmail.com> 1470864424 +0000	commit: added materialize and centered page
+4de7e6fbbba6f94bc146b33bbfe6c0155f3c2fd4 f521418118a088ef00fef0c3e199d30d6c7e96a5 James Sigurðarson <jamiees2@gmail.com> 1470864477 +0000	commit: enlarged text
+f521418118a088ef00fef0c3e199d30d6c7e96a5 f5674cbaacd842cfacb9f825c29f7f3e5150c7ef James Sigurðarson <jamiees2@gmail.com> 1470865026 +0000	commit (amend): enlarged text
+f5674cbaacd842cfacb9f825c29f7f3e5150c7ef ebe74d8641b4d8b90c33d1deb69070476b0ef402 James Sigurðarson <jamiees2@gmail.com> 1470865059 +0000	commit: added colors
+ebe74d8641b4d8b90c33d1deb69070476b0ef402 672c8f636b6db9c79412db177dcca75cde27c82b James Sigurðarson <jamiees2@gmail.com> 1470865083 +0000	commit (amend): added colors
+672c8f636b6db9c79412db177dcca75cde27c82b 60756b184c2d6b8f0247c152d8549562bc14d2d9 James Sigurðarson <jamiees2@gmail.com> 1470865235 +0000	commit: test flag
+60756b184c2d6b8f0247c152d8549562bc14d2d9 adf0ebdff8a972f3f6158304323feba4aa1fd482 James Sigurðarson <jamiees2@gmail.com> 1470865293 +0000	commit: flag file
+adf0ebdff8a972f3f6158304323feba4aa1fd482 32b31838b757a00f2e296ac198ca7d9cb930e644 James Sigurðarson <jamiees2@gmail.com> 1470865445 +0000	commit (amend): flag file
+32b31838b757a00f2e296ac198ca7d9cb930e644 584ae8349fe51e2cb25e11347003c11e92f88c74 James Sigurðarson <jamiees2@gmail.com> 1470865454 +0000	commit (amend): flag route
+584ae8349fe51e2cb25e11347003c11e92f88c74 5ea13398f975b53ff30b7ea162b2ec6897a48c68 James Sigurðarson <jamiees2@gmail.com> 1470865511 +0000	commit: remove flag
+5ea13398f975b53ff30b7ea162b2ec6897a48c68 4183a0cd7143899e4a5d34f01ce58317fd68921e James Sigurðarson <jamiees2@gmail.com> 1470865669 +0000	commit: add robots.txt
+4183a0cd7143899e4a5d34f01ce58317fd68921e e9f1db96f8b67eced8183d2d523e4ea76c008b83 IceCTF <icectf@icec.tf> 1470953021 +0000	commit (amend): add robots.txt
+e9f1db96f8b67eced8183d2d523e4ea76c008b83 590a15d32d9a494be5830f61c5c180ddef86e43e IceCTF <icectf@icec.tf> 1470953038 +0000	commit (amend): add robots.txt
+590a15d32d9a494be5830f61c5c180ddef86e43e 1746e11be489319bd8900318874b68304eb05288 IceCTF <icectf@icec.tf> 1470953038 +0000	filter-branch: rewrite

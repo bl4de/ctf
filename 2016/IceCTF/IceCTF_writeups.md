@@ -1,6 +1,6 @@
 # IceCTF 2016 writeups
 
-As most of the challenges were trivial to resolve (especially from Stage 1, Stage 2 and some from Stage 3) I put here just some example challenges I had to spend more than 30 seconds to get the flag :)
+As most of the challenges was trivial to resolve (especially from Stage 1, Stage 2 and some from Stage 3) I put here just some example challenges I had to spend more than 30 seconds to get the flag :)
 
 --
 ### Exposed (Web, 60pts)
@@ -11,9 +11,15 @@ John is pretty happy with himself, he just made his first website! He used all t
 
 #### Solution
 
-In challenge description there is _Git_ source version control mentioned. As couple of weeks ago I did some research about how to extract informations from Git logs (https://github.com/bl4de/research/tree/master/hidden_directories_leaks#git) and also I've created simple tool to do this (and currently I am still developing one - you can take  a look at it here: https://github.com/bl4de/security-tools/tree/master/diggit) - it was quite easy to find the right revision where the flag was saved.
+In challenge description there is a _Git_ source version control mentioned. 
 
-The log file located under contains a couple of commits:
+Couple of weeks ago I did some research about how to extract informations based on revealed Git logs (https://github.com/bl4de/research/tree/master/hidden_directories_leaks#git)
+
+Also I've created simple tool to do this (and currently I am still developing one - you can take  a look at it here: https://github.com/bl4de/security-tools/tree/master/diggit)
+
+So it was quite easy to find the right revision where the flag was saved.
+
+The log file located under http://exposed.vuln.icec.tf/.git/logs/HEAD contains history of commits:
 
 ```
 0000000000000000000000000000000000000000 fd2ac4d5260ee06f9a0e5f4808bf3862e2065fb8 James Sigurðarson <jamiees2@gmail.com> 1470863392 +0000	commit (initial): initial commit
@@ -38,7 +44,7 @@ e9f1db96f8b67eced8183d2d523e4ea76c008b83 590a15d32d9a494be5830f61c5c180ddef86e43
 
 ```
 
-Revision _ f5674cbaacd842cfacb9f825c29f7f3e5150c7ef_ was the right one. Using my _diggit_ tool I could read the flag:
+Revision _f5674cbaacd842cfacb9f825c29f7f3e5150c7ef_ was the right one. Using my _diggit_ tool I could easily read the flag:
 
 ```
 $ ./diggit.py -u http://exposed.vuln.icec.tf -t /Users/bl4de/hacking/ctf/2016/IceCTF/web60 -r true -o f5674cbaacd842cfacb9f825c29f7f3e5150c7ef
@@ -126,13 +132,14 @@ Make sure you take a real close look at it, it should be right there! /home/plai
 #### Solution
 
 
-I've downloaded simple ELF executable and there's a flag hidden somewhere.
-_strings_ does not return anything interesting, so I decided to take a look at the source code in Hopper Disassembler. As RE is not my strongest side, I tried to find something obvious, and I was lucky:
+We got Linux ELF executable file and there's a flag hidden somewhere.
+
+_strings_ does not return anything interesting, so I decided to take a look at the source code in Hopper Disassembler. As Reverse Engineering is not my very strong side, I was trying to find something obvious, and I was lucky:
 
 ![Code]
 (assets/re45.png)
 
-There's a list of _mov al, 0xXX_ instructions, obviously handle flag character by character (first three chars was just 'Ice', all flags start from 'IceCTF', so I assumed that this had to be flag). Simple Python script allows me to get the right solution:
+There's a list of _mov al, 0xXX_ instructions, obviously contains  flag character by character (all flags start from 'IceCTF', so I assumed that this had to be flag as values are from ASCII codes for  a-z, A-Z, { and } ). Simple Python script allows me to get the right solution:
 
 ```Python
 #!/usr/bin/python

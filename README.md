@@ -25,14 +25,10 @@ https://ctftime.org/rating-formula/
 
 ### IceCTF 2016
 
-**Exposed, Web 60**
-
-**Miners, Web 65**
-
-**Scavenger Hunt, Misc 60**
-
-**Hidden in Plain Sight, RE 45**
-
+**Exposed, Web 60**   
+**Miners, Web 65**  
+**Scavenger Hunt, Misc 60**   
+**Hidden in Plain Sight, RE 45**    
 https://github.com/bl4de/ctf/blob/master/2016/IceCTF/IceCTF_writeups.md
 
 

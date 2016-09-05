@@ -12,12 +12,12 @@ GlobalPage welcomes us with a very short list of available links:
 ![Global Page]
 (1.png)
 
-After clicking one of them , we've got a list of PHP warnings from _inlcude()_ function:
+After clicking one of them , we've got a list of PHP warnings from _include()_ function:
 
 ![Warnings]
 (2.png)
 
-What's interesting here, there a lot of warnings about files starting from language identifiers, like _pl_, _pl-PL_, _en-US_ and similar.
+What's most interesting here, a lot of them starting from language identifiers, like _pl_, _pl-PL_, _en-US_ and similar.
 
 The only place where those identifiers exist is _Accept-Language_ header in HTTP request:
 

@@ -23,6 +23,12 @@ https://ctftime.org/rating-formula/
 
 # 2016
 
+### Tokyo Westerns / MMA CTF 2016 
+
+**Global Site, Web 50**               
+https://github.com/bl4de/ctf/tree/master/2016/Tokyo_Westerns_MMA_CTF_2016/Global_Page_Web_50
+
+
 ### IceCTF 2016
 
 **Exposed, Web 60**   

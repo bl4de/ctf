@@ -3,13 +3,7 @@
 - [2015 Writeups](#2015)
 - [2016 Writeups](#2016)
 
-
-
 Writeups, code snippets and notes collection from CTF events.
-
-I've started CTFs in 2015, when I've registered a team **bl4de** (https://ctftime.org/team/12769). 
-Since 2016 I play on my own as **Stack** (https://ctftime.org/team/16701).
-
 
 ### CTFtime.org ranking points calculator
 

@@ -1,0 +1,88 @@
+
+[0x00400618]> iz
+vaddr=0x00400734 paddr=0x00000734 ordinal=000 sz=13 len=12 section=.rodata type=ascii string=cat flag.txt
+vaddr=0x00400741 paddr=0x00000741 ordinal=001 sz=11 len=10 section=.rodata type=ascii string=-Warm Up-\n
+vaddr=0x0040074c paddr=0x0000074c ordinal=002 sz=5 len=4 section=.rodata type=ascii string=WOW:
+
+[0x00400618]> / cat flag.txt
+Searching 12 bytes from 0x00400000 to 0x00601060: 63 61 74 20 66 6c 61 67 2e 74 78 74
+Searching 12 bytes in [0x400000-0x601060]
+hits: 1
+0x00400734 hit0_0 .HHcat flag.txt-Warm Up-WOW:.
+[0x00400618]> aaa
+[x] Analyze all flags starting with sym. and entry0 (aa)
+[x] Analyze len bytes of instructions for references (aar)
+[x] Analyze function calls (aac)
+[ ] [*] Use -AA or aaaa to perform additional experimental analysis.
+[x] Constructing a function name for fcn.* and sym.func.* functions (aan))
+[0x00400618]> axt
+[0x00400618]> axt ?
+[0x00400618]> axt?
+[0x00400618]> axt sym.print
+[0x00400618]> axt 0x00400734
+data 0x400611 mov edi, str.cat_flag.txt in sym.easy
+[0x00400618]>
+[0x00400618]> aaa
+[x] Analyze all flags starting with sym. and entry0 (aa)
+[x] Analyze len bytes of instructions for references (aar)
+[x] Analyze function calls (aac)
+[ ] [*] Use -AA or aaaa to perform additional experimental analysis.
+[x] Constructing a function name for fcn.* and sym.func.* functions (aan))
+[0x00400618]> afl
+0x00400488    3 26           sym._init
+0x004004c0    2 16   -> 32   sym.imp.write
+0x004004d0    2 16   -> 48   sym.imp.system
+0x004004e0    2 16   -> 48   sym.imp.__libc_start_main
+0x004004f0    2 16   -> 48   loc.imp.__gmon_start__
+0x00400500    2 16   -> 48   sym.imp.gets
+0x00400510    2 16   -> 48   sym.imp.sprintf
+0x00400520    1 42           entry0
+0x00400550    4 41           sym.deregister_tm_clones
+0x00400580    4 57           sym.register_tm_clones
+0x004005c0    3 28           sym.__do_global_dtors_aux
+0x004005e0    4 45   -> 42   sym.frame_dummy
+0x0040060d    1 16           sym.easy
+0x0040061d    1 136          sym.main
+0x004006b0    4 101          sym.__libc_csu_init
+0x00400720    1 2            sym.__libc_csu_fini
+0x00400724    1 9            sym._fini
+[0x00400618]> s main
+[0x0040061d]> pdf
+            ;-- main:
+╒ (fcn) sym.main 136
+│           ; var int local_80h @ rbp-0x80
+│           ; var int local_40h @ rbp-0x40
+│           ; DATA XREF from 0x0040053d (entry0)
+│           0x0040061d      55             push rbp
+│           0x0040061e      4889e5         rbp = rsp
+│           0x00400621      4883c480       rsp += -0x80
+│           0x00400625      ba0a000000     edx = 0xa
+│           0x0040062a      be41074000     esi = str._Warm_Up__n       ; "-Warm Up-." @ 0x400741
+│           0x0040062f      bf01000000     edi = 1
+│           0x00400634      e887feffff     sym.imp.write ()
+│           0x00400639      ba04000000     edx = 4
+│           0x0040063e      be4c074000     esi = str.WOW:              ; "WOW:" @ 0x40074c
+│           0x00400643      bf01000000     edi = 1
+│           0x00400648      e873feffff     sym.imp.write ()
+│           0x0040064d      488d4580       rax = [rbp - local_80h]
+│           0x00400651      ba0d064000     edx = sym.easy              ; "UH...4.@" @ 0x40060d
+│           0x00400656      be51074000     esi = 0x400751
+│           0x0040065b      4889c7         rdi = rax
+│           0x0040065e      b800000000     eax = 0
+│           0x00400663      e8a8feffff     sym.imp.sprintf ()
+│           0x00400668      488d4580       rax = [rbp - local_80h]
+│           0x0040066c      ba09000000     edx = 9
+│           0x00400671      4889c6         rsi = rax
+│           0x00400674      bf01000000     edi = 1
+│           0x00400679      e842feffff     sym.imp.write ()
+│           0x0040067e      ba01000000     edx = 1
+│           0x00400683      be55074000     esi = 0x400755
+│           0x00400688      bf01000000     edi = 1
+│           0x0040068d      e82efeffff     sym.imp.write ()
+│           0x00400692      488d45c0       rax = [rbp - local_40h]
+│           0x00400696      4889c7         rdi = rax
+│           0x00400699      b800000000     eax = 0
+│           0x0040069e      e85dfeffff     sym.imp.gets ()
+│           0x004006a3      c9
+╘           0x004006a4      c3
+[0x0040061d]>

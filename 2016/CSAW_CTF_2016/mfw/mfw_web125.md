@@ -85,6 +85,7 @@ $file = "templates/" . $page . ".php";
 
 ```$page``` was used here directly from GET parameter, without any validation. String concatenation allows here to do anything, BEFORE any of following ```assert()``` calls.
 
+
 I needed something powerful and something what returns its output without any additional functions like ```print()``` or ```echo``` (which is, in fact, not a function).
 
 And ```system()``` was exactly what I was looking for (http://php.net/manual/en/function.system.php):
@@ -135,6 +136,10 @@ usr
 var
 That file doesn't exist!
 ```
+
+**EDIT** Output from Command Execution actually comes from one or both lines with ```assert()``` calls (it depends on usage of "../" in payload and which assertion failed first), not from the first line with ```$page``` parameter as I thought. Thanks to Dinesh Kota for pointing this!
+
+
 
 --
 #### HINT

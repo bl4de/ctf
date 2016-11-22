@@ -1,9 +1,9 @@
-# CTF (Capture The Flag) writeups repository
+# CTF (Capture The Flag) writeups
 
 - [2015 Writeups](#2015)
 - [2016 Writeups](#2016)
 
-Writeups, code snippets and notes collection from CTF events.
+Writeups, tools, code snippets and notes from various CTF events I took part.
 
 ### CTFtime.org ranking points calculator
 

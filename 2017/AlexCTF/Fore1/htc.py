@@ -5,7 +5,5 @@ encoded_flag = 'cvqAeqacLtqazEigwiXobxrCrtuiTzahfFreqc{bnjrKwgk83kgd43j85ePgb_e_
 # cut first 3 chars and create list
 encoded_flag = encoded_flag[3:]
 
-decoded_flag = ''.join([encoded_flag[x]
-                        for x in range(0, len(encoded_flag)) if x % 5 == 0])
-
-print decoded_flag
+print ''.join([encoded_flag[x]
+               for x in range(0, len(encoded_flag)) if x % 5 == 0])

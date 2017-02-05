@@ -2,17 +2,21 @@
 
 This writeup contains my solutions for some challenges from AlexCTF 2017, including Reverse Engineering, Crypto and Forensic categories.
 
-Unfortunately, AlexCTF did not contain Web, which is my favorite CTF category - even though I had a lot of fun as I had to code couple of handy Python scripts :)
+Unfortunately, AlexCTF did not provide any Web challenges, which is my favorite CTF category - even though I had a lot of fun as I had to code couple of handy Python scripts and learn some new cryptography concepts :)
 
 
 ## RE1: Gifted, 50pts (Reverse)
 
 We get ```gifted``` file contains ELF binary.
 
-Solution:
+Solution is trivial, just had to execute ```strings``` command and grep correct line:
 
 ![gifted]
 (assets/gifted.png)
+
+The flag was:
+**AlexCTF{Y0u\_h4v3\_45t0n15h1ng\_futur3\_1n\_r3v3r5ing}**
+
 
 ## CR1: Ultracoded, 50pts (Crypto)
 
@@ -65,6 +69,86 @@ Output:
 
 ![zero-one]
 (assets/zero-one.png)
+
+## CR2: Many time secrets, 100pts (Crypto)
+
+**This time Fady learned from his old mistake and decided to use onetime pad as his encryption technique, but he never knew why people call it one time pad!**
+
+We get a file with a message. After some investigation and couple of quick tries with ASCII codes I identified it as a string contains 284 characters.
+
+As challenge description mentioned about one-time pad, I found basic information about this method of encryption (https://en.wikipedia.org/wiki/One-time_pad):
+
+```
+In cryptography, the one-time pad (OTP) is an encryption 
+technique that cannot be cracked, but requires the use of 
+a one-time pre-shared key the same size as the message being sent.
+In this technique, a plaintext is paired with a random secret key 
+(also referred to as a one-time pad). Then, each bit or character of 
+the plaintext is encrypted by combining it with the corresponding 
+bit or character from the pad using modular addition.
+
+```
+So the solution was to find the key Fady used to encrypt his message. I've started from ```FADY``` and quickly realized I'm on the right path to find solution as some readable word appears at the beginning of encrypted string.
+
+After some guessing, I decided to try string contains actual CTF name - ```ALEXCTF``` - and the beginning of encrypted message changed into ```Dear Fr```. BINGO!
+
+Unfortunately, the rest of the key was the simple bruteforcing, character by character. I've created simple script for this, here's how it looks like after key contained twelve characters:
+
+```python
+#!/usr/bin/env python
+
+msg = '0529242a631234122d2b36697f13272c207f2021283a6b0c79082f28202a302029142c653f3c7f2a2636273e3f2d653e25217908322921780c3a235b3c2c3f207f372e21733a3a2b37263b3130122f6c363b2b312b1e64651b6537222e37377f2020242b6b2c2d5d283f652c2b31661426292b653a292c372a2f20212a316b283c0929232178373c270f682c216532263b2d3632353c2c3c2a293504613c37373531285b3c2a72273a67212a277f373a243c20203d5d243a202a633d205b3c2d3765342236653a2c7423202f3f652a182239373d6f740a1e3c651f207f2c212a247f3d2e65262430791c263e203d63232f0f20653f207f332065262c31683137223679182f2f372133202f142665212637222220733e383f2426386b'
+
+base_key = 'ALEXCTF{HERE'
+msg_arr = [int(msg[x:x + 2], 16) for x in range(0, len(msg)) if x % 2 == 0]
+
+
+for l in 'ABCDEFGHIJKLMNOPQRSTUWVXYZabcdefghijklmnopqrstuwvxyz{}0123456789_':
+    key = base_key + l
+    padded_key = key * (len(msg) / len(key))
+    key_arr = [ord(x) for x in list(padded_key)]
+    decrypted = ''
+    for x in range(0, len(msg_arr)):
+        decrypted = decrypted + chr(msg_arr[x] ^ key_arr[x])
+
+    if 'Dear Friend, ' in decrypted:
+		print '\nkey fragment: {} \ndecrypted so far:\n{}'.format(key,
+                                                          decrypted)
+
+```
+
+Actual result was:
+
+
+```
+bl4de:~/hacking/ctf/2017/AlexCTF/CR2 $ ./secrets.py
+
+key fragment: ALEXCTF{HERE
+decrypted so far:
+Dear Friend,>_btc+fZ`9I8Djpc~v[aQ~ ~p:rebaEwh7{dm<Pq}gDq}`zx<chZ;hnvj~isFi~~ytjR!=X1qYfre:alas(xk&`z7ij}#Le}mrl~rkceyie-StL{f`4rdd[.Wi `czasjvhjGblgA proven to b{+drd+qAlyre|abc~%Fhnhv)qzu1|W<frj~)o@amqF'1X[})Zx<xgQl:ok$jah:H`Ehx1fnCe=|t9Hh tip$toab?cgjedrljLe1g]gpe2r}ggr~
+bl4de:~/hacking/ctf/2017/AlexCTF/CR2 $ ./secrets.py
+
+key fragment: ALEXCTF{HERE_
+decrypted so far:
+Dear Friend, Rkix<tgSr.^<Wnderstood my kjs}kkv`s<Wsed One time vbd+ynmLn~cuMn scheme, I hcbro<tf_c.~his the only eh`rrltgQy.zyVhod that is mgwhnqazWto{p[ proven to be&mo<c|_terxever if the kcz bo e[gz7oGcure, Let Me mmo|<ihnab<Cgree with me rl ~oe.Jgd<Gncryption schcne+}ly_n}9
+bl4de:~/hacking/ctf/2017/AlexCTF/CR2 $ ;2B
+```
+
+![zero-one]
+(assets/onetimepad.png)
+
+
+The final flag, used as an encryption key: **ALEXCTF{HERE\_GOES\_THE\_KEY}**
+
+```
+key fragment: ALEXCTF{HERE_GOES_THE_KEY}
+decrypted so far:
+Dear Friend, This time I understood my mistake and used One time pad
+ encryption scheme, I heard that it is the only encryption method 
+ that is mathematically proven to be not cracked ever if the key is 
+ kept secure, Let Me know if you agree with me to use this 
+ encryption scheme always.
+```
 
 ## Fore1: Hit the core, 50pts
 

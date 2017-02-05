@@ -1,4 +1,4 @@
-# Problem Title (Category, 00pts)
+# PROBLEM TITLE, Category, 50pts
 
 ## Problem
 

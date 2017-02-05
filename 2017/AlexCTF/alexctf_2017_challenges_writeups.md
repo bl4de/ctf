@@ -1,6 +1,6 @@
 # AlexCTF 2017 
 
-This writeup contains my solutions for some challenges from AlexCTF 2017, including Reverse Engineering, Crypto and Forensic categories.
+This writeup presents my solutions for AlexCTF 2017 challenges including RE, Crypto and Forensic categories.
 
 Unfortunately, AlexCTF did not provide any Web challenges, which is my favorite CTF category - even though I had a lot of fun as I had to code couple of handy Python scripts and learn some new cryptography concepts :)
 

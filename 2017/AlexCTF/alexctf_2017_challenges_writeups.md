@@ -1,15 +1,23 @@
 # AlexCTF 2017 
 
-This writeup presents my solutions for AlexCTF 2017 challenges including RE, Crypto and Forensic categories.
+This writeup presents my solutions for six AlexCTF 2017 challenges from RE, Crypto, Scripting, Trivia and Forensic categories:
+
+- RE1: Gifted
+- CR1: Ultracoded
+- CR2: Many time secrets
+- Fore1: Hit the core
+- SC1: Math bot
+- TR4: Doesnt' our logo looks cool?
 
 Unfortunately, AlexCTF did not provide any Web challenges, which is my favorite CTF category - even though I had a lot of fun as I had to code couple of handy Python scripts and learn some new cryptography concepts :)
-
+ 
+Finally I've solved 8 of 20 challenges and earned 430 points from 2540 available.
 
 ## RE1: Gifted, 50pts (Reverse)
 
 We get ```gifted``` file contains ELF binary.
 
-Solution is trivial, just had to execute ```strings``` command and grep correct line:
+Solution is trivial and rather has nothing in common with Reverse Engineering, I've just had to execute ```strings``` command and grep correct line:
 
 ![gifted]
 (assets/gifted.png)
@@ -137,8 +145,23 @@ bl4de:~/hacking/ctf/2017/AlexCTF/CR2 $ ;2B
 ![zero-one]
 (assets/onetimepad.png)
 
+When key length reached 13 characters, I realized other readable fragments, each one starts after another 13 random characters.
 
-The final flag, used as an encryption key: **ALEXCTF{HERE\_GOES\_THE\_KEY}**
+This simplified the whole process a little bit as I could use other decrypted words except opening 'Dear Friend' to find next character.
+
+I just had to keep length of the key as 26 characters adding some 'A' as a padding at the end of the key in each iteration, eg: ```ALEXCTF{HERE``` plus actual searched char plus ```AAAAAAAAAAAAA``` as a padding (here's only a modified fragment of the code above):
+
+```python
+(...)
+for l in 'ABCDEFGHIJKLMNOPQRSTUWVXYZabcdefghijklmnopqrstuwvxyz{}0123456789_-':
+	# keep the length of the key equals 26
+	key = base_key + l + 'AAAAAAAAAAAA'     
+	padded_key = key * int(len(msg) / len(key))
+(...)
+```
+
+
+The final flag, used as an encryption key was **ALEXCTF{HERE\_GOES\_THE\_KEY}**
 
 ```
 key fragment: ALEXCTF{HERE_GOES_THE_KEY}
@@ -171,7 +194,7 @@ X{9e
 X{9e
 ```
 
-We can notice capital A,L,E,X,C,T,F chars at the beginning, each one followed by four random ASCII chars. This is ```ALEXCTF``` string, which began every flag in AlexCTF
+We can notice capital A,L,E,X,C,T,F characters, each one followed by four random ASCII chars. This is ```ALEXCTF``` string, which began every flag in AlexCTF
 
 Solution:
 
@@ -303,3 +326,135 @@ Congrats MR bot!
 Tell your human operator flag is: ALEXCTF{1_4M_l33t_b0t}
 ```
 
+
+## TR4: Doesn't our logo look cool?, 40pts
+
+That one was pretty easy task. ASCII art logo on https://ctf.oddcoder.com/ website contains a flag.
+
+```
+TR4: Doesn't our logo look cool ?
+                                                                                                           
+                                                                                                                       
+                         '@+.                                                                                          
+                       @@@@@@@:                                                                                        
+                      @@@@@@@@@#                                                                                       
+                     @@@@@@@@@@@,                                                                                      
+                    '@@@@@@@@@@@@                                                                                      
+                    @@@@@@@@@@@@@                                                                                      
+                    @@@@@@@@@@@@@.                                                                                     
+                    @@@@@@@@@@@@@,                                                                                     
+                    @@@@A@@@@@@@@                                                                                      
+                    +@@@@@@@@@@@@                       .:++@@@@@+:.                                                   
+                     @@@@@@@@@@@'                .+@@@@@@@@@@@@@@@@@@@@@`                                              
+                     .@@@@@@@@@@            .#@@@@@@@@@@@@@@L@@@@@@@@@@@@@#                                            
+                      +@@@@@@@@         `#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@                                   .@@.   
+                      +@@@E@@@@      .@@@@@@X@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@:                              '@@@@@.   
+                      +@@@@@@@@      ;@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@C@@.                       `+@@@@@@@@@.   
+                      +@@@@@@@@      ;@@@@@@T@@@@@@@@@@@',`       .+@@@@@@@@@@@@@@@:              `:@@@@@@F@@@@@@@@.   
+                      +@@@@@@@@      ;@@@@@@@@@@@+.                    ;@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@.   
+                      +@@@@@@@@      ;@@@@@@@,                           `@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@.   
+                      +@@@@@@@@      ;@@@@@.                               +@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@.   
+                      +@@@@@@@@      ;@@@@@.                                 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#@@@@@.   
+                      +@@@@@@@@      ;@@@@@.                                   ;@@@@@@@@@@@@{@@@@@@@@@@@#,   ;@@@@@.   
+                      +@@@@@@@@      ;@@@@@.                                       '@@@@@@@@@@@@@@+,         ;@@@@@.   
+                      +@@@@@@@@      ;@@@@@.                                                                 ;@@@@@.   
+                      +@@@@@@@@      ;@@@@@.                                                                 ;@@@@@.   
+                      +@@@@@@@@      ;@@@@@.                                                                 ;@@@@@.   
+                      +@@@@@@@@      ;@@@@@.                                                                 ;@@@@@.   
+                      +@@@@@@@@      ;@@@@@.                                                                 ;@@@@@.   
+                      +@@@@@@@@      ;@@@@@.                                                                 ;@@@@@.   
+                      +@@@@@@@@      ;@@@@@.                                        :;.                      ;@@@@@.   
+                      +@@@@@@@@      ;@@@@@.    @     ;@       @@@@@@@  @`   `@   +@@#@@  '@@@@@@@  @@@@@@@, ;@@@0@.   
+                      +@@@@U@@@      ;@@@@@.    @+    ;@       @        .@   @,   @    #@    `@     @        ;@@@@@.   
+                      +@@@@@R@@      ;@@@@@.   .@@    ;@       @         @` `@   :@     @    `@     @        ;@@@_@.   
+                      +@@@@@@@@      ;@@@@@.   @,@    ;@       @         ,@ @,   ;@     `    `@     @        ;@@@@@.   
+                      +@@@@@@@@      ;@@@@@.   @ @:   ;@       @          @`@    ;@          `@     @        ;@@@@@.   
+                      +@@@@@@@@      ;@@@@@.   @ .@   ;@       @          ,@:    ;@          `@     @        ;@@@@@.   
+                      +@@@@@@@@      ;@@@@@.  +#  @   ;@       @@@@@@      @     ;@          `@     @@@@@@   ;@@@@@.   
+                      +@@@@@@@@      ;@@@@@.  @   @`  ;@       @          @+@    ;@          `@     @        ;@@@@@.   
+                      +@@@@@@@@      ;@@@@@.  @   '#  ;@       @          @ @    ;@          `@     @        ;@@@@@.   
+                      +@@@@@@@@      ;@@@@@. ,@@@@@@  ;@       @         @; :@   ;@     @    `@     @        ;@@@@@.   
+                      +@@@@@@@@      ;@@@@@. @:    @  ;@       @         @   @   ,@     @    `@     @        ;@@@@@.   
+                      +@@@@@@@@      ;@@@@@. @     @; ;@       @        @;   :@   @,   @'    `@     @        ;@@@@@.   
+                      +@@@@@L@@      ;@@@@@. @     .@ ;@@@@@@  @@@@@@@  @     @    @@@@#     `@     @        ;@@@@@.   
+                      +@@@@@@@@      ;@@@@@.                                                                 ;@@@@@.   
+                      +@@@@@@@@      ;@@@@@.                                                                 ;@@@@@.   
+                      +@@@@@@@@      ;@@@@@.                                                                 ;@@@@@.   
+                      +@@@@@@@@      ;@0@@@.                                                                 ;@@@@@.   
+                      +@@@@@@@@      ;@@@@@.                                                                 ;@@@@@.   
+                      +@@@@@@@@      ;@@@@@.                                                                 ;@@@@@.   
+                      +@@@@@@@@      ;@@@@@.                                                                 ;@@@@@.   
+                      +@@@@@@@@      ;@@@@@.                                                                 ;@@@@@.   
+                      +@@@@@@@@      ;@@@@@.                                                                 ;@@@@@.   
+                      +@@@@@@@@      ;@@@@@.                                                                 ;@@G@@.   
+                      +@@@@@@@@      ;@@@@@.                                                                 ;@@@@@.   
+                      +@@@@@@@@      ;@@@@@.             ..,:,..                                             ;@@@@@.   
+                      +@@@@@@@@      ;@@@@@.    `'@@@@@@@@@@@@@@@@@@@@:                                      ;@@@@@.   
+                      +@@@@@@@@      ;@@@@@.+@@@@@@@@@@@@@0@@@@@@@@@@@@@@@.                                  ;@@@_@.   
+                      +@@R@@@@@      ;@@@@0@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#                                ;@@C@@.   
+                      +@@@@@@@@      ;@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@`                            .@@@@@@.   
+                      +@@@@@@@@      ;@@@@@@@@@@@K@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@,                    `'@@@@@S@@@@.   
+                      +@@@@@@@@      ;@@@@@@@@@@@@@@@@@@+;;...;;+@@@@@@@@@@@@@@@@@@@@@@+:.    ..:+@@@@@@@@@@@@@@@@@.   
+                      +@@@@@@@@      ;@@@@@@@@@@#,                    '@@@@@}@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@.   
+                      +@@@@@@@@      ;@@@@@@;                            ;@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@.   
+                      +@@@@@@@@      ;@@#                                  `@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#      
+                      +@@@@@@@@      ,                                        ;@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@.         
+                      +@@@@@@@@                                                  `+@@@@@@@@@@@@@@@@@@@@#,              
+                      +@@@@@@@@                                                         .;'+++';.                      
+                      +@@@@@@@@                                                                                        
+                      +@@@@@@@@                                                                                        
+                      +@@@@@@@@                                                                                        
+                      +@@@@@@@@                                                                                        
+                      +@@@@@@@@                                                                                        
+                      +@@@@@@@@                                                                                        
+                      +@@@@@@@@                                                                                        
+                      +@@@@@@@@                                                                                        
+                      +@@@@@@@@                                                                                        
+                      +@@@@@@@@                                                                                        
+                      +@@@@@@@@                                                                                        
+                      +@@@@@@@@                                                                                        
+                      +@@@@@@@@                                                                                        
+                      +@@@@@@@@                                                                                        
+                      +@@@@@@@@                                                                                        
+                      +@@@@@@@@                                                                                        
+                      +@@@@@@@@                                                                                        
+                      +@@@@@@@@                                                                                        
+                      +@@@@@@@@                                                                                        
+                      +@@@@@@@@                                                                                        
+                      +@@@@@@@@                                                                                        
+                      +@@@@@@@@                                                                                        
+                      +@@@@@@@@                                                                                        
+                      +@@@@@@@@                                                                                        
+                      +@@@@@@@@                                                                                        
+                      +@@@@@@@@                                                                                        
+                      +@@@@@@@@                                                                                        
+                      +@@@@@@@@                                                                                        
+                      +@@@@@@@@                                                                                        
+                      +@@@@@@@@                                                                                        
+                      +@@@@@@@@                                                                                        
+                      +@@@@@@@@                                                                                        
+                      +@@@@@@@@                                                                                        
+   +++++++++++++++++++#@@@@@@@@+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++               
+   @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@               
+   @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@               
+   @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@               
+   @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@               
+   @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@               
+   @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@               
+   @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@               
+   @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@               
+   @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@               
+   @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@               
+   @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@               
+   @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@               
+```
+
+
+Flag was readable after removing all characters except those included in the flag itself. I've used simple RegExp for this (in TextEdit 'Find/Replace' option):
+
+```
+[^a-zA-Z0-9\{\}_]
+```
+
+Flag was only what's left:
+**ALEXCTF{0UR\_L0G0\_R0CKS}**

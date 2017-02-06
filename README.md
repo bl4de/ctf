@@ -2,6 +2,9 @@
 
 - [2015 Writeups](#2015)
 - [2016 Writeups](#2016)
+- [2017 Writeups](#2017)
+
+
 
 Writeups, tools, code snippets and notes from various CTF events I took part.
 
@@ -13,6 +16,13 @@ Simple Python script to calculate CTFtime.org ranking points from particular CTF
 https://ctftime.org/rating-formula/                 
 ~~https://github.com/ctftime/ctftime.org/issues/25~~ [FIXED]
 
+
+# 2017
+
+### AlexCTF 2017
+
+**Crypto, Scripting, Forensic, RE, Trivia challenges writeup from AlexCTF**                         
+https://github.com/bl4de/ctf/blob/master/2017/AlexCTF/alexctf_2017_challenges_writeups.md
 
 
 # 2016

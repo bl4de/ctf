@@ -77,4 +77,4 @@ Indeed, __Coldplay__ as username and __Paradise__ as password allows to get the 
 (assets/web1_2.png)
 
 
-Flag: __4f9361b0302d4c2f2eb1fc308587dfd6__
+Flag: __flag{4f9361b0302d4c2f2eb1fc308587dfd6}__

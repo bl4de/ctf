@@ -23,16 +23,16 @@ Also, in the HTML source, there was Base64 string hidden at the bottom of the pa
 
 Time to collect all the crumbs together:
 
-- Chris Martin is co-founder and a lead of Coldplay band
+- Chris Martin (from challenge description) is co-founder and a lead of Coldplay band
 - we have to help him to get home
-- there is some mismatch in host table and IP is logged
+- there is (probably) a table in database where hostname and IP are logged
 
 
 First, I've tried classic SQL Injection in login form. It did not work and nothing really changed. So I decided to focus on words from error message - __host__ and __IP__.
 
 Chris wanted to go home.
 
-And the home is...
+And as we know...
 
 ![web1]
 (assets/localhost.png)
@@ -66,11 +66,9 @@ Decoded Base64 string contains MD5 hash: 2b4b037fd1f30375e5cd871448b5b95c. When 
 ![web1]
 (assets/2b4b037fd1f30375e5cd871448b5b95c.png)
 
-(Yes, the first result was someone's question about this hash on security.stackexchange.com and it was someone playing HackIM actually :D )
+All results were just links to XML with list of songs. However, those links also contained reference to 'Coldplay - Paradise' album name. It just could not be accident.
 
-All other results were just links to XML with list of songs. However, those links also contained reference to 'Coldplay - Paradise' album name. It just could not be accident.
-
-Indeed, __Coldplay__ as username and __Paradise__ as password allows to get the flag and send Chris home:
+Indeed, __coldplay__ as username and __paradise__ as password allows to get the flag and send Chris home:
 
 
 ![web1]

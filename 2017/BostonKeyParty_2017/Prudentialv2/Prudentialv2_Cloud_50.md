@@ -7,7 +7,7 @@
 
 ## Solution
 
-When I get to provided IP in the browser, simple HTML form with two standard fields for username and password appeared. ```index.txt``` (see prudentialv2.txt in this repo) contains source code of both PHP and HTML part.
+Website contains simple HTML form with two standard fields for username and password. ```index.txt``` (see prudentialv2.txt in this repo) provides source code of both server PHP and client HTML part.
 
 
 ![Prudentialv2]
@@ -64,7 +64,7 @@ if (isset($_GET['name']) and isset($_GET['password'])) {
 
 Did you spot the difference?
 
-Both arguments passed via ```$_GET``` are now cast to ```string``` type and trick with ```Array``` did not work anymore (an array cast to string in PHP becomes a string 'Array' itself, so both values from 2015 solution were equal this time and 'Your password can not be your name' appears on the screen)
+Both arguments passed via ```$_GET``` are now cast to ```string``` type and trick with arrays did not work anymore (an array cast to string in PHP becomes a string ```Array``` itself, so both values from 2015 solution were equal this time and 'Your password can not be your name' appears on the screen)
 
 
 SHA1 collision revealed by Google on Thursday, 23rd of February 2017 seems to be correct solution. Something what could make this:
@@ -139,7 +139,7 @@ if (h == '73') {
 
 If you'll compare them, they differ. If you'll try to open them in the browser, you'll see two different images.
 
-But when you'll calculate their SHA1 checkums, you'll be surprised:
+But when you'll calculate their SHA1 checksums, you'll be surprised:
 
 ```
 bl4de:~/hacking/ctf/2017/BostonKeyParty_2017/Prudentialv2 $ shasum sha1_1.html
@@ -149,9 +149,7 @@ ba97502d759d58f91ed212d7c981e0cfdfb70eef  sha1_2.html
 bl4de:~/hacking/ctf/2017/BostonKeyParty_2017/Prudentialv2 $
 ```
 
-All I had to do was to create exploit, which used first file as value for ```name``` and second one as ```password```.
-
-Here's mine.
+All I had to do was to create exploit, which used the content of first file as value for ```name``` and second one as ```password```.
 
 
 ```Python
@@ -186,7 +184,7 @@ print resp.content
 
 ```
 
-I've run it and it was working like a charm:
+I've run it and it worked like a charm:
 
 
 ```
@@ -206,6 +204,10 @@ bl4de:~/hacking/ctf/2017/BostonKeyParty_2017/Prudentialv2 $ ./prudential.py
 Flag: FLAG{AfterThursdayWeHadToReduceThePointValue}
 bl4de:~/hacking/ctf/2017/BostonKeyParty_2017/Prudentialv2 $
 ```
+
+
+__FLAG{AfterThursdayWeHadToReduceThePointValue}__
+
 
 ## Links
 

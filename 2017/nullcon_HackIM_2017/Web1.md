@@ -13,11 +13,9 @@ We get simple page with login form.
 When I've tried to login, message about some strange error occured:
 
 ![web1](assets/web1_1.png)
-
 Also, in the HTML source, there was Base64 string hidden at the bottom of the page:
 
 ![web1](assets/web1_3.png)
-
 
 Time to collect all the crumbs together:
 
@@ -32,8 +30,7 @@ Chris wanted to go home.
 
 And as we know...
 
-![web1]
-(assets/localhost.png)
+![web1](assets/localhost.png)
 (source: https://images5.alphacoders.com/426/426359.png)
 
 :)
@@ -61,16 +58,13 @@ But still username and password was left to find.
 Decoded Base64 string contains MD5 hash: 2b4b037fd1f30375e5cd871448b5b95c. When I've tried to look for it in Google hoping it is already cracked password, the only thing I found was this:
 
 
-![web1]
-(assets/2b4b037fd1f30375e5cd871448b5b95c.png)
+![web1](assets/2b4b037fd1f30375e5cd871448b5b95c.png)
 
 All results were just links to XML with list of songs. However, those links also contained reference to 'Coldplay - Paradise' album name. It just could not be accident.
 
 Indeed, __coldplay__ as username and __paradise__ as password allows to get the flag and send Chris home:
 
 
-![web1]
-(assets/web1_2.png)
+![web1](assets/web1_2.png)
 
 
-Flag: __flag{4f9361b0302d4c2f2eb1fc308587dfd6}__

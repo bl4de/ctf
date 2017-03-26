@@ -14,12 +14,10 @@ http://54.152.19.210/web200/
 We get a website with register and login form.
 
 ![web2](assets/web2_1.png)
-
 After registering with username and password __stack:stack__ I logged in and saw the welcome screen:
 
 
-![web2]
-(assets/web2_2.png)
+![web2](assets/web2_2.png)
 
 There were two cookies set (__u__ and __r__). Their values starts from the same string (351e766803). I registered two other users and found that MD5 hashes of username and __limited__ string are added and saved as __u__ and __r__ cookie respectively (those stands for, probably, user and role)
 
@@ -41,9 +39,7 @@ where ```351e766803``` is shared part and ```21232f297a57a5a743894a0e4a801fc3```
 
 And it was the right solution:
 
-![web2]
-(assets/web2_3.png)
+![web2](assets/web2_3.png)
 
 Flag: __flag{bb6df1e39bd297a47ed0eeaea9cac7ee}__
-
 

@@ -16,7 +16,7 @@ When we enter challenge url, nice welcome screen appears
 
 
 ![Welcome]
-(assets/welcome.png)
+(../assets/welcome.png)
 
 We can send a message and when we did this - we get the page with hash allowing us to check message status:
 

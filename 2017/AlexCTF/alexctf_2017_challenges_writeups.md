@@ -19,8 +19,7 @@ We get ```gifted``` file contains ELF binary.
 
 Solution is trivial and rather has nothing in common with Reverse Engineering, I've just had to execute ```strings``` command and grep correct line:
 
-![gifted]
-(assets/gifted.png)
+![gifted](assets/gifted.png)
 
 The flag was:
 **AlexCTF{Y0u\_h4v3\_45t0n15h1ng\_futur3\_1n\_r3v3r5ing}**
@@ -75,8 +74,7 @@ print "\n\n[+] the flag is: ALEXCTF{TH15_1S_5UP3R_5ECR3T_TXT}"
 
 Output:
 
-![zero-one]
-(assets/zero-one.png)
+![zero-one](assets/zero-one.png)
 
 ## CR2: Many time secrets, 100pts (Crypto)
 
@@ -142,8 +140,7 @@ Dear Friend, Rkix<tgSr.^<Wnderstood my kjs}kkv`s<Wsed One time vbd+ynmLn~cuMn s
 bl4de:~/hacking/ctf/2017/AlexCTF/CR2 $ ;2B
 ```
 
-![zero-one]
-(assets/onetimepad.png)
+![zero-one](assets/onetimepad.png)
 
 When key length reached 13 characters, I realized other readable fragments, each one starts after another 13 random characters.
 
@@ -229,8 +226,7 @@ After connect to the server, there's welcome screen with some mathematical expre
 After first response, next expression is presented and so forth.
 It's clear that manual solution to this is not possible :), so some scripting has to be involved.
 
-![SC1]
-(assets/scripting1.png)
+![SC1](assets/scripting1.png)
 
 My solution contains simple expression parser, which extracts and calculates each presented Question and sends response back.
 

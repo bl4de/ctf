@@ -12,15 +12,13 @@ Service: https://0ldsk00lblog.ctf.internetwache.org/
 
 The page is a very simple static HTML:
 
-![Blog page]
-(0ldsk00lblog_01.png)
+![Blog page](0ldsk00lblog_01.png)
 
 
 No _robots.txt_, no _admin_, literally nothing :) But there's a mention about Git, so let's try path to _.git/logs/HEAD_ :
 
 
-![Blog page]
-(0ldsk00lblog_02.png)
+![Blog page](0ldsk00lblog_02.png)
 
 Bingo!
 
@@ -67,4 +65,3 @@ So the flag is:
 
 ```
 IW{G1T_1S_4W3SOME}
-```

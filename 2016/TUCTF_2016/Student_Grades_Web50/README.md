@@ -11,8 +11,7 @@ http://104.199.151.39/index.html
 
 We can see web application to check some user grades:
 
-![Student Grades]
-(assets/sg1.png)
+![Student Grades](assets/sg1.png)
 
 
 When username is entered and 'Check my grades' pressed, little JavaScript code is executed sending AJAX request after some additional data manipulation:
@@ -40,15 +39,13 @@ document.getElementById('submit').addEventListener('click',
                       
 After quick investigation of response, there's SQL query in the comment:
 
-![Student Grades]
-(assets/sg3.png)
+![Student Grades](assets/sg3.png)
                       
                       
 There's obvious SQL Injection flaw in this query (no data sanitization, used LIKE '%' and so on).
 
 
-![Student Grades]
-(assets/sg2.png)
+![Student Grades](assets/sg2.png)
 
 
 I've created simple script to generate payloads and prepare them using formula find in JavaScript code above:
@@ -121,4 +118,3 @@ Flag:
 ```
 TUCTF{v4ccinate_y0ur_databa5e5}
 ```
-

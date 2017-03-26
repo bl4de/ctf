@@ -9,16 +9,14 @@ http://web.chal.csaw.io:8000/
 
 We get simple website, build with PHP, Bootstrap and with Git. Url looks vulnerable for Local File Include and Directory Traversal, but couple of standards payloads returned only "Detected hacking attempt!" or "That file doesn't exist!" messages.  
 
-![Screen caption]
-(assets/mfw2.png)
+![Screen caption](assets/mfw2.png)
 
 
 ### Digging into .git folder
 
 Abandoned, readable .git folder is a gold mine. Access to one in this challenge wasn't restricted in any way, I could easily navigate through all folders and files using web browser:
 
-![Git]
-(assets/mfw3.png)
+![Git](assets/mfw3.png)
 
 But I wanted source code to find out the way to exploit LFI or Directory Traversal, so with little help of my own tool, **diggit** (https://github.com/bl4de/security-tools/tree/master/diggit) I downloaded sources:
 
@@ -26,8 +24,7 @@ But I wanted source code to find out the way to exploit LFI or Directory Travers
 $ ./diggit.py -u http://web.chal.csaw.io:8000/ -t /Users/bl4de/hacking/ctf/2016/CSAW_CTF_2016/mfw -r true -o 7a0a66bbc50a8fdb83909b79c328bff4596f71ed
 ```
 
-![diggit in action]
-(assets/mfw6.png)
+![diggit in action](assets/mfw6.png)
 
 I checked the file ```flag.php``` (I found commented link to it earlier, when I was checking HTML source of website), but it does not contain anything interesting, except comment ```//TODO``` - and that was crucial information to find the solution of this challenge, but more on this later:
 
@@ -148,14 +145,12 @@ If you are able to display such output, use option 'View source' in your browser
 
 Here's an output from previous payload directly in the browser tab (interpreted as regular HTML, which is very hard to read, not what we want to see):
 
-![command as HTML]
-(assets/output1.png)
+![command as HTML](assets/output1.png)
 
 
 And here's how it looks like when 'View source' option is used instead:
 
-![command as HTML]
-(assets/output2.png)
+![command as HTML](assets/output2.png)
 
 --
 
@@ -180,8 +175,7 @@ Bingo!
 
 
 
-![git status]
-(assets/mfw7.png)
+![git status](assets/mfw7.png)
 
 ```flag.php``` was modified, but no changes were added to commit and commited, so file I've downloaded earlier didn't contain newest changes.
 
@@ -194,8 +188,7 @@ view-source:http://web.chal.csaw.io:8000/?page='.system("cd /var/www/html/;git d
 
 And here we are:
 
-![Flag]
-(assets/mfw5.png)
+![Flag](assets/mfw5.png)
 
 
 The flag:
@@ -204,8 +197,7 @@ The flag:
 <?php $FLAG="flag{3vald_@ss3rt_1s_best_a$$ert}"; ?>
 ```
 
-![git diff FTW!!!]
-(assets/gitdiff.png)
+![git diff FTW!!!](assets/gitdiff.png)
 
 --
 
@@ -213,4 +205,3 @@ I had a lot of fun with this challenge, even if it was relatively simple. It con
 
 Thanks to CSAW Team for great CTF this year!
 
-Looking forward for CSAW CTF 2017 :)

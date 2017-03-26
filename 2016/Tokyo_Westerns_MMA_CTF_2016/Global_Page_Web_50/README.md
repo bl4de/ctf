@@ -9,13 +9,11 @@ url: http://globalpage.chal.ctf.westerns.tokyo/
 
 GlobalPage welcomes us with a very short list of available links:
 
-![Global Page]
-(1.png)
+![Global Page](1.png)
 
 After clicking one of them , we've got a list of PHP warnings from _include()_ function:
 
-![Warnings]
-(2.png)
+![Warnings](2.png)
 
 What's most interesting here, a lot of them starting from language identifiers, like _pl_, _pl-PL_, _en-US_ and similar.
 
@@ -66,15 +64,13 @@ include(ctf/php://filter/convert.base64-encode/resource=flag.php): failed to ope
 on line <b>41</b><br />
 ```
 
-![Include error]
-(3.png)
+![Include error](3.png)
 
 The solution was quite simple, but I've spent some time before I get it right.
 Application put _page_ parameter from URL as directory name. So using _php:/_ as directory name allowed me to build valid _php://filter_ command:
 
 
-![Flag]
-(4.png)
+![Flag](4.png)
 
 The flag.php in Base64:
 
@@ -88,5 +84,4 @@ And in plain text:
 <?php
 $flag = "TWCTF{I_found_simple_LFI}";
 ```
-
 

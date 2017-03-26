@@ -9,8 +9,7 @@ Wallowing Wallabies provides enterprise contract management - we'd like to find 
 
 We've got web page with no visible navigation or form except Home page:
 
-![Wallowing Wallabies]
-(assets/1.png)
+![Wallowing Wallabies](assets/1.png)
 
 Quick look at _robots.txt_ reveals some hidden content:
 
@@ -30,8 +29,7 @@ Disallow: /deep-blue-sea/team/vendors
 
 Web page at _/deep-blue-sea/team/vendors_ contains form with two fields:
 
-![Wallowing Wallabies]
-(assets/2.png)
+![Wallowing Wallabies](assets/2.png)
 
 Text field was vulnerable to XSS and allows to put payload with simple JavaScript to steal cookie:
 
@@ -63,11 +61,8 @@ After a couple of minutes someone "read" message and _cookies.txt_ file on _swor
 green-mountains=eyJub25jZSI6ImUxNjgwMjcyYTcxNDE3MjMiLCJhbGxvd2VkIjoiXi9kZWVwLWJsdWUtc2VhL3RlYW0vdmVuZG9ycy4qJCIsImV4cGlyeSI6MTQ2MjAzMTg2OH0=|1462031865|d985a99f12846cd73da3b9b01b3b921fd15512e3
 ```
 
-![Wallowing Wallabies]
-(assets/3.png)
+![Wallowing Wallabies](assets/3.png)
 
 Refresh of Wallowing Wallabies page with stolen cookie revealed the flag:
 
-![Wallowing Wallabies]
-(assets/4.png)
-
+![Wallowing Wallabies](assets/4.png)

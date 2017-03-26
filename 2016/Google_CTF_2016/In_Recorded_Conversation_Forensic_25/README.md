@@ -27,4 +27,3 @@ And we can simply collect fragments of the flag:
 
 ```
 CTF{some_leaks_are_good_leaks_}
-```

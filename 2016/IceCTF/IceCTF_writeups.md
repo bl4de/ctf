@@ -52,8 +52,7 @@ $ ./diggit.py -u http://exposed.vuln.icec.tf -t /Users/bl4de/hacking/ctf/2016/Ic
 
 And here it is:
 
-![Code]
-(assets/web60.png)
+![Code](assets/web60.png)
 
 --
 ### Miners (Web, 65pts)
@@ -101,8 +100,7 @@ So executed query was:
 
 This query returned exactly one row, so I got the flag:
 
-![Code]
-(assets/web65.png)
+![Code](assets/web65.png)
 
 --
 ### Scavenger Hunt (Misc, 50pts)
@@ -116,8 +114,7 @@ I've started from looking at the source code in Chrome DevTools, but after a whi
 
 Quick search for _"IceCTF{"_ revealed flag hidden in _alt_ attribute of one of the &lt;img> tag in _sponsors.html_ file:
 
-![Code]
-(assets/misc50.png)
+![Code](assets/misc50.png)
 
 Link to file: https://github.com/IceCTF/ctf-landing/blob/2ec1023adfc64daf69a74a89ebc34bb2a19842ef/icectf/templates/sponsors.html
 
@@ -136,8 +133,7 @@ We got Linux ELF executable file and there's a flag hidden somewhere.
 
 _strings_ does not return anything interesting, so I decided to take a look at the source code in Hopper Disassembler. As Reverse Engineering is not my very strong side, I was trying to find something obvious, and I was lucky:
 
-![Code]
-(assets/re45.png)
+![Code](assets/re45.png)
 
 There's a list of _mov al, 0xXX_ instructions, obviously contains  flag character by character (all flags start from 'IceCTF', so I assumed that this had to be flag as values are from ASCII codes for  a-z, A-Z, { and } ). Simple Python script allows me to get the right solution:
 
@@ -189,5 +185,4 @@ IceCTF{look_mom_I_found_it}
 ```
 
 --
-
 

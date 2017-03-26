@@ -11,13 +11,11 @@ http://130.211.242.26:31337
 
 We get simple web application, where we can register user and generate something called "Duck print" (hash calculated from couple of values). There's also validation of "Duck print", but only admin user is allowed.
 
-![Duckprint]
-(assets/dp2.png)
+![Duckprint](assets/dp2.png)
 
 After registering a user, Duck print is generated with some additional factors (cookie in format {username:username,admin:0}  and token):
 
-![Duckprint]
-(assets/dp3.png)
+![Duckprint](assets/dp3.png)
 
 Also, in _generate.php_ source code there's a comment with SQL query, where we can find easy to exploit SQL Injection flaw ($username is used without any sanitization):
 
@@ -36,8 +34,7 @@ admin' or 1=1--
 
 Result:
 
-![Duckprint]
-(assets/dp1.png)
+![Duckprint](assets/dp1.png)
 
 
 First one looks very interesting as it's only one with admin flag set to '1':
@@ -93,5 +90,4 @@ and get the flag:
 
 TUCTF{Quacky_McQuackerface}
 
-![Duckprint]
-(assets/dp4.png)
+![Duckprint](assets/dp4.png)

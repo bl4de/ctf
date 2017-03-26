@@ -46,4 +46,3 @@ Password is valid for _flag.zip_ and we can get _flag.txt_ file with the flag:
 
 ```
 IW{HTTP_BASIC_AUTH_IS_EASY}
-```

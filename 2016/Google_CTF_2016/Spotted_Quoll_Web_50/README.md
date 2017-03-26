@@ -9,16 +9,14 @@ This blog on Zombie research looks like it might be interesting - can you break 
 
 We get web page with quite simple interface:
 
-![Spotted Quoll]
-(assets/1.png)
+![Spotted Quoll](assets/1.png)
 
 We have no access to _Admin_
 
 
 Quick look at request headers shows Cookie header contains long Base64 string:
 
-![Spotted Quoll]
-(assets/2.png)
+![Spotted Quoll](assets/2.png)
 
 String contains Python Pickle module object.
 
@@ -46,4 +44,3 @@ c2 = base64.b64encode(cPickle.dumps(n))
 ```
 
 Simple change of _obsoletePickle_ cookie allows us to access Admin and read the flag.
-

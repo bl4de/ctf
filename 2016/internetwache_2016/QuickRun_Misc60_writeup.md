@@ -46,4 +46,3 @@ Finally I've get the flag:
 IW{QR_C0DES_RUL3}
 ```
 
-

@@ -38,11 +38,11 @@ First, I've tried some obvious injections (', ", [] and so on) and parameters ma
 
 ```Worker.pm``` looks like Perl script, so I've tried couple of classic Bash injections, but after some time I've realized it wasn't the right exploitation vector. So I've moved to the form.
 
-After several tries and fails, I found ```email``` field was vulnerable for injection. I've created simple injection string (still tried to exploit Bash injection):
+After several tries and fails, I found ```email``` field was vulnerable for injection. I've created simple injection string (again started to exploit Bash injection):
 
 ![Error](assets/email_field.png)
 
-But when I've seen response, I realized that Bash injection was dead end :)
+But when I saw response, I've realized that Bash injection was dead end :)
 
 ![Error](assets/pgsqli2.png)
 
@@ -57,13 +57,13 @@ It was ```PostgreSQL``` SQL injection, with quite verbose error message, so...
 
 
 
-First, I needed to figure out, what the flow of queries was.
+Now I needed to figure out, what the flow of queries was.
 
-First query selected email, name and message passed from the form and id and hash generated for the url to check message status. I could add UNION query, but error ocurred that number of columns differs:
+First query selected email, name and message passed from the form and id and hash generated for the url to check message status. I could add UNION query, but error occurred that number of columns differs:
 
 ![Error](assets/pgsqli1.png)
 
-Ok, there's some empty string selected in the first query. Trying to fill this column with something, I send following payload (I've used __user__ PostgreSQL function as the last column value, which should returns username of the current database):
+Ok, there's some empty string appeared as the last value in the first query. Trying to fill this column with something, I send following payload (I've used __user__ PostgreSQL function as the last column value, which should returns username of the current database):
 
 ![Error](assets/pgsqli3.png)
 
@@ -72,7 +72,8 @@ Wow, no error this time! And I get link to check status of the message. I get to
 ![Error](assets/pgsqli4.png)
 
 Bingo!
-So the last column was the string describing message status. 
+
+So the last column was the string describing message status. And it was by default ```not processed``` inserted in second query - and now I could modify its value into something useful.
 
 With some help of awesome __pentestmonkey__ PosgreSQL SQL Injection cheat sheet (http://pentestmonkey.net/cheat-sheet/sql-injection/postgres-sql-injection-cheat-sheet) I've started to extract all pieces I needed to successfully exploit the challenge and get the flag. 
 

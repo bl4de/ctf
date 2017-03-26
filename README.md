@@ -19,6 +19,13 @@ https://ctftime.org/rating-formula/
 
 # 2017
 
+### Volga 2017 Quals
+
+**Bloody Feedback**
+https://github.com/bl4de/ctf/blob/master/2017/Volga2017_CTF_Quals/Bloody_Feedback_Web_100/Bloody_Feedback_Web_100.md
+
+--
+
 ### Boston Key Party 2017
 
 **Prudentialv2**            

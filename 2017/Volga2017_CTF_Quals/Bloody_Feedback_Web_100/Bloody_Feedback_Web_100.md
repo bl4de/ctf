@@ -93,9 +93,7 @@ FROM information_schema.tables WHERE table_catalog LIKE 'feedback_db' LIMIT 1 OF
 
 ```
 
-I was lucky enough to get correct table name with first try, which was ```public.s3cret_tabl3```:
-
-![Error](assets/secret_table.png)
+I was lucky enough to get correct table name with first try, which was ```public.s3cret_tabl3```.
 
 Now, time for column names:
 
@@ -104,7 +102,16 @@ name=stack&email=', (SELECT table_name || '.' || column_name
 FROM information_schema.columns WHERE table_catalog LIKE 'feedback_db' LIMIT 1 OFFSET 6))-- &message=gimmieflag
 ```
 
-And the result was ```s3cret_tabl3.s3cr3tc0lumn```. I've used ```OFFSET 6``` here, because first five results were columns from table where messages where stored (I'm pretty sure there is in PostgreSQL something like ```group_concat``` in MySQL, but setting valid limit offset worked for me well).
+
+
+The result was ```s3cret_tabl3.s3cr3tc0lumn```. I've used ```OFFSET 6``` here, because first five results were columns from table where messages where stored (I'm pretty sure there is in PostgreSQL something like ```group_concat``` in MySQL, but setting valid limit offset worked for me well).
+
+
+
+![Error](assets/secret_table.png)
+
+
+
 
 The last phase was to get the flag from revealed table. First three results did not contain the flag, but fourth one did:
 

@@ -12,13 +12,11 @@ We get simple page with login form.
 
 When I've tried to login, message about some strange error occured:
 
-![web1]
-(assets/web1_1.png)
+![web1](assets/web1_1.png)
 
 Also, in the HTML source, there was Base64 string hidden at the bottom of the page:
 
-![web1]
-(assets/web1_3.png)
+![web1](assets/web1_3.png)
 
 
 Time to collect all the crumbs together:

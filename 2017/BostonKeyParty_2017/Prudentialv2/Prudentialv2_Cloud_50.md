@@ -2,16 +2,14 @@
 
 ## Problem
 
-![challenge]
-(challenge.png)
+![challenge](challenge.png)
 
 ## Solution
 
 Website contains simple HTML form with two standard fields for username and password. ```index.txt``` (see prudentialv2.txt in this repo) provides source code of both server PHP and client HTML part.
 
 
-![Prudentialv2]
-(prudentialv2.png)
+![Prudentialv2](prudentialv2.png)
 
 
 It was kinda 'déjà vu' for me. As description mentioned __Prudential__ challenge from two years earlier, I immediately went to my CTF writeups repository and found this one (Boston Key Party 2015):
@@ -76,8 +74,7 @@ sha1($name) === sha1($password)
 to return __true__.
 
 
-![SHA1 warning :)]
-(sha1.jpg)
+![SHA1 warning :)](sha1.jpg)
 
 ## SHA1 collision in practice
 
@@ -215,4 +212,3 @@ __FLAG{AfterThursdayWeHadToReduceThePointValue}__
 
 https://security.googleblog.com/2017/02/announcing-first-sha1-collision.html					
 https://shattered.io					
-https://shattered.io/static/shattered.pdf

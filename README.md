@@ -24,14 +24,14 @@ https://ctftime.org/rating-formula/
 **Bloody Feedback**
 https://github.com/bl4de/ctf/blob/master/2017/Volga2017_CTF_Quals/Bloody_Feedback_Web_100/Bloody_Feedback_Web_100.md
 
----
+
 
 ### Boston Key Party 2017
 
 **Prudentialv2**            
 https://github.com/bl4de/ctf/blob/master/2017/BostonKeyParty_2017/Prudentialv2/Prudentialv2_Cloud_50.md
 
----
+
 
 ### nullcon HackIM 2017
 
@@ -41,7 +41,7 @@ https://github.com/bl4de/ctf/blob/master/2017/nullcon_HackIM_2017/Web1.md
 **Web2**                  
 https://github.com/bl4de/ctf/blob/master/2017/nullcon_HackIM_2017/Web2.md
 
----
+
 
 ### AlexCTF 2017
 
@@ -56,7 +56,7 @@ https://github.com/bl4de/ctf/blob/master/2017/AlexCTF/alexctf_2017_challenges_wr
 **Sanders Fan Club**                        
 https://github.com/bl4de/ctf/blob/master/2016/HackTheVote_2016/Web100_Indiana/Sanders_Fan_Club_Web100.md
 
----
+
 
 ### CSAW CTF Qualification Round 2016
 
@@ -66,14 +66,14 @@ https://github.com/bl4de/ctf/blob/master/2016/CSAW_CTF_2016/mfw/mfw_web125.md
 **kill, Forensic 50**                     
 https://github.com/bl4de/ctf/tree/master/2016/CSAW_CTF_2016/kill
 
----
+
 
 ### Tokyo Westerns / MMA CTF 2016 
 
 **Global Site, Web 50**               
 https://github.com/bl4de/ctf/tree/master/2016/Tokyo_Westerns_MMA_CTF_2016/Global_Page_Web_50
 
----
+
 
 ### IceCTF 2016
 
@@ -83,7 +83,7 @@ https://github.com/bl4de/ctf/tree/master/2016/Tokyo_Westerns_MMA_CTF_2016/Global
 **Hidden in Plain Sight, RE 45**    
 https://github.com/bl4de/ctf/blob/master/2016/IceCTF/IceCTF_writeups.md
 
----
+
 
 ###  TU CTF 2016
 
@@ -93,7 +93,7 @@ https://github.com/bl4de/ctf/tree/master/2016/TUCTF_2016/Duck_Print_Web100
 **Student Grades, Web 50**                        
 https://github.com/bl4de/ctf/tree/master/2016/TUCTF_2016/Student_Grades_Web50
 
----
+
 
 ###  Google Capture The Flag 2016
 
@@ -109,7 +109,7 @@ https://github.com/bl4de/ctf/tree/master/2016/Google_CTF_2016/Spotted_Quoll_Web_
 **Wallowing Wallabies, Web 25**  
 https://github.com/bl4de/ctf/tree/master/2016/Google_CTF_2016/Wallowing_Wallabies_Web_25
 
----
+
 
 ### internetwache 2016 CTF
 
@@ -122,14 +122,14 @@ https://github.com/bl4de/ctf/blob/master/2016/internetwache_2016/QuickRun_Misc60
 **Rock With The Shark, Misc 70**
 https://github.com/bl4de/ctf/blob/master/2016/internetwache_2016/RockWithTheShark_Misc70_writeup.md
 
----
+
 
 ### nullcon HackIM 2016 CTF
 
 **Unicle, Web 200**           
 https://github.com/bl4de/ctf/blob/master/2016/HackIM_2016/Unicle_Web200/Unicle_Web200_writeup.md
 
----
+
 
 # 2015
 
@@ -141,35 +141,35 @@ https://github.com/bl4de/ctf/blob/master/2015/Ekoparty_CTF_2015/Scytcrypto_Crypt
 **XOR Crypter, Crypto 200**
 https://github.com/bl4de/ctf/blob/master/2015/Ekoparty_CTF_2015/XOR_Crypter_Crypto200.md
 
----
+
 
 ### Hack.lu CTF 2015
 
 **Module Loader, Web 100**
 https://github.com/bl4de/ctf/blob/master/2015/HACK.LU_CTF_2015/Module_Loader_Web100_writeup.md
 
----
+
 
 ### ASIS CTF Finals 2015
 
 **Biglie, Forensic 100**            
 https://github.com/bl4de/ctf/blob/master/2015/ASIS_CTF_2015/Biglie_Forensic_100_writeup.md
 
----
+
 
 ### CSAW CTF Qualification Round 2015
 
 **Lawn Care Simulator, Web 200**
 https://github.com/bl4de/ctf/blob/master/2015/CSAW_CTF_2015/LawnCareimulator_Web200_writeup.md
 
----
+
 
 ### MMA CTF 2015
 
 **Uploader, Web 100**         
 https://github.com/bl4de/ctf/blob/master/2015/MMACTF_2015/Uploader_Web100.md
 
----
+
 
 ### Boston Key Party 2015
 

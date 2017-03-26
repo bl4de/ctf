@@ -13,8 +13,7 @@ http://54.152.19.210/web200/
 
 We get a website with register and login form.
 
-![web2]
-(assets/web2_1.png)
+![web2](assets/web2_1.png)
 
 After registering with username and password __stack:stack__ I logged in and saw the welcome screen:
 

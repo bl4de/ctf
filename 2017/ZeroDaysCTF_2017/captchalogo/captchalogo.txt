@@ -1,0 +1,65 @@
+rt 150
+fd 80
+lt 120
+fd 80
+bk 180
+pu
+fd 180
+rt 60
+fd 200
+pd
+bk 100
+rt 90
+rt 90
+repeat 180 [fd 1 rt 1]
+fd 100
+pu
+fd 600
+pd
+rt 90
+fd 200
+bk 100
+rt 90
+fd 250
+pu
+rt 90
+bk 200
+pd
+rt 45
+fd 225
+pu
+lt 135
+fd 150
+pd
+lt 135
+fd 225
+pu
+lt 135
+fd 150
+pd
+rt 90
+fd 100
+rt 135
+fd 150
+lt 135
+fd 100
+pu
+lt 135
+fd 350
+pd
+rt 150
+fd 150
+lt 120
+fd 150
+pu
+lt 135
+bk 50
+pd
+rt 150
+fd 150
+lt 120
+fd 80
+rt 120
+fd 80
+lt 120
+fd 150

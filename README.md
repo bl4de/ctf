@@ -21,21 +21,21 @@ https://ctftime.org/rating-formula/
 
 ### PlaidCTF 2017
 
-**zipper**                                                    
+**zipper, Misc 50**                                                    
 https://github.com/bl4de/ctf/blob/master/2017/PlaidCTF_2017/zipper/zipper.md
 
 
 
 ### Volga 2017 Quals
 
-**Bloody Feedback**
+**Bloody Feedback, Web 100**
 https://github.com/bl4de/ctf/blob/master/2017/Volga2017_CTF_Quals/Bloody_Feedback_Web_100/Bloody_Feedback_Web_100.md
 
 
 
 ### Boston Key Party 2017
 
-**Prudentialv2**            
+**Prudentialv2, Cloud 50**            
 https://github.com/bl4de/ctf/blob/master/2017/BostonKeyParty_2017/Prudentialv2/Prudentialv2_Cloud_50.md
 
 
@@ -60,7 +60,7 @@ https://github.com/bl4de/ctf/blob/master/2017/AlexCTF/alexctf_2017_challenges_wr
 
 ### Hack The Vote 2016 CTF
 
-**Sanders Fan Club**                        
+**Sanders Fan Club, Web 100**                        
 https://github.com/bl4de/ctf/blob/master/2016/HackTheVote_2016/Web100_Indiana/Sanders_Fan_Club_Web100.md
 
 

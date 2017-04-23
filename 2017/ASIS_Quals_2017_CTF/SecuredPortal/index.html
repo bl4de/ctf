@@ -1,0 +1,47 @@
+<form>
+    username: <input type="text" id="inputUsername">
+    <br /> password: <input type="text" id="inputPassword">
+
+    <input type="button" id="login" value="Login" />
+</form>
+<script>
+
+
+    $(document).ready(function () {
+
+        $("#login").click(function (event) {
+            event.preventDefault();
+
+            var username = $("#inputUsername").val();
+            var password = $("#inputPassword").val();
+
+            var loginString = btoa(username + ':' + password);
+            console.log(loginString);
+
+            $.get('/authentication/login/' + loginString, function (data) {
+
+                console.log(data);
+
+                var loginString = readCookie('loginString');
+
+                console.log(loginString);
+                if (typeof loginString == 'undefined') {
+                    console.log("ERROR")
+                    $("#showResult").remove();
+                    $("#result").append('<div id="showResult"></div>');
+                    $("#showResult").addClass('alert').addClass('alert-danger').html('Invalid credentials have been given.');
+                } else {
+                    console.log('SUCCESS')
+                    $("#showResult").remove();
+                    $("#result").append('<div id="showResult"></div>');
+                    $("#showResult").addClass('alert').addClass('alert-success').html('Login success, please wait until you are being redirected to the panel');
+
+                    debugger
+                    setTimeout(function () { 
+                        window.location = '/panel/index?auth=' + decodeURI(loginString); 
+                    }, 3000);
+                }
+            });
+        });
+    })
+</script>

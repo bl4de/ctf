@@ -1,4 +1,4 @@
-# "Golem is stupid!", Web (no fixed points)
+# "Golem is stupid!", Web 41pts
 
 ## Problem
 

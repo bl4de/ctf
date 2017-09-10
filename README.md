@@ -22,7 +22,7 @@ https://ctftime.org/rating-formula/
 ### ASIS CTF 2017
 
 
-**Golem, Web**                                              
+**Golem is Stupid!, Web 41**                                              
 https://github.com/bl4de/ctf/blob/master/2017/ASIS_CTF_2017/Golem/Golem_Web_writeup.md
 
 

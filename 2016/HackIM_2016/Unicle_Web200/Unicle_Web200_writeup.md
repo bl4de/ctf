@@ -120,6 +120,9 @@ I've spent a lot of time on this task, because I had no experience with web appl
 
 ## Links
 
+Explaining and exploiting deserialization vulnerability with Python       
+https://dan.lousqui.fr/explaining-and-exploiting-deserialization-vulnerability-with-python-en.html            
+
 Exploiting Misuse of Python's "Pickle"          
 https://blog.nelhage.com/2011/03/exploiting-pickle/
 

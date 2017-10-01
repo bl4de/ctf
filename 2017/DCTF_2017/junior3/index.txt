@@ -1,0 +1,27 @@
+Hi man!
+
+This is your flag!
+
+DCTF{474dac08d29d013515a312d1a8460050634f9b3cb6a696a4c73652d1802a1872}
+
+You could do that as:
+buf = ""
+g = open("lock.iso", "r")
+buf += g.read()
+print buf
+buf = buf.encode('hex')
+print buf
+n = 7 * 32
+buf = buf[n:]
+n = 31 * 32
+n = n + 8
+buf = buf[:n]
+print buf
+buf = buf.decode('hex')
+print buf
+f = open("sol.zip", "w")
+f.write(buf)
+f.close()
+g.close()
+
+Or my simple you could change the extension.

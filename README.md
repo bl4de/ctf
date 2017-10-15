@@ -5,19 +5,15 @@
 - [2017 Writeups](#2017)
 
 
-
-Writeups, tools, code snippets and notes from various CTF events I took part.
-
-### CTFtime.org ranking points calculator
-
-https://github.com/bl4de/ctf/blob/master/calculatePoints.py         
-
-Simple Python script to calculate CTFtime.org ranking points from particular CTF event points based on formula from
-https://ctftime.org/rating-formula/                 
-~~https://github.com/ctftime/ctftime.org/issues/25~~ [FIXED]
-
-
 # 2017
+
+
+### Hack Dat Kiwi CTF 2017
+
+
+**MD5 Games, Web 50**                                                                         
+https://github.com/bl4de/ctf/blob/master/2017/HackDatKiwi_CTF_2017/md5games1/md5games1.md
+
 
 ### ASIS CTF 2017
 
@@ -201,4 +197,19 @@ https://github.com/bl4de/ctf/blob/master/2015/BostonKeyPartyCTF_2015/Prudential.
 
 **Symphony, Web 25**          
 https://github.com/bl4de/ctf/blob/master/2015/BostonKeyPartyCTF_2015/Symphony.md
+
+
+
+
+
+Writeups, tools, code snippets and notes from various CTF events I took part.
+
+### CTFtime.org ranking points calculator
+
+https://github.com/bl4de/ctf/blob/master/calculatePoints.py         
+
+Simple Python script to calculate CTFtime.org ranking points from particular CTF event points based on formula from
+https://ctftime.org/rating-formula/                 
+~~https://github.com/ctftime/ctftime.org/issues/25~~ [FIXED]
+
 

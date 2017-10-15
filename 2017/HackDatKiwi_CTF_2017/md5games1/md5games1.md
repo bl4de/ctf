@@ -37,7 +37,7 @@ if (isset($_GET['md5']))
 <a href='?src'>Source Code</a>
 ```
 
-The only way we can get the flag is to pass string, which MD5 hash is exact the same as the string itself. Because such string does not exists (or I don't know it) we have to find another solution.
+The only way we can get the flag is to pass string, which MD5 hash is exact the same as the string itself. Because such string does not exists (or I don't know one) we have to find another solution.
 
 The only way to solve this challenge is to exploit PHP type juggling (as ```$md5``` is compared with ```md5($md5)``` with ```==``` instead of strict comparision operator ```===```).
 
@@ -129,6 +129,6 @@ When I run it, after couple of minutes and __almost 216 millions__ of iterations
 bl4de:~/hacking/ctf/2017/HackDatKiwi_CTF_2017 $
 ```
 
-I've just put __0e215962017__ into the form and:
+I've put __0e215962017__ into the form and:
 
 ![Screen caption](md51_002.png)

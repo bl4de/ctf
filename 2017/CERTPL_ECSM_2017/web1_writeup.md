@@ -29,12 +29,12 @@ Challenges description are available only in Polish, if you want me to help you 
 
 When we get into http://ecsm2017.cert.pl:6044/index.php/home, we can see state-of-the-art North Korean website. The content of information is not that important (you can use Google Translate ofc if you are curious):
 
-![screen](Web1/screen1.png)
+![screen](web1/screen1.png)
 
 There is only one link, which leads to another page:
 
 
-![screen](Web1/screen2.png)
+![screen](web1/screen2.png)
 
 And that's pretty all. Now we can start to look for any vulnerabiliites, which will allow us to solve the challenge.
 
@@ -53,7 +53,7 @@ If we take a look at source code of main page, we can spot how links are built (
 
 When instead of ```home``` or ```instructions``` we put not existing page, we immediately get PHP error that file is not found:
 
-![screen](Web1/2.png)
+![screen](web1/2.png)
 
 Important thing here is that we put ```abcd``` in address bar, however application tried to load ```abcd.php``` file. That means ```.php``` extension is added by application and we only need to put file name to try include arbitrary file.
 
@@ -66,7 +66,7 @@ http://ecsm2017.cert.pl:6044/index.php/php://filter/convert.base64-encode/resour
 
 And here we are, source code encoded with Base64:
 
-![screen](Web1/3.png)
+![screen](web1/3.png)
 
 
 Now, we can investigate source code of ```instructions.php``` (after decoding it from Base64):
@@ -130,7 +130,7 @@ if(ip_in_range($ip, '175.45.176.0', '175.45.179.255') ||
 ?>
 ```
 
-That looks complicated. We have several steps, where we have to meet conditions like IP used to connect has to be from valid IP ranges, we need to use HTTP Basic authorization (we need to know username and password). Ok, let's get through the code step by step and see how we can bypass those.
+That looks complicated. We have several steps, where we have to meet conditions like IP used to connect has to be from valid IP ranges, we need to use HTTP Basic authorization (we need to know username and password). Ok, let's get through the code steop by step and see how we can bypass those.
 
 
 ### Abusing IP address verification
@@ -157,8 +157,7 @@ Application uses various HTTP request headers to determine an IP address. We can
 We can use ```curl``` for this:
 
 ```
-$ curl --verbose --user-agent "hackerone.com/bl4de" 
---header "X-Forwarded-For: 175.45.176.100" http://ecsm2017.cert.pl:6044/index.php/instructions
+$ curl --verbose --user-agent "hackerone.com/bl4de" --header "X-Forwarded-For: 175.45.176.100" http://ecsm2017.cert.pl:6044/index.php/instructions
 
 *   Trying 136.243.148.95...
 * TCP_NODELAY set
@@ -704,7 +703,7 @@ $ curl --verbose --user-agent "hackerone.com/bl4de" --header "X-Forwarded-For: 1
 
 And here we are: 
 
-![screen](Web1/6.png)
+![screen](web1/6.png)
 
 
 The flag: __ecsm{cyber.szpiegostwo}__ (Eng: 'cyber.spying')

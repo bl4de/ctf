@@ -527,7 +527,7 @@ This query will return result contains username and password, which satisfy all 
 
 ```
 
-Ok, so ```{$row['message']}``` contains final solution. But it's empty. And it's empty, because even if we successfuly expolited all vulnerabilities, we still need __existing__ username, because only then we get real results from this fragment:
+Ok, so ```{$row['message']}``` contains final solution. But it's empty. And it's empty, because even if we successfuly exploited all vulnerabilities, we still need __existing__ username, because only then we get real results from this fragment:
 
 ```php
 $result = $db->query("select message from instructions where login = '{$data[0]['login']}'");
@@ -639,7 +639,7 @@ body { background-color: #AA0000; color: white; font-size: 300%;}
 
 This time we get ```HTTP/1.0 401 Unauthorized``` response, so our injected query is false. ```Korg``` is not a valid username.
 
-Ok, now when we know how to distinct between valid and invalid queries, let's start username extraction. To do this, I've prepared simple Python expolit, which iterates over character set and build username when request with character used in query returns ```200 OK``` HTTP response:
+Ok, now when we know how to distinct between valid and invalid queries, let's start username extraction. To do this, I've prepared simple Python exploit, which iterates over character set and build username when request with character used in query returns ```200 OK``` HTTP response:
 
 ```Python
 #!/usr/bin/env python

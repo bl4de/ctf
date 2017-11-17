@@ -130,7 +130,7 @@ if(ip_in_range($ip, '175.45.176.0', '175.45.179.255') ||
 ?>
 ```
 
-That looks complicated. We have several steps, where we have to meet conditions like IP used to connect has to be from valid IP ranges, we need to use HTTP Basic authorization (we need to know username and password). Ok, let's get through the code steop by step and see how we can bypass those.
+That looks complicated. We have several steps, where we have to meet conditions like IP used to connect has to be from valid IP ranges, we need to use HTTP Basic authorization (we need to know username and password). Ok, let's get through the code step by step and see how we can bypass those.
 
 
 ### Abusing IP address verification
@@ -157,7 +157,8 @@ Application uses various HTTP request headers to determine an IP address. We can
 We can use ```curl``` for this:
 
 ```
-$ curl --verbose --user-agent "hackerone.com/bl4de" --header "X-Forwarded-For: 175.45.176.100" http://ecsm2017.cert.pl:6044/index.php/instructions
+$ curl --verbose --user-agent "hackerone.com/bl4de" 
+--header "X-Forwarded-For: 175.45.176.100" http://ecsm2017.cert.pl:6044/index.php/instructions
 
 *   Trying 136.243.148.95...
 * TCP_NODELAY set

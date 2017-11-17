@@ -22,8 +22,7 @@ https://ecsm2017.cert.pl
 
 Good luck! :)
 
-Challenges description are available only in Polish, if you want me to help you to understand what's the objective just ping me on Twitter (@_bl4de) - yes, I speak Polish :) Like many other Polish guys :D
-
+Challenges description are available only in Polish, if you want me to help you to understand what's the objective just ping me on Twitter (@_bl4de).
 
 ## Solution
 

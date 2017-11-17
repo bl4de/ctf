@@ -157,8 +157,7 @@ Application uses various HTTP request headers to determine an IP address. We can
 We can use ```curl``` for this:
 
 ```
-$ curl --verbose --user-agent "hackerone.com/bl4de" 
---header "X-Forwarded-For: 175.45.176.100" http://ecsm2017.cert.pl:6044/index.php/instructions
+$ curl --verbose --user-agent "hackerone.com/bl4de" --header "X-Forwarded-For: 175.45.176.100" http://ecsm2017.cert.pl:6044/index.php/instructions
 
 *   Trying 136.243.148.95...
 * TCP_NODELAY set

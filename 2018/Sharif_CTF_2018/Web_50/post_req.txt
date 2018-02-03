@@ -1,0 +1,16 @@
+POST /login.php HTTP/1.1
+Host: ctf.sharif.edu:8081
+Content-Length: 33
+Cache-Control: max-age=0
+Origin: http://ctf.sharif.edu:8081
+Upgrade-Insecure-Requests: 1
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3331.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://ctf.sharif.edu:8081/
+Accept-Encoding: gzip, deflate
+Accept-Language: pl-PL,pl;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: csrftoken=xY8L1WmfI21LUQZPppSbTYk21P30DcagWnkPmostcm5Kt4LoDiQVl9HG4ZD8w7ll
+Connection: close
+
+Username=aaa&Password=bbb&debug=1

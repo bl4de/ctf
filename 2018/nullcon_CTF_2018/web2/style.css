@@ -1,0 +1,62 @@
+// diggit.py by @bl4de | b5a144fb1fcf2acdcd5db2ac0725ed2679aa06aa content
+body { 
+	background-color: #333333;
+	margin: 0px; 
+	font-family: Tahoma, Arial, Verdana, sans-serif;
+	font-size: 11px;
+	color: #f70202d5;
+	font-weight: bold;
+	}
+	
+#container	{
+	width: 700px;
+	margin-right: auto;
+	margin-left: auto;
+	height: 1000px;
+	background-image: url("header.jpg");
+	background-repeat:	no-repeat;
+	}
+
+#intro	{
+	margin-top: 0px;
+	text-align: right;
+	color: rgb(255, 255, 255);
+	}
+	#pageHeader {
+	height:150px;
+	padding-right: 25px;
+	}
+#pageHeader h1 , #pageHeader h2 , #pageHeader span	{
+	height: 2px;
+	}
+		
+#supportingText, #linkList {
+	padding: 50px;
+	width: 150px;
+	}
+	
+#intro h3 span, #supportingText h3 span	{
+		}
+
+#intro h3	{
+			width: 313px;
+			height: 75px;
+			}
+
+p.p1	{
+		color: #CCCCCC;
+		}
+		
+p.p1, p.p2, p.p3	{
+		margin: 0px;
+		padding: 0px;
+		margin-top: 8px;
+		}
+		
+#explanation h3	{
+			width: 313px;
+			height: 10px;
+			margin: 0px;
+			padding: 25px 0 0 0;
+			}
+	

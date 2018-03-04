@@ -1,0 +1,16 @@
+POST / HTTP/1.1
+Host: 128.199.224.175:24000
+Content-Length: 41
+Cache-Control: max-age=0
+Origin: http://128.199.224.175:24000
+Upgrade-Insecure-Requests: 1
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3342.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://128.199.224.175:24000/
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: PHPSESSID=8j05fsst9svr8nt05f1httua46
+Connection: close
+
+spy_name=

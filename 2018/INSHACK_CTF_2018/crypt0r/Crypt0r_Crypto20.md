@@ -93,7 +93,7 @@ Selyo0qpc
 print inp.translate(cross)
 ```
 
-When I've run it last time, the result was:
+When I've run it for the last time, the result was:
 
 
 ```

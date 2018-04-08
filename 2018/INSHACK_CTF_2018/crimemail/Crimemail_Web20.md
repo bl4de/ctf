@@ -12,7 +12,7 @@ https://crimemail.ctf.insecurity-insa.fr/
 
 ## Solution
 
-When I've opened provied url, a simple website with login was presented:
+When I've opened provided url, a simple website with login was presented:
 
 
 ![Screen caption](1.png)

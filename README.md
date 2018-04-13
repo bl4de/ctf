@@ -9,6 +9,17 @@
 # 2018
 
 
+### INSHACK CTF 2018
+
+**Crimemail, Web 20**
+
+https://github.com/bl4de/ctf/blob/master/2018/INSHACK_CTF_2018/crimemail/Crimemail_Web20.md
+
+**Crypt0r part 1, Crypto 20**
+
+https://github.com/bl4de/ctf/blob/master/2018/INSHACK_CTF_2018/crypt0r/Crypt0r_Crypto20.md
+
+
 
 ### nullcon HackIM 2018
 

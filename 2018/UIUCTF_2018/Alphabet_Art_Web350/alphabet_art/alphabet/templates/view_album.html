@@ -1,0 +1,10 @@
+{% extends "layout.html" %}
+{% block body %}
+<h1 class="header center orange-text">{{ title }}</h1>
+{% for art in arts %}
+<h3 class="header center"><a href="{{ url_for('view_page', title=art.title) }}">{{ art.title }}</a></h2>
+<div class="row center">
+	<textarea readonly maxlength="1325" spellcheck="false" rows="25" cols="50">{{ art.content }}</textarea>
+</div>
+{% endfor %}
+{% endblock %}

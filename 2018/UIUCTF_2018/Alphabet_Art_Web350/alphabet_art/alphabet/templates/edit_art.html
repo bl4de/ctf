@@ -1,0 +1,11 @@
+{% extends "layout.html" %}
+{% block body %}
+<h1 class="header center orange-text">{{ title }}</h1>
+<div class="row center">
+	<form id="image_form" method="POST" action="{{ url_for('edit_art',title=title) }}">
+	<textarea name="art_data"maxlength="1325" spellcheck="false" rows="25" cols="50">{{ art }}</textarea>
+	<br></br>
+	<button type="submit" class="btn-large waves-effect waves-light orange">Save</button>
+	</form>
+</div>
+{% endblock %}

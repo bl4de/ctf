@@ -1,0 +1,14 @@
+{% extends "layout.html" %}
+{% block body %}
+<form action="{{ url_for('create_album') }}" method="POST">
+<input name="title" type="text" placeholder="Title">
+{% for art in session['arts'] %}
+    <p>
+      <label>
+        <input type="checkbox" name="arts" value="{{ art }}">
+        <span><a href="{{ url_for('view_page', title=art) }}">{{ art }}</a></span>
+      </label>
+    </p>
+{% endfor %}
+<button type="submit" class="btn-large waves-effect waves-light orange">Create</button>
+{% endblock %}

@@ -1,0 +1,38 @@
+{% extends "layout.html" %}
+{% block body %}
+<div class="row center">
+	<form method="POST" action="{{ url_for('create_art') }}">
+	<h2 class="header center orange-text">TITLE</h2>
+	<input name="title" type="text" placeholder="Title">
+	<h2 class="header center orange-text">ART</h2>
+	<textarea name="art_data" maxlength="1325" spellcheck="false" rows="25" cols="50">        AAA   LL      PPPPPP  HH   HH   AAA   
+       AAAAA  LL      PP   PP HH   HH  AAAAA  
+      AA   AA LL      PPPPPP  HHHHHHH AA   AA 
+      AAAAAAA LL      PP      HH   HH AAAAAAA 
+      AA   AA LLLLLLL PP      HH   HH AA   AA 
+                                        
+               BBBBB   EEEEEEE TTTTTTT 
+               BB   B  EE        TTT   
+               BBBBBB  EEEEE     TTT   
+               BB   BB EE        TTT   
+               BBBBBB  EEEEEEE   TTT   
+                        
+                 AAA   RRRRRR  TTTTTTT 
+                AAAAA  RR   RR   TTT   
+               AA   AA RRRRRR    TTT   
+               AAAAAAA RR  RR    TTT   
+               AA   AA RR   RR   TTT   
+                        
+         bb                  dd         fff         
+   aa aa bb        cccc      dd   eee  ff    gggggg 
+  aa aaa bbbbbb  cc      dddddd ee   e ffff gg   gg 
+ aa  aaa bb   bb cc     dd   dd eeeee  ff   ggggggg 
+  aaa aa bbbbbb   ccccc  dddddd  eeeee ff        gg 
+                                             ggggg  
+</textarea>
+	<br></br>
+	<button type="submit" class="btn-large waves-effect waves-light orange">Share</button>
+	</form>
+
+</div>
+{% endblock %}

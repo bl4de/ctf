@@ -1,0 +1,5005 @@
+{
+  "analysis": "The given password has 6 digits", 
+  "score": 27
+}
+
+{
+  "analysis": "The given password has 0 digits", 
+  "score": 57
+}
+
+{
+  "analysis": "The given password has the same amount of digits as 15 out of 1001 known passwords", 
+  "score": 44
+}
+
+{
+  "analysis": "The given password has the same amount of digits as 816 out of 1001 known passwords", 
+  "score": 52
+}
+
+{
+  "analysis": "The second character of the given password occurs in 97 out of 1001 known passwords", 
+  "score": 54
+}
+
+{
+  "analysis": "The given password has the same amount of digits as 12 out of 1001 known passwords", 
+  "score": 20
+}
+
+{
+  "analysis": "The given password has 0 lowercase characters", 
+  "score": 14
+}
+
+{
+  "analysis": "The given password has 0 uppercase characters", 
+  "score": 62
+}
+
+{
+  "analysis": "The given password has 7 characters", 
+  "score": 35
+}
+
+{
+  "analysis": "The third character of the given password occurs in 433 out of 1001 known passwords", 
+  "score": 53
+}
+
+{
+  "analysis": "The third character of the given password occurs in 83 out of 1001 known passwords", 
+  "score": 18
+}
+
+{
+  "analysis": "The given password is shorter than 32 out of 1001 known passwords", 
+  "score": 46
+}
+
+{
+  "analysis": "The given password has 3 lowercase characters", 
+  "score": 62
+}
+
+{
+  "analysis": "The fourth character of the given password occurs in 242 out of 1001 known passwords", 
+  "score": 25
+}
+
+{
+  "analysis": "The given password occurs as part of 1 out of 1001 known passwords", 
+  "score": 27
+}
+
+{
+  "analysis": "The fifth character of the given password occurs in 460 out of 1001 known passwords", 
+  "score": 21
+}
+
+{
+  "analysis": "The second character of the given password occurs in 50 out of 1001 known passwords", 
+  "score": 51
+}
+
+{
+  "analysis": "The given password has 0 uppercase characters", 
+  "score": 64
+}
+
+{
+  "analysis": "The given password occurs as part of 1 out of 1001 known passwords", 
+  "score": 20
+}
+
+{
+  "analysis": "The third character of the given password occurs in 38 out of 1001 known passwords", 
+  "score": 42
+}
+
+{
+  "analysis": "The given password is shorter than 2 out of 1001 known passwords", 
+  "score": 59
+}
+
+{
+  "analysis": "The fourth character of the given password occurs in 83 out of 1001 known passwords", 
+  "score": 18
+}
+
+{
+  "analysis": "The second character of the given password occurs in 119 out of 1001 known passwords", 
+  "score": 38
+}
+
+{
+  "analysis": "1 out of 1001 known passwords are suffixed with the given password", 
+  "score": 55
+}
+
+{
+  "analysis": "1 out of 1001 known passwords are suffixed with the given password", 
+  "score": 44
+}
+
+{
+  "analysis": "The last character of the given password occurs in 137 out of 1001 known passwords", 
+  "score": 27
+}
+
+{
+  "analysis": "The given password has 5 characters", 
+  "score": 45
+}
+
+{
+  "analysis": "The length of the given password equals 173 out of 1001 known passwords", 
+  "score": 49
+}
+
+{
+  "analysis": "The given password is shorter than 32 out of 1001 known passwords", 
+  "score": 59
+}
+
+{
+  "analysis": "The fourth character of the given password occurs in 44 out of 1001 known passwords", 
+  "score": 56
+}
+
+{
+  "analysis": "The second character of the given password occurs in 119 out of 1001 known passwords", 
+  "score": 45
+}
+
+{
+  "analysis": "The given password has 6 digits", 
+  "score": 65
+}
+
+{
+  "analysis": "The given password has the same amount of lowercase characters as 126 out of 1001 known passwords", 
+  "score": 56
+}
+
+{
+  "analysis": "The length of the given password equals 447 out of 1001 known passwords", 
+  "score": 54
+}
+
+{
+  "analysis": "The first character of the given password occurs in 137 out of 1001 known passwords", 
+  "score": 51
+}
+
+{
+  "analysis": "The given password is shorter than 399 out of 1001 known passwords", 
+  "score": 61
+}
+
+{
+  "analysis": "The third character of the given password occurs in 119 out of 1001 known passwords", 
+  "score": 72
+}
+
+{
+  "analysis": "The last character of the given password occurs in 302 out of 1001 known passwords", 
+  "score": 56
+}
+
+{
+  "analysis": "The third character of the given password occurs in 302 out of 1001 known passwords", 
+  "score": 73
+}
+
+{
+  "analysis": "The given password has the same amount of digits as 816 out of 1001 known passwords", 
+  "score": 47
+}
+
+{
+  "analysis": "The given password occurs as part of 3 out of 1001 known passwords", 
+  "score": 39
+}
+
+{
+  "analysis": "The given password is shorter than 399 out of 1001 known passwords", 
+  "score": 30
+}
+
+{
+  "analysis": "The given password has 6 characters", 
+  "score": 29
+}
+
+{
+  "analysis": "The length of the given password equals 447 out of 1001 known passwords", 
+  "score": 57
+}
+
+{
+  "analysis": "The length of the given password equals 447 out of 1001 known passwords", 
+  "score": 63
+}
+
+{
+  "analysis": "The given password has the same amount of digits as 816 out of 1001 known passwords", 
+  "score": 45
+}
+
+{
+  "analysis": "The given password has 6 characters", 
+  "score": 59
+}
+
+{
+  "analysis": "The given password has 0 digits", 
+  "score": 60
+}
+
+{
+  "analysis": "The given password has 0 uppercase characters", 
+  "score": 51
+}
+
+{
+  "analysis": "The given password occurs as part of 1 out of 1001 known passwords", 
+  "score": 66
+}
+
+{
+  "analysis": "The given password has the same amount of lowercase characters as 390 out of 1001 known passwords", 
+  "score": 53
+}
+
+{
+  "analysis": "The given password has 4 characters", 
+  "score": 56
+}
+
+{
+  "analysis": "The given password has 7 characters", 
+  "score": 49
+}
+
+{
+  "analysis": "The fourth character of the given password occurs in 460 out of 1001 known passwords", 
+  "score": 22
+}
+
+{
+  "analysis": "The second character of the given password occurs in 142 out of 1001 known passwords", 
+  "score": 20
+}
+
+{
+  "analysis": "The given password has the same amount of digits as 816 out of 1001 known passwords", 
+  "score": 61
+}
+
+{
+  "analysis": "The first character of the given password occurs in 391 out of 1001 known passwords", 
+  "score": 57
+}
+
+{
+  "analysis": "The given password occurs as part of 2 out of 1001 known passwords", 
+  "score": 39
+}
+
+{
+  "analysis": "The given password occurs as part of 1 out of 1001 known passwords", 
+  "score": 61
+}
+
+{
+  "analysis": "The given password has 0 uppercase characters", 
+  "score": 29
+}
+
+{
+  "analysis": "The second character of the given password occurs in 137 out of 1001 known passwords", 
+  "score": 18
+}
+
+{
+  "analysis": "The given password occurs as part of 1 out of 1001 known passwords", 
+  "score": 51
+}
+
+{
+  "analysis": "The fifth character of the given password occurs in 284 out of 1001 known passwords", 
+  "score": 22
+}
+
+{
+  "analysis": "The last character of the given password occurs in 391 out of 1001 known passwords", 
+  "score": 53
+}
+
+{
+  "analysis": "The given password is shorter than 32 out of 1001 known passwords", 
+  "score": 59
+}
+
+{
+  "analysis": "The third character of the given password occurs in 302 out of 1001 known passwords", 
+  "score": 59
+}
+
+{
+  "analysis": "The second character of the given password occurs in 460 out of 1001 known passwords", 
+  "score": 20
+}
+
+{
+  "analysis": "The given password has 4 digits", 
+  "score": 58
+}
+
+{
+  "analysis": "The given password has 6 characters", 
+  "score": 35
+}
+
+{
+  "analysis": "The last character of the given password occurs in 53 out of 1001 known passwords", 
+  "score": 36
+}
+
+{
+  "analysis": "The given password has the same amount of lowercase characters as 126 out of 1001 known passwords", 
+  "score": 66
+}
+
+{
+  "analysis": "The given password has 6 characters", 
+  "score": 18
+}
+
+{
+  "analysis": "The length of the given password equals 194 out of 1001 known passwords", 
+  "score": 59
+}
+
+{
+  "analysis": "The fourth character of the given password occurs in 44 out of 1001 known passwords", 
+  "score": 48
+}
+
+{
+  "analysis": "The given password occurs as part of 7 out of 1001 known passwords", 
+  "score": 51
+}
+
+{
+  "analysis": "The given password has the same amount of digits as 816 out of 1001 known passwords", 
+  "score": 37
+}
+
+{
+  "analysis": "The given password is shorter than 399 out of 1001 known passwords", 
+  "score": 36
+}
+
+{
+  "analysis": "The given password is shorter than 399 out of 1001 known passwords", 
+  "score": 36
+}
+
+{
+  "analysis": "The fifth character of the given password occurs in 433 out of 1001 known passwords", 
+  "score": 50
+}
+
+{
+  "analysis": "The given password has the same amount of digits as 816 out of 1001 known passwords", 
+  "score": 54
+}
+
+{
+  "analysis": "The given password has 8 characters", 
+  "score": 45
+}
+
+{
+  "analysis": "The first character of the given password occurs in 38 out of 1001 known passwords", 
+  "score": 18
+}
+
+{
+  "analysis": "The fifth character of the given password occurs in 302 out of 1001 known passwords", 
+  "score": 39
+}
+
+{
+  "analysis": "The first character of the given password occurs in 433 out of 1001 known passwords", 
+  "score": 28
+}
+
+{
+  "analysis": "The given password has the same amount of uppercase characters as 997 out of 1001 known passwords", 
+  "score": 33
+}
+
+{
+  "analysis": "The first character of the given password occurs in 228 out of 1001 known passwords", 
+  "score": 50
+}
+
+{
+  "analysis": "The given password has the same amount of digits as 816 out of 1001 known passwords", 
+  "score": 64
+}
+
+{
+  "analysis": "The given password has 4 characters", 
+  "score": 34
+}
+
+{
+  "analysis": "The given password has the same amount of uppercase characters as 997 out of 1001 known passwords", 
+  "score": 52
+}
+
+{
+  "analysis": "1 out of 1001 known passwords are suffixed with the given password", 
+  "score": 46
+}
+
+{
+  "analysis": "The given password has 0 uppercase characters", 
+  "score": 48
+}
+
+{
+  "analysis": "1 out of 1001 known passwords are suffixed with the given password", 
+  "score": 33
+}
+
+{
+  "analysis": "The given password has the same amount of uppercase characters as 997 out of 1001 known passwords", 
+  "score": 44
+}
+
+{
+  "analysis": "The given password has 7 characters", 
+  "score": 23
+}
+
+{
+  "analysis": "The given password has the same amount of uppercase characters as 997 out of 1001 known passwords", 
+  "score": 54
+}
+
+{
+  "analysis": "The length of the given password equals 447 out of 1001 known passwords", 
+  "score": 43
+}
+
+{
+  "analysis": "The given password has 6 lowercase characters", 
+  "score": 28
+}
+
+{
+  "analysis": "The fourth character of the given password occurs in 302 out of 1001 known passwords", 
+  "score": 33
+}
+
+{
+  "analysis": "The given password is shorter than 399 out of 1001 known passwords", 
+  "score": 35
+}
+
+{
+  "analysis": "The given password has the same amount of uppercase characters as 997 out of 1001 known passwords", 
+  "score": 29
+}
+
+{
+  "analysis": "The given password has the same amount of digits as 816 out of 1001 known passwords", 
+  "score": 22
+}
+
+{
+  "analysis": "The fifth character of the given password occurs in 460 out of 1001 known passwords", 
+  "score": 50
+}
+
+{
+  "analysis": "The given password has 5 characters", 
+  "score": 47
+}
+
+{
+  "analysis": "The given password is shorter than 399 out of 1001 known passwords", 
+  "score": 19
+}
+
+{
+  "analysis": "The fifth character of the given password occurs in 142 out of 1001 known passwords", 
+  "score": 58
+}
+
+{
+  "analysis": "The length of the given password equals 447 out of 1001 known passwords", 
+  "score": 64
+}
+
+{
+  "analysis": "The given password is longer than 155 out of 1001 known passwords", 
+  "score": 58
+}
+
+{
+  "analysis": "The fourth character of the given password occurs in 228 out of 1001 known passwords", 
+  "score": 65
+}
+
+{
+  "analysis": "The second character of the given password occurs in 325 out of 1001 known passwords", 
+  "score": 53
+}
+
+{
+  "analysis": "The given password has 8 characters", 
+  "score": 73
+}
+
+{
+  "analysis": "The given password has 0 uppercase characters", 
+  "score": 49
+}
+
+{
+  "analysis": "The given password has the same amount of lowercase characters as 390 out of 1001 known passwords", 
+  "score": 52
+}
+
+{
+  "analysis": "1 out of 1001 known passwords are suffixed with the given password", 
+  "score": 29
+}
+
+{
+  "analysis": "The given password has the same amount of digits as 50 out of 1001 known passwords", 
+  "score": 18
+}
+
+{
+  "analysis": "The given password has the same amount of uppercase characters as 997 out of 1001 known passwords", 
+  "score": 72
+}
+
+{
+  "analysis": "The given password is shorter than 205 out of 1001 known passwords", 
+  "score": 40
+}
+
+{
+  "analysis": "The given password has the same amount of uppercase characters as 997 out of 1001 known passwords", 
+  "score": 37
+}
+
+{
+  "analysis": "The given password has 4 characters", 
+  "score": 60
+}
+
+{
+  "analysis": "The given password has 0 digits", 
+  "score": 48
+}
+
+{
+  "analysis": "The given password is longer than 988 out of 1001 known passwords", 
+  "score": 48
+}
+
+{
+  "analysis": "The last character of the given password occurs in 105 out of 1001 known passwords", 
+  "score": 21
+}
+
+{
+  "analysis": "The given password occurs as part of 1 out of 1001 known passwords", 
+  "score": 47
+}
+
+{
+  "analysis": "1 out of 1001 known passwords are suffixed with the given password", 
+  "score": 38
+}
+
+{
+  "analysis": "The given password has 0 uppercase characters", 
+  "score": 54
+}
+
+{
+  "analysis": "The given password has the same amount of digits as 12 out of 1001 known passwords", 
+  "score": 60
+}
+
+{
+  "analysis": "The given password is longer than 155 out of 1001 known passwords", 
+  "score": 57
+}
+
+{
+  "analysis": "The given password has 0 uppercase characters", 
+  "score": 52
+}
+
+{
+  "analysis": "The third character of the given password occurs in 196 out of 1001 known passwords", 
+  "score": 54
+}
+
+{
+  "analysis": "The last character of the given password occurs in 433 out of 1001 known passwords", 
+  "score": 69
+}
+
+{
+  "analysis": "1 out of 1001 known passwords are suffixed with the given password", 
+  "score": 38
+}
+
+{
+  "analysis": "The given password is longer than 155 out of 1001 known passwords", 
+  "score": 20
+}
+
+{
+  "analysis": "The first character of the given password occurs in 38 out of 1001 known passwords", 
+  "score": 66
+}
+
+{
+  "analysis": "The given password has the same amount of lowercase characters as 137 out of 1001 known passwords", 
+  "score": 44
+}
+
+{
+  "analysis": "The given password has 0 digits", 
+  "score": 60
+}
+
+{
+  "analysis": "The given password has 7 characters", 
+  "score": 46
+}
+
+{
+  "analysis": "The fourth character of the given password occurs in 391 out of 1001 known passwords", 
+  "score": 34
+}
+
+{
+  "analysis": "The given password has the same amount of digits as 816 out of 1001 known passwords", 
+  "score": 48
+}
+
+{
+  "analysis": "The given password has the same amount of digits as 816 out of 1001 known passwords", 
+  "score": 24
+}
+
+{
+  "analysis": "The given password has the same amount of lowercase characters as 182 out of 1001 known passwords", 
+  "score": 34
+}
+
+{
+  "analysis": "The given password has the same amount of digits as 816 out of 1001 known passwords", 
+  "score": 45
+}
+
+{
+  "analysis": "The given password has 4 lowercase characters", 
+  "score": 19
+}
+
+{
+  "analysis": "The given password is longer than 155 out of 1001 known passwords", 
+  "score": 21
+}
+
+{
+  "analysis": "1 out of 1001 known passwords are suffixed with the given password", 
+  "score": 62
+}
+
+{
+  "analysis": "The fifth character of the given password occurs in 284 out of 1001 known passwords", 
+  "score": 69
+}
+
+{
+  "analysis": "The given password has 0 uppercase characters", 
+  "score": 45
+}
+
+{
+  "analysis": "The given password has 0 uppercase characters", 
+  "score": 27
+}
+
+{
+  "analysis": "The fifth character of the given password occurs in 433 out of 1001 known passwords", 
+  "score": 68
+}
+
+{
+  "analysis": "The given password is shorter than 205 out of 1001 known passwords", 
+  "score": 37
+}
+
+{
+  "analysis": "The fifth character of the given password occurs in 460 out of 1001 known passwords", 
+  "score": 37
+}
+
+{
+  "analysis": "The given password has 6 characters", 
+  "score": 32
+}
+
+{
+  "analysis": "The given password is longer than 796 out of 1001 known passwords", 
+  "score": 45
+}
+
+{
+  "analysis": "The fourth character of the given password occurs in 460 out of 1001 known passwords", 
+  "score": 67
+}
+
+{
+  "analysis": "The length of the given password equals 173 out of 1001 known passwords", 
+  "score": 64
+}
+
+{
+  "analysis": "The given password has the same amount of lowercase characters as 390 out of 1001 known passwords", 
+  "score": 46
+}
+
+{
+  "analysis": "The given password has 7 lowercase characters", 
+  "score": 63
+}
+
+{
+  "analysis": "The given password has 6 characters", 
+  "score": 43
+}
+
+{
+  "analysis": "The last character of the given password occurs in 433 out of 1001 known passwords", 
+  "score": 21
+}
+
+{
+  "analysis": "The given password has the same amount of lowercase characters as 390 out of 1001 known passwords", 
+  "score": 62
+}
+
+{
+  "analysis": "The given password has the same amount of lowercase characters as 390 out of 1001 known passwords", 
+  "score": 58
+}
+
+{
+  "analysis": "The given password has the same amount of uppercase characters as 997 out of 1001 known passwords", 
+  "score": 65
+}
+
+{
+  "analysis": "1 out of 1001 known passwords are suffixed with the given password", 
+  "score": 50
+}
+
+{
+  "analysis": "The given password is longer than 602 out of 1001 known passwords", 
+  "score": 47
+}
+
+{
+  "analysis": "The given password has 0 uppercase characters", 
+  "score": 22
+}
+
+{
+  "analysis": "The given password occurs as part of 1 out of 1001 known passwords", 
+  "score": 36
+}
+
+{
+  "analysis": "The given password has 0 digits", 
+  "score": 38
+}
+
+{
+  "analysis": "The given password is longer than 969 out of 1001 known passwords", 
+  "score": 27
+}
+
+{
+  "analysis": "The first character of the given password occurs in 115 out of 1001 known passwords", 
+  "score": 25
+}
+
+{
+  "analysis": "The second character of the given password occurs in 433 out of 1001 known passwords", 
+  "score": 50
+}
+
+{
+  "analysis": "The last character of the given password occurs in 284 out of 1001 known passwords", 
+  "score": 37
+}
+
+{
+  "analysis": "The given password has the same amount of digits as 816 out of 1001 known passwords", 
+  "score": 66
+}
+
+{
+  "analysis": "The second character of the given password occurs in 88 out of 1001 known passwords", 
+  "score": 73
+}
+
+{
+  "analysis": "The given password has 0 digits", 
+  "score": 59
+}
+
+{
+  "analysis": "The given password is shorter than 399 out of 1001 known passwords", 
+  "score": 32
+}
+
+{
+  "analysis": "1 out of 1001 known passwords are suffixed with the given password", 
+  "score": 64
+}
+
+{
+  "analysis": "The given password has 0 digits", 
+  "score": 27
+}
+
+{
+  "analysis": "The fourth character of the given password occurs in 325 out of 1001 known passwords", 
+  "score": 31
+}
+
+{
+  "analysis": "The fifth character of the given password occurs in 433 out of 1001 known passwords", 
+  "score": 40
+}
+
+{
+  "analysis": "The given password is longer than 155 out of 1001 known passwords", 
+  "score": 27
+}
+
+{
+  "analysis": "1 out of 1001 known passwords are suffixed with the given password", 
+  "score": 27
+}
+
+{
+  "analysis": "The second character of the given password occurs in 433 out of 1001 known passwords", 
+  "score": 60
+}
+
+{
+  "analysis": "The first character of the given password occurs in 325 out of 1001 known passwords", 
+  "score": 39
+}
+
+{
+  "analysis": "The given password is shorter than 846 out of 1001 known passwords", 
+  "score": 17
+}
+
+{
+  "analysis": "The given password has 7 lowercase characters", 
+  "score": 45
+}
+
+{
+  "analysis": "The third character of the given password occurs in 44 out of 1001 known passwords", 
+  "score": 45
+}
+
+{
+  "analysis": "The given password has the same amount of lowercase characters as 390 out of 1001 known passwords", 
+  "score": 18
+}
+
+{
+  "analysis": "The given password has 6 characters", 
+  "score": 25
+}
+
+{
+  "analysis": "The given password is shorter than 399 out of 1001 known passwords", 
+  "score": 60
+}
+
+{
+  "analysis": "The third character of the given password occurs in 196 out of 1001 known passwords", 
+  "score": 30
+}
+
+{
+  "analysis": "The fourth character of the given password occurs in 74 out of 1001 known passwords", 
+  "score": 34
+}
+
+{
+  "analysis": "The first character of the given password occurs in 302 out of 1001 known passwords", 
+  "score": 23
+}
+
+{
+  "analysis": "The given password has 0 uppercase characters", 
+  "score": 54
+}
+
+{
+  "analysis": "The last character of the given password occurs in 391 out of 1001 known passwords", 
+  "score": 63
+}
+
+{
+  "analysis": "The last character of the given password occurs in 302 out of 1001 known passwords", 
+  "score": 29
+}
+
+{
+  "analysis": "The given password has the same amount of lowercase characters as 55 out of 1001 known passwords", 
+  "score": 73
+}
+
+{
+  "analysis": "The given password has the same amount of digits as 816 out of 1001 known passwords", 
+  "score": 61
+}
+
+{
+  "analysis": "The first character of the given password occurs in 131 out of 1001 known passwords", 
+  "score": 61
+}
+
+{
+  "analysis": "The last character of the given password occurs in 433 out of 1001 known passwords", 
+  "score": 43
+}
+
+{
+  "analysis": "The given password is longer than 602 out of 1001 known passwords", 
+  "score": 21
+}
+
+{
+  "analysis": "The given password has 6 lowercase characters", 
+  "score": 23
+}
+
+{
+  "analysis": "The given password is shorter than 205 out of 1001 known passwords", 
+  "score": 32
+}
+
+{
+  "analysis": "The given password has 0 uppercase characters", 
+  "score": 30
+}
+
+{
+  "analysis": "The length of the given password equals 447 out of 1001 known passwords", 
+  "score": 49
+}
+
+{
+  "analysis": "The given password has the same amount of lowercase characters as 126 out of 1001 known passwords", 
+  "score": 24
+}
+
+{
+  "analysis": "The last character of the given password occurs in 391 out of 1001 known passwords", 
+  "score": 25
+}
+
+{
+  "analysis": "The given password has the same amount of lowercase characters as 390 out of 1001 known passwords", 
+  "score": 29
+}
+
+{
+  "analysis": "The given password has the same amount of uppercase characters as 997 out of 1001 known passwords", 
+  "score": 21
+}
+
+{
+  "analysis": "The given password is shorter than 399 out of 1001 known passwords", 
+  "score": 58
+}
+
+{
+  "analysis": "The last character of the given password occurs in 242 out of 1001 known passwords", 
+  "score": 63
+}
+
+{
+  "analysis": "The given password has 6 characters", 
+  "score": 46
+}
+
+{
+  "analysis": "The given password has 0 digits", 
+  "score": 59
+}
+
+{
+  "analysis": "The given password has 8 lowercase characters", 
+  "score": 26
+}
+
+{
+  "analysis": "1 out of 1001 known passwords are suffixed with the given password", 
+  "score": 52
+}
+
+{
+  "analysis": "The fourth character of the given password occurs in 302 out of 1001 known passwords", 
+  "score": 58
+}
+
+{
+  "analysis": "The given password has 0 uppercase characters", 
+  "score": 39
+}
+
+{
+  "analysis": "The given password is shorter than 399 out of 1001 known passwords", 
+  "score": 43
+}
+
+{
+  "analysis": "The given password is longer than 155 out of 1001 known passwords", 
+  "score": 32
+}
+
+{
+  "analysis": "The third character of the given password occurs in 433 out of 1001 known passwords", 
+  "score": 24
+}
+
+{
+  "analysis": "The given password has 0 digits", 
+  "score": 25
+}
+
+{
+  "analysis": "The fifth character of the given password occurs in 228 out of 1001 known passwords", 
+  "score": 59
+}
+
+{
+  "analysis": "The given password is shorter than 846 out of 1001 known passwords", 
+  "score": 34
+}
+
+{
+  "analysis": "The given password is longer than 155 out of 1001 known passwords", 
+  "score": 23
+}
+
+{
+  "analysis": "The given password has the same amount of lowercase characters as 137 out of 1001 known passwords", 
+  "score": 48
+}
+
+{
+  "analysis": "The third character of the given password occurs in 131 out of 1001 known passwords", 
+  "score": 46
+}
+
+{
+  "analysis": "The given password has the same amount of lowercase characters as 390 out of 1001 known passwords", 
+  "score": 25
+}
+
+{
+  "analysis": "The given password has the same amount of digits as 816 out of 1001 known passwords", 
+  "score": 38
+}
+
+{
+  "analysis": "The given password occurs as part of 1 out of 1001 known passwords", 
+  "score": 63
+}
+
+{
+  "analysis": "The given password has 0 uppercase characters", 
+  "score": 57
+}
+
+{
+  "analysis": "The first character of the given password occurs in 391 out of 1001 known passwords", 
+  "score": 41
+}
+
+{
+  "analysis": "The last character of the given password occurs in 302 out of 1001 known passwords", 
+  "score": 52
+}
+
+{
+  "analysis": "The given password occurs as part of 1 out of 1001 known passwords", 
+  "score": 29
+}
+
+{
+  "analysis": "The given password has the same amount of lowercase characters as 390 out of 1001 known passwords", 
+  "score": 27
+}
+
+{
+  "analysis": "The given password has 6 characters", 
+  "score": 32
+}
+
+{
+  "analysis": "The fifth character of the given password occurs in 284 out of 1001 known passwords", 
+  "score": 39
+}
+
+{
+  "analysis": "The given password has the same amount of uppercase characters as 997 out of 1001 known passwords", 
+  "score": 57
+}
+
+{
+  "analysis": "The given password has 4 digits", 
+  "score": 73
+}
+
+{
+  "analysis": "The given password has the same amount of digits as 816 out of 1001 known passwords", 
+  "score": 64
+}
+
+{
+  "analysis": "The fifth character of the given password occurs in 460 out of 1001 known passwords", 
+  "score": 33
+}
+
+{
+  "analysis": "The fourth character of the given password occurs in 302 out of 1001 known passwords", 
+  "score": 59
+}
+
+{
+  "analysis": "The given password has 7 lowercase characters", 
+  "score": 27
+}
+
+{
+  "analysis": "The given password has the same amount of uppercase characters as 997 out of 1001 known passwords", 
+  "score": 54
+}
+
+{
+  "analysis": "The given password has the same amount of digits as 816 out of 1001 known passwords", 
+  "score": 49
+}
+
+{
+  "analysis": "The given password has the same amount of digits as 816 out of 1001 known passwords", 
+  "score": 65
+}
+
+{
+  "analysis": "The last character of the given password occurs in 433 out of 1001 known passwords", 
+  "score": 45
+}
+
+{
+  "analysis": "The last character of the given password occurs in 391 out of 1001 known passwords", 
+  "score": 56
+}
+
+{
+  "analysis": "The first character of the given password occurs in 38 out of 1001 known passwords", 
+  "score": 43
+}
+
+{
+  "analysis": "The first character of the given password occurs in 97 out of 1001 known passwords", 
+  "score": 21
+}
+
+{
+  "analysis": "The given password has 0 uppercase characters", 
+  "score": 67
+}
+
+{
+  "analysis": "The given password is longer than 155 out of 1001 known passwords", 
+  "score": 54
+}
+
+{
+  "analysis": "The given password occurs as part of 1 out of 1001 known passwords", 
+  "score": 36
+}
+
+{
+  "analysis": "The fourth character of the given password occurs in 179 out of 1001 known passwords", 
+  "score": 38
+}
+
+{
+  "analysis": "The fourth character of the given password occurs in 74 out of 1001 known passwords", 
+  "score": 52
+}
+
+{
+  "analysis": "The given password has 7 lowercase characters", 
+  "score": 41
+}
+
+{
+  "analysis": "The given password has 8 characters", 
+  "score": 44
+}
+
+{
+  "analysis": "The fourth character of the given password occurs in 61 out of 1001 known passwords", 
+  "score": 28
+}
+
+{
+  "analysis": "The given password has 0 uppercase characters", 
+  "score": 40
+}
+
+{
+  "analysis": "The given password has 6 characters", 
+  "score": 51
+}
+
+{
+  "analysis": "The fifth character of the given password occurs in 165 out of 1001 known passwords", 
+  "score": 64
+}
+
+{
+  "analysis": "The first character of the given password occurs in 131 out of 1001 known passwords", 
+  "score": 29
+}
+
+{
+  "analysis": "The given password is longer than 602 out of 1001 known passwords", 
+  "score": 45
+}
+
+{
+  "analysis": "The last character of the given password occurs in 391 out of 1001 known passwords", 
+  "score": 25
+}
+
+{
+  "analysis": "The third character of the given password occurs in 119 out of 1001 known passwords", 
+  "score": 65
+}
+
+{
+  "analysis": "The given password occurs as part of 1 out of 1001 known passwords", 
+  "score": 34
+}
+
+{
+  "analysis": "The second character of the given password occurs in 325 out of 1001 known passwords", 
+  "score": 37
+}
+
+{
+  "analysis": "The given password has 0 digits", 
+  "score": 30
+}
+
+{
+  "analysis": "The given password occurs as part of 1 out of 1001 known passwords", 
+  "score": 66
+}
+
+{
+  "analysis": "The given password has 6 characters", 
+  "score": 52
+}
+
+{
+  "analysis": "The given password has 0 digits", 
+  "score": 68
+}
+
+{
+  "analysis": "1 out of 1001 known passwords are suffixed with the given password", 
+  "score": 57
+}
+
+{
+  "analysis": "The fourth character of the given password occurs in 302 out of 1001 known passwords", 
+  "score": 28
+}
+
+{
+  "analysis": "The given password is shorter than 917 out of 1001 known passwords", 
+  "score": 34
+}
+
+{
+  "analysis": "The given password has the same amount of uppercase characters as 997 out of 1001 known passwords", 
+  "score": 40
+}
+
+{
+  "analysis": "The given password is shorter than 205 out of 1001 known passwords", 
+  "score": 22
+}
+
+{
+  "analysis": "The given password has 0 uppercase characters", 
+  "score": 63
+}
+
+{
+  "analysis": "The given password is shorter than 399 out of 1001 known passwords", 
+  "score": 18
+}
+
+{
+  "analysis": "The fourth character of the given password occurs in 142 out of 1001 known passwords", 
+  "score": 66
+}
+
+{
+  "analysis": "The third character of the given password occurs in 302 out of 1001 known passwords", 
+  "score": 25
+}
+
+{
+  "analysis": "The given password has 0 digits", 
+  "score": 63
+}
+
+{
+  "analysis": "The length of the given password equals 84 out of 1001 known passwords", 
+  "score": 23
+}
+
+{
+  "analysis": "The given password has 5 lowercase characters", 
+  "score": 54
+}
+
+{
+  "analysis": "The last character of the given password occurs in 30 out of 1001 known passwords", 
+  "score": 17
+}
+
+{
+  "analysis": "The given password has 3 lowercase characters", 
+  "score": 62
+}
+
+{
+  "analysis": "The fifth character of the given password occurs in 165 out of 1001 known passwords", 
+  "score": 32
+}
+
+{
+  "analysis": "The length of the given password equals 447 out of 1001 known passwords", 
+  "score": 54
+}
+
+{
+  "analysis": "The first character of the given password occurs in 53 out of 1001 known passwords", 
+  "score": 30
+}
+
+{
+  "analysis": "The given password has 6 lowercase characters", 
+  "score": 54
+}
+
+{
+  "analysis": "The last character of the given password occurs in 302 out of 1001 known passwords", 
+  "score": 63
+}
+
+{
+  "analysis": "The third character of the given password occurs in 142 out of 1001 known passwords", 
+  "score": 38
+}
+
+{
+  "analysis": "The length of the given password equals 447 out of 1001 known passwords", 
+  "score": 45
+}
+
+{
+  "analysis": "The given password is shorter than 399 out of 1001 known passwords", 
+  "score": 66
+}
+
+{
+  "analysis": "The given password is longer than 796 out of 1001 known passwords", 
+  "score": 25
+}
+
+{
+  "analysis": "The given password has the same amount of digits as 816 out of 1001 known passwords", 
+  "score": 54
+}
+
+{
+  "analysis": "The last character of the given password occurs in 179 out of 1001 known passwords", 
+  "score": 35
+}
+
+{
+  "analysis": "The given password has 8 lowercase characters", 
+  "score": 54
+}
+
+{
+  "analysis": "The given password is shorter than 399 out of 1001 known passwords", 
+  "score": 36
+}
+
+{
+  "analysis": "The given password has 6 characters", 
+  "score": 33
+}
+
+{
+  "analysis": "The given password has the same amount of digits as 49 out of 1001 known passwords", 
+  "score": 23
+}
+
+{
+  "analysis": "The given password has 0 uppercase characters", 
+  "score": 27
+}
+
+{
+  "analysis": "The given password has 6 digits", 
+  "score": 45
+}
+
+{
+  "analysis": "The first character of the given password occurs in 242 out of 1001 known passwords", 
+  "score": 40
+}
+
+{
+  "analysis": "The given password is shorter than 846 out of 1001 known passwords", 
+  "score": 25
+}
+
+{
+  "analysis": "The fourth character of the given password occurs in 179 out of 1001 known passwords", 
+  "score": 70
+}
+
+{
+  "analysis": "The second character of the given password occurs in 196 out of 1001 known passwords", 
+  "score": 51
+}
+
+{
+  "analysis": "The given password has 9 characters", 
+  "score": 63
+}
+
+{
+  "analysis": "The given password has 6 digits", 
+  "score": 59
+}
+
+{
+  "analysis": "The given password has 0 uppercase characters", 
+  "score": 30
+}
+
+{
+  "analysis": "The fifth character of the given password occurs in 284 out of 1001 known passwords", 
+  "score": 62
+}
+
+{
+  "analysis": "The given password has 9 characters", 
+  "score": 59
+}
+
+{
+  "analysis": "1 out of 1001 known passwords are suffixed with the given password", 
+  "score": 59
+}
+
+{
+  "analysis": "The given password has the same amount of lowercase characters as 137 out of 1001 known passwords", 
+  "score": 58
+}
+
+{
+  "analysis": "The given password has the same amount of lowercase characters as 390 out of 1001 known passwords", 
+  "score": 61
+}
+
+{
+  "analysis": "The third character of the given password occurs in 284 out of 1001 known passwords", 
+  "score": 56
+}
+
+{
+  "analysis": "The given password has 0 digits", 
+  "score": 26
+}
+
+{
+  "analysis": "The given password has the same amount of lowercase characters as 126 out of 1001 known passwords", 
+  "score": 24
+}
+
+{
+  "analysis": "The given password is shorter than 846 out of 1001 known passwords", 
+  "score": 24
+}
+
+{
+  "analysis": "The given password has the same amount of digits as 816 out of 1001 known passwords", 
+  "score": 54
+}
+
+{
+  "analysis": "The given password occurs as part of 1 out of 1001 known passwords", 
+  "score": 28
+}
+
+{
+  "analysis": "The first character of the given password occurs in 196 out of 1001 known passwords", 
+  "score": 62
+}
+
+{
+  "analysis": "The given password has the same amount of uppercase characters as 997 out of 1001 known passwords", 
+  "score": 54
+}
+
+{
+  "analysis": "The given password has 0 digits", 
+  "score": 25
+}
+
+{
+  "analysis": "The given password occurs as part of 2 out of 1001 known passwords", 
+  "score": 52
+}
+
+{
+  "analysis": "The given password has the same amount of uppercase characters as 997 out of 1001 known passwords", 
+  "score": 43
+}
+
+{
+  "analysis": "The fourth character of the given password occurs in 97 out of 1001 known passwords", 
+  "score": 25
+}
+
+{
+  "analysis": "The given password has 0 digits", 
+  "score": 66
+}
+
+{
+  "analysis": "The given password has the same amount of uppercase characters as 997 out of 1001 known passwords", 
+  "score": 66
+}
+
+{
+  "analysis": "1 out of 1001 known passwords are suffixed with the given password", 
+  "score": 41
+}
+
+{
+  "analysis": "The fourth character of the given password occurs in 242 out of 1001 known passwords", 
+  "score": 73
+}
+
+{
+  "analysis": "The given password has 9 characters", 
+  "score": 69
+}
+
+{
+  "analysis": "The given password is longer than 0 out of 1001 known passwords", 
+  "score": 60
+}
+
+{
+  "analysis": "The given password has the same amount of digits as 816 out of 1001 known passwords", 
+  "score": 64
+}
+
+{
+  "analysis": "The given password has 7 lowercase characters", 
+  "score": 50
+}
+
+{
+  "analysis": "The last character of the given password occurs in 325 out of 1001 known passwords", 
+  "score": 51
+}
+
+{
+  "analysis": "The second character of the given password occurs in 284 out of 1001 known passwords", 
+  "score": 19
+}
+
+{
+  "analysis": "The second character of the given password occurs in 325 out of 1001 known passwords", 
+  "score": 36
+}
+
+{
+  "analysis": "The given password has 6 lowercase characters", 
+  "score": 51
+}
+
+{
+  "analysis": "The second character of the given password occurs in 460 out of 1001 known passwords", 
+  "score": 53
+}
+
+{
+  "analysis": "The given password has the same amount of uppercase characters as 997 out of 1001 known passwords", 
+  "score": 30
+}
+
+{
+  "analysis": "1 out of 1001 known passwords are suffixed with the given password", 
+  "score": 31
+}
+
+{
+  "analysis": "1 out of 1001 known passwords are suffixed with the given password", 
+  "score": 58
+}
+
+{
+  "analysis": "The length of the given password equals 194 out of 1001 known passwords", 
+  "score": 21
+}
+
+{
+  "analysis": "The third character of the given password occurs in 284 out of 1001 known passwords", 
+  "score": 65
+}
+
+{
+  "analysis": "The given password has 7 lowercase characters", 
+  "score": 57
+}
+
+{
+  "analysis": "The first character of the given password occurs in 242 out of 1001 known passwords", 
+  "score": 22
+}
+
+{
+  "analysis": "The given password has 0 digits", 
+  "score": 36
+}
+
+{
+  "analysis": "The fifth character of the given password occurs in 391 out of 1001 known passwords", 
+  "score": 65
+}
+
+{
+  "analysis": "1 out of 1001 known passwords are suffixed with the given password", 
+  "score": 55
+}
+
+{
+  "analysis": "The length of the given password equals 447 out of 1001 known passwords", 
+  "score": 44
+}
+
+{
+  "analysis": "The fourth character of the given password occurs in 125 out of 1001 known passwords", 
+  "score": 39
+}
+
+{
+  "analysis": "The fourth character of the given password occurs in 179 out of 1001 known passwords", 
+  "score": 38
+}
+
+{
+  "analysis": "The third character of the given password occurs in 196 out of 1001 known passwords", 
+  "score": 66
+}
+
+{
+  "analysis": "The given password is shorter than 399 out of 1001 known passwords", 
+  "score": 52
+}
+
+{
+  "analysis": "The given password occurs as part of 1 out of 1001 known passwords", 
+  "score": 35
+}
+
+{
+  "analysis": "The first character of the given password occurs in 302 out of 1001 known passwords", 
+  "score": 73
+}
+
+{
+  "analysis": "The given password has the same amount of uppercase characters as 997 out of 1001 known passwords", 
+  "score": 67
+}
+
+{
+  "analysis": "The first character of the given password occurs in 242 out of 1001 known passwords", 
+  "score": 24
+}
+
+{
+  "analysis": "The given password has 7 characters", 
+  "score": 33
+}
+
+{
+  "analysis": "The fifth character of the given password occurs in 30 out of 1001 known passwords", 
+  "score": 50
+}
+
+{
+  "analysis": "The first character of the given password occurs in 302 out of 1001 known passwords", 
+  "score": 22
+}
+
+{
+  "analysis": "The fifth character of the given password occurs in 165 out of 1001 known passwords", 
+  "score": 20
+}
+
+{
+  "analysis": "The given password has 0 digits", 
+  "score": 27
+}
+
+{
+  "analysis": "The last character of the given password occurs in 179 out of 1001 known passwords", 
+  "score": 33
+}
+
+{
+  "analysis": "The given password occurs as part of 2 out of 1001 known passwords", 
+  "score": 59
+}
+
+{
+  "analysis": "The given password has the same amount of uppercase characters as 997 out of 1001 known passwords", 
+  "score": 49
+}
+
+{
+  "analysis": "The given password has the same amount of uppercase characters as 997 out of 1001 known passwords", 
+  "score": 73
+}
+
+{
+  "analysis": "The given password has 0 digits", 
+  "score": 64
+}
+
+{
+  "analysis": "The second character of the given password occurs in 433 out of 1001 known passwords", 
+  "score": 57
+}
+
+{
+  "analysis": "The last character of the given password occurs in 115 out of 1001 known passwords", 
+  "score": 63
+}
+
+{
+  "analysis": "The given password occurs as part of 1 out of 1001 known passwords", 
+  "score": 27
+}
+
+{
+  "analysis": "The given password has 0 digits", 
+  "score": 32
+}
+
+{
+  "analysis": "The given password has the same amount of lowercase characters as 390 out of 1001 known passwords", 
+  "score": 21
+}
+
+{
+  "analysis": "The given password has the same amount of lowercase characters as 137 out of 1001 known passwords", 
+  "score": 49
+}
+
+{
+  "analysis": "The given password is shorter than 399 out of 1001 known passwords", 
+  "score": 30
+}
+
+{
+  "analysis": "1 out of 1001 known passwords are suffixed with the given password", 
+  "score": 34
+}
+
+{
+  "analysis": "The given password has 7 characters", 
+  "score": 45
+}
+
+{
+  "analysis": "The fifth character of the given password occurs in 83 out of 1001 known passwords", 
+  "score": 48
+}
+
+{
+  "analysis": "The fifth character of the given password occurs in 460 out of 1001 known passwords", 
+  "score": 51
+}
+
+{
+  "analysis": "The given password is longer than 602 out of 1001 known passwords", 
+  "score": 43
+}
+
+{
+  "analysis": "The last character of the given password occurs in 242 out of 1001 known passwords", 
+  "score": 52
+}
+
+{
+  "analysis": "The given password has the same amount of digits as 816 out of 1001 known passwords", 
+  "score": 67
+}
+
+{
+  "analysis": "The given password has the same amount of uppercase characters as 997 out of 1001 known passwords", 
+  "score": 17
+}
+
+{
+  "analysis": "The second character of the given password occurs in 30 out of 1001 known passwords", 
+  "score": 39
+}
+
+{
+  "analysis": "The length of the given password equals 84 out of 1001 known passwords", 
+  "score": 32
+}
+
+{
+  "analysis": "The third character of the given password occurs in 325 out of 1001 known passwords", 
+  "score": 66
+}
+
+{
+  "analysis": "The given password has the same amount of uppercase characters as 997 out of 1001 known passwords", 
+  "score": 38
+}
+
+{
+  "analysis": "The last character of the given password occurs in 44 out of 1001 known passwords", 
+  "score": 41
+}
+
+{
+  "analysis": "The given password has 6 lowercase characters", 
+  "score": 64
+}
+
+{
+  "analysis": "The fifth character of the given password occurs in 137 out of 1001 known passwords", 
+  "score": 64
+}
+
+{
+  "analysis": "The third character of the given password occurs in 165 out of 1001 known passwords", 
+  "score": 25
+}
+
+{
+  "analysis": "The last character of the given password occurs in 25 out of 1001 known passwords", 
+  "score": 15
+}
+
+{
+  "analysis": "The last character of the given password occurs in 460 out of 1001 known passwords", 
+  "score": 64
+}
+
+{
+  "analysis": "The third character of the given password occurs in 284 out of 1001 known passwords", 
+  "score": 38
+}
+
+{
+  "analysis": "The given password occurs as part of 1 out of 1001 known passwords", 
+  "score": 53
+}
+
+{
+  "analysis": "The given password has 6 lowercase characters", 
+  "score": 24
+}
+
+{
+  "analysis": "The last character of the given password occurs in 302 out of 1001 known passwords", 
+  "score": 60
+}
+
+{
+  "analysis": "The first character of the given password occurs in 70 out of 1001 known passwords", 
+  "score": 30
+}
+
+{
+  "analysis": "The given password is longer than 155 out of 1001 known passwords", 
+  "score": 20
+}
+
+{
+  "analysis": "The given password has the same amount of lowercase characters as 390 out of 1001 known passwords", 
+  "score": 20
+}
+
+{
+  "analysis": "The given password has 0 uppercase characters", 
+  "score": 60
+}
+
+{
+  "analysis": "The given password has 0 uppercase characters", 
+  "score": 54
+}
+
+{
+  "analysis": "The given password has 0 digits", 
+  "score": 55
+}
+
+{
+  "analysis": "The length of the given password equals 447 out of 1001 known passwords", 
+  "score": 56
+}
+
+{
+  "analysis": "The given password has 6 characters", 
+  "score": 65
+}
+
+{
+  "analysis": "The length of the given password equals 173 out of 1001 known passwords", 
+  "score": 25
+}
+
+{
+  "analysis": "The given password has 1 lowercase characters", 
+  "score": 20
+}
+
+{
+  "analysis": "The given password is longer than 155 out of 1001 known passwords", 
+  "score": 36
+}
+
+{
+  "analysis": "The last character of the given password occurs in 97 out of 1001 known passwords", 
+  "score": 72
+}
+
+{
+  "analysis": "The second character of the given password occurs in 50 out of 1001 known passwords", 
+  "score": 31
+}
+
+{
+  "analysis": "The given password has 0 uppercase characters", 
+  "score": 58
+}
+
+{
+  "analysis": "The given password has the same amount of digits as 19 out of 1001 known passwords", 
+  "score": 33
+}
+
+{
+  "analysis": "The first character of the given password occurs in 131 out of 1001 known passwords", 
+  "score": 23
+}
+
+{
+  "analysis": "The given password is shorter than 2 out of 1001 known passwords", 
+  "score": 46
+}
+
+{
+  "analysis": "The given password is longer than 796 out of 1001 known passwords", 
+  "score": 44
+}
+
+{
+  "analysis": "The given password has 7 lowercase characters", 
+  "score": 36
+}
+
+{
+  "analysis": "The last character of the given password occurs in 391 out of 1001 known passwords", 
+  "score": 23
+}
+
+{
+  "analysis": "The given password has the same amount of digits as 816 out of 1001 known passwords", 
+  "score": 61
+}
+
+{
+  "analysis": "The given password has 7 characters", 
+  "score": 64
+}
+
+{
+  "analysis": "The given password has the same amount of digits as 816 out of 1001 known passwords", 
+  "score": 67
+}
+
+{
+  "analysis": "The third character of the given password occurs in 115 out of 1001 known passwords", 
+  "score": 41
+}
+
+{
+  "analysis": "The second character of the given password occurs in 460 out of 1001 known passwords", 
+  "score": 61
+}
+
+{
+  "analysis": "The fifth character of the given password occurs in 228 out of 1001 known passwords", 
+  "score": 63
+}
+
+{
+  "analysis": "The given password has the same amount of lowercase characters as 74 out of 1001 known passwords", 
+  "score": 28
+}
+
+{
+  "analysis": "The given password has the same amount of digits as 816 out of 1001 known passwords", 
+  "score": 53
+}
+
+{
+  "analysis": "The given password occurs as part of 1 out of 1001 known passwords", 
+  "score": 30
+}
+
+{
+  "analysis": "The third character of the given password occurs in 125 out of 1001 known passwords", 
+  "score": 45
+}
+
+{
+  "analysis": "The length of the given password equals 447 out of 1001 known passwords", 
+  "score": 20
+}
+
+{
+  "analysis": "The given password has 8 lowercase characters", 
+  "score": 45
+}
+
+{
+  "analysis": "The given password is shorter than 917 out of 1001 known passwords", 
+  "score": 22
+}
+
+{
+  "analysis": "The second character of the given password occurs in 165 out of 1001 known passwords", 
+  "score": 43
+}
+
+{
+  "analysis": "The third character of the given password occurs in 433 out of 1001 known passwords", 
+  "score": 59
+}
+
+{
+  "analysis": "The fourth character of the given password occurs in 142 out of 1001 known passwords", 
+  "score": 30
+}
+
+{
+  "analysis": "The given password has 6 characters", 
+  "score": 63
+}
+
+{
+  "analysis": "The given password has the same amount of uppercase characters as 997 out of 1001 known passwords", 
+  "score": 20
+}
+
+{
+  "analysis": "The given password has 0 uppercase characters", 
+  "score": 30
+}
+
+{
+  "analysis": "The given password occurs as part of 1 out of 1001 known passwords", 
+  "score": 34
+}
+
+{
+  "analysis": "The fourth character of the given password occurs in 74 out of 1001 known passwords", 
+  "score": 54
+}
+
+{
+  "analysis": "The last character of the given password occurs in 137 out of 1001 known passwords", 
+  "score": 64
+}
+
+{
+  "analysis": "The given password is shorter than 399 out of 1001 known passwords", 
+  "score": 52
+}
+
+{
+  "analysis": "The given password occurs as part of 1 out of 1001 known passwords", 
+  "score": 68
+}
+
+{
+  "analysis": "The given password has the same amount of uppercase characters as 997 out of 1001 known passwords", 
+  "score": 21
+}
+
+{
+  "analysis": "The given password has the same amount of digits as 816 out of 1001 known passwords", 
+  "score": 42
+}
+
+{
+  "analysis": "The given password is longer than 796 out of 1001 known passwords", 
+  "score": 47
+}
+
+{
+  "analysis": "The given password is longer than 0 out of 1001 known passwords", 
+  "score": 12
+}
+
+{
+  "analysis": "The given password occurs as part of 1 out of 1001 known passwords", 
+  "score": 62
+}
+
+{
+  "analysis": "The given password is longer than 155 out of 1001 known passwords", 
+  "score": 27
+}
+
+{
+  "analysis": "The given password has 8 digits", 
+  "score": 28
+}
+
+{
+  "analysis": "The given password has 0 uppercase characters", 
+  "score": 28
+}
+
+{
+  "analysis": "The given password has the same amount of uppercase characters as 997 out of 1001 known passwords", 
+  "score": 65
+}
+
+{
+  "analysis": "The fifth character of the given password occurs in 125 out of 1001 known passwords", 
+  "score": 40
+}
+
+{
+  "analysis": "The fourth character of the given password occurs in 61 out of 1001 known passwords", 
+  "score": 31
+}
+
+{
+  "analysis": "The given password has 5 lowercase characters", 
+  "score": 60
+}
+
+{
+  "analysis": "The given password is longer than 155 out of 1001 known passwords", 
+  "score": 23
+}
+
+{
+  "analysis": "The given password has 4 characters", 
+  "score": 36
+}
+
+{
+  "analysis": "The second character of the given password occurs in 284 out of 1001 known passwords", 
+  "score": 67
+}
+
+{
+  "analysis": "The given password is shorter than 399 out of 1001 known passwords", 
+  "score": 61
+}
+
+{
+  "analysis": "The fourth character of the given password occurs in 228 out of 1001 known passwords", 
+  "score": 65
+}
+
+{
+  "analysis": "The given password has 8 characters", 
+  "score": 28
+}
+
+{
+  "analysis": "The given password has the same amount of uppercase characters as 997 out of 1001 known passwords", 
+  "score": 47
+}
+
+{
+  "analysis": "The given password has 0 uppercase characters", 
+  "score": 29
+}
+
+{
+  "analysis": "The given password occurs as part of 1 out of 1001 known passwords", 
+  "score": 66
+}
+
+{
+  "analysis": "The second character of the given password occurs in 119 out of 1001 known passwords", 
+  "score": 33
+}
+
+{
+  "analysis": "The third character of the given password occurs in 179 out of 1001 known passwords", 
+  "score": 51
+}
+
+{
+  "analysis": "The last character of the given password occurs in 460 out of 1001 known passwords", 
+  "score": 24
+}
+
+{
+  "analysis": "The given password has the same amount of lowercase characters as 126 out of 1001 known passwords", 
+  "score": 26
+}
+
+{
+  "analysis": "The length of the given password equals 84 out of 1001 known passwords", 
+  "score": 30
+}
+
+{
+  "analysis": "The given password has the same amount of uppercase characters as 997 out of 1001 known passwords", 
+  "score": 47
+}
+
+{
+  "analysis": "The given password has 0 uppercase characters", 
+  "score": 46
+}
+
+{
+  "analysis": "The given password has 8 characters", 
+  "score": 54
+}
+
+{
+  "analysis": "1 out of 1001 known passwords are suffixed with the given password", 
+  "score": 44
+}
+
+{
+  "analysis": "The given password occurs as part of 1 out of 1001 known passwords", 
+  "score": 48
+}
+
+{
+  "analysis": "The given password is shorter than 205 out of 1001 known passwords", 
+  "score": 30
+}
+
+{
+  "analysis": "The given password has 0 digits", 
+  "score": 63
+}
+
+{
+  "analysis": "The given password is shorter than 399 out of 1001 known passwords", 
+  "score": 23
+}
+
+{
+  "analysis": "The given password has 0 digits", 
+  "score": 33
+}
+
+{
+  "analysis": "The given password is shorter than 32 out of 1001 known passwords", 
+  "score": 57
+}
+
+{
+  "analysis": "The fifth character of the given password occurs in 391 out of 1001 known passwords", 
+  "score": 22
+}
+
+{
+  "analysis": "The given password has 4 lowercase characters", 
+  "score": 38
+}
+
+{
+  "analysis": "The third character of the given password occurs in 460 out of 1001 known passwords", 
+  "score": 44
+}
+
+{
+  "analysis": "The last character of the given password occurs in 83 out of 1001 known passwords", 
+  "score": 54
+}
+
+{
+  "analysis": "The given password has the same amount of digits as 816 out of 1001 known passwords", 
+  "score": 36
+}
+
+{
+  "analysis": "The given password has the same amount of digits as 816 out of 1001 known passwords", 
+  "score": 54
+}
+
+{
+  "analysis": "The last character of the given password occurs in 302 out of 1001 known passwords", 
+  "score": 33
+}
+
+{
+  "analysis": "The fifth character of the given password occurs in 433 out of 1001 known passwords", 
+  "score": 59
+}
+
+{
+  "analysis": "The given password has 0 digits", 
+  "score": 49
+}
+
+{
+  "analysis": "The fourth character of the given password occurs in 88 out of 1001 known passwords", 
+  "score": 40
+}
+
+{
+  "analysis": "The second character of the given password occurs in 284 out of 1001 known passwords", 
+  "score": 17
+}
+
+{
+  "analysis": "The fourth character of the given password occurs in 179 out of 1001 known passwords", 
+  "score": 65
+}
+
+{
+  "analysis": "The given password has 0 lowercase characters", 
+  "score": 55
+}
+
+{
+  "analysis": "The given password has 0 digits", 
+  "score": 33
+}
+
+{
+  "analysis": "The second character of the given password occurs in 25 out of 1001 known passwords", 
+  "score": 20
+}
+
+{
+  "analysis": "The given password has the same amount of lowercase characters as 390 out of 1001 known passwords", 
+  "score": 23
+}
+
+{
+  "analysis": "The given password has the same amount of uppercase characters as 997 out of 1001 known passwords", 
+  "score": 39
+}
+
+{
+  "analysis": "The given password is longer than 155 out of 1001 known passwords", 
+  "score": 58
+}
+
+{
+  "analysis": "1 out of 1001 known passwords are suffixed with the given password", 
+  "score": 62
+}
+
+{
+  "analysis": "The given password has 6 lowercase characters", 
+  "score": 25
+}
+
+{
+  "analysis": "The given password has 7 characters", 
+  "score": 43
+}
+
+{
+  "analysis": "The given password has the same amount of lowercase characters as 390 out of 1001 known passwords", 
+  "score": 18
+}
+
+{
+  "analysis": "The given password has the same amount of uppercase characters as 997 out of 1001 known passwords", 
+  "score": 38
+}
+
+{
+  "analysis": "The first character of the given password occurs in 228 out of 1001 known passwords", 
+  "score": 66
+}
+
+{
+  "analysis": "The given password occurs as part of 1 out of 1001 known passwords", 
+  "score": 37
+}
+
+{
+  "analysis": "The given password has 7 characters", 
+  "score": 23
+}
+
+{
+  "analysis": "The given password has 0 digits", 
+  "score": 41
+}
+
+{
+  "analysis": "The given password has the same amount of digits as 816 out of 1001 known passwords", 
+  "score": 54
+}
+
+{
+  "analysis": "The given password has 7 characters", 
+  "score": 43
+}
+
+{
+  "analysis": "The given password has the same amount of lowercase characters as 182 out of 1001 known passwords", 
+  "score": 58
+}
+
+{
+  "analysis": "The fifth character of the given password occurs in 325 out of 1001 known passwords", 
+  "score": 40
+}
+
+{
+  "analysis": "The given password is longer than 0 out of 1001 known passwords", 
+  "score": 14
+}
+
+{
+  "analysis": "The second character of the given password occurs in 325 out of 1001 known passwords", 
+  "score": 37
+}
+
+{
+  "analysis": "The given password has 7 characters", 
+  "score": 55
+}
+
+{
+  "analysis": "1 out of 1001 known passwords are suffixed with the given password", 
+  "score": 39
+}
+
+{
+  "analysis": "The given password has the same amount of digits as 816 out of 1001 known passwords", 
+  "score": 37
+}
+
+{
+  "analysis": "The given password has 0 uppercase characters", 
+  "score": 34
+}
+
+{
+  "analysis": "The fifth character of the given password occurs in 325 out of 1001 known passwords", 
+  "score": 21
+}
+
+{
+  "analysis": "The third character of the given password occurs in 325 out of 1001 known passwords", 
+  "score": 50
+}
+
+{
+  "analysis": "The fourth character of the given password occurs in 302 out of 1001 known passwords", 
+  "score": 28
+}
+
+{
+  "analysis": "The fourth character of the given password occurs in 131 out of 1001 known passwords", 
+  "score": 56
+}
+
+{
+  "analysis": "The given password has the same amount of lowercase characters as 182 out of 1001 known passwords", 
+  "score": 37
+}
+
+{
+  "analysis": "The second character of the given password occurs in 325 out of 1001 known passwords", 
+  "score": 34
+}
+
+{
+  "analysis": "The first character of the given password occurs in 302 out of 1001 known passwords", 
+  "score": 36
+}
+
+{
+  "analysis": "The given password is longer than 969 out of 1001 known passwords", 
+  "score": 30
+}
+
+{
+  "analysis": "The given password has the same amount of uppercase characters as 997 out of 1001 known passwords", 
+  "score": 40
+}
+
+{
+  "analysis": "The fourth character of the given password occurs in 70 out of 1001 known passwords", 
+  "score": 28
+}
+
+{
+  "analysis": "The given password occurs as part of 1 out of 1001 known passwords", 
+  "score": 23
+}
+
+{
+  "analysis": "The given password is shorter than 205 out of 1001 known passwords", 
+  "score": 29
+}
+
+{
+  "analysis": "The second character of the given password occurs in 433 out of 1001 known passwords", 
+  "score": 63
+}
+
+{
+  "analysis": "The given password is shorter than 205 out of 1001 known passwords", 
+  "score": 34
+}
+
+{
+  "analysis": "The third character of the given password occurs in 228 out of 1001 known passwords", 
+  "score": 46
+}
+
+{
+  "analysis": "The given password has the same amount of digits as 816 out of 1001 known passwords", 
+  "score": 41
+}
+
+{
+  "analysis": "The second character of the given password occurs in 325 out of 1001 known passwords", 
+  "score": 22
+}
+
+{
+  "analysis": "The given password is longer than 155 out of 1001 known passwords", 
+  "score": 50
+}
+
+{
+  "analysis": "The last character of the given password occurs in 228 out of 1001 known passwords", 
+  "score": 68
+}
+
+{
+  "analysis": "The given password occurs as part of 1 out of 1001 known passwords", 
+  "score": 44
+}
+
+{
+  "analysis": "The fourth character of the given password occurs in 242 out of 1001 known passwords", 
+  "score": 57
+}
+
+{
+  "analysis": "The given password is longer than 0 out of 1001 known passwords", 
+  "score": 12
+}
+
+{
+  "analysis": "The given password has 0 digits", 
+  "score": 37
+}
+
+{
+  "analysis": "The fourth character of the given password occurs in 325 out of 1001 known passwords", 
+  "score": 60
+}
+
+{
+  "analysis": "The third character of the given password occurs in 137 out of 1001 known passwords", 
+  "score": 70
+}
+
+{
+  "analysis": "The given password has the same amount of lowercase characters as 390 out of 1001 known passwords", 
+  "score": 66
+}
+
+{
+  "analysis": "The given password has 6 lowercase characters", 
+  "score": 25
+}
+
+{
+  "analysis": "1 out of 1001 known passwords are suffixed with the given password", 
+  "score": 47
+}
+
+{
+  "analysis": "The given password has 7 characters", 
+  "score": 62
+}
+
+{
+  "analysis": "The first character of the given password occurs in 74 out of 1001 known passwords", 
+  "score": 20
+}
+
+{
+  "analysis": "The given password occurs as part of 1 out of 1001 known passwords", 
+  "score": 54
+}
+
+{
+  "analysis": "The fourth character of the given password occurs in 137 out of 1001 known passwords", 
+  "score": 45
+}
+
+{
+  "analysis": "The given password is longer than 796 out of 1001 known passwords", 
+  "score": 55
+}
+
+{
+  "analysis": "The given password has the same amount of lowercase characters as 55 out of 1001 known passwords", 
+  "score": 26
+}
+
+{
+  "analysis": "The last character of the given password occurs in 302 out of 1001 known passwords", 
+  "score": 23
+}
+
+{
+  "analysis": "The last character of the given password occurs in 302 out of 1001 known passwords", 
+  "score": 29
+}
+
+{
+  "analysis": "The given password has 0 uppercase characters", 
+  "score": 23
+}
+
+{
+  "analysis": "The fifth character of the given password occurs in 242 out of 1001 known passwords", 
+  "score": 22
+}
+
+{
+  "analysis": "The given password has the same amount of uppercase characters as 997 out of 1001 known passwords", 
+  "score": 35
+}
+
+{
+  "analysis": "The fifth character of the given password occurs in 284 out of 1001 known passwords", 
+  "score": 60
+}
+
+{
+  "analysis": "The given password has the same amount of lowercase characters as 390 out of 1001 known passwords", 
+  "score": 41
+}
+
+{
+  "analysis": "The given password has the same amount of digits as 816 out of 1001 known passwords", 
+  "score": 21
+}
+
+{
+  "analysis": "The given password has the same amount of digits as 816 out of 1001 known passwords", 
+  "score": 61
+}
+
+{
+  "analysis": "The given password has the same amount of uppercase characters as 997 out of 1001 known passwords", 
+  "score": 40
+}
+
+{
+  "analysis": "The given password has the same amount of digits as 816 out of 1001 known passwords", 
+  "score": 56
+}
+
+{
+  "analysis": "The given password is longer than 602 out of 1001 known passwords", 
+  "score": 68
+}
+
+{
+  "analysis": "The given password is shorter than 13 out of 1001 known passwords", 
+  "score": 67
+}
+
+{
+  "analysis": "The given password is longer than 155 out of 1001 known passwords", 
+  "score": 50
+}
+
+{
+  "analysis": "The given password has 6 characters", 
+  "score": 59
+}
+
+{
+  "analysis": "The third character of the given password occurs in 460 out of 1001 known passwords", 
+  "score": 22
+}
+
+{
+  "analysis": "The given password occurs as part of 1 out of 1001 known passwords", 
+  "score": 59
+}
+
+{
+  "analysis": "The given password is shorter than 32 out of 1001 known passwords", 
+  "score": 58
+}
+
+{
+  "analysis": "1 out of 1001 known passwords are suffixed with the given password", 
+  "score": 16
+}
+
+{
+  "analysis": "The given password has the same amount of uppercase characters as 997 out of 1001 known passwords", 
+  "score": 61
+}
+
+{
+  "analysis": "The given password has the same amount of digits as 816 out of 1001 known passwords", 
+  "score": 65
+}
+
+{
+  "analysis": "The fourth character of the given password occurs in 131 out of 1001 known passwords", 
+  "score": 56
+}
+
+{
+  "analysis": "The given password is shorter than 917 out of 1001 known passwords", 
+  "score": 24
+}
+
+{
+  "analysis": "The last character of the given password occurs in 228 out of 1001 known passwords", 
+  "score": 65
+}
+
+{
+  "analysis": "The last character of the given password occurs in 433 out of 1001 known passwords", 
+  "score": 21
+}
+
+{
+  "analysis": "The second character of the given password occurs in 460 out of 1001 known passwords", 
+  "score": 63
+}
+
+{
+  "analysis": "The first character of the given password occurs in 179 out of 1001 known passwords", 
+  "score": 54
+}
+
+{
+  "analysis": "The given password has the same amount of uppercase characters as 997 out of 1001 known passwords", 
+  "score": 56
+}
+
+{
+  "analysis": "The given password has 0 digits", 
+  "score": 28
+}
+
+{
+  "analysis": "The fourth character of the given password occurs in 284 out of 1001 known passwords", 
+  "score": 65
+}
+
+{
+  "analysis": "The given password has 6 characters", 
+  "score": 55
+}
+
+{
+  "analysis": "The length of the given password equals 194 out of 1001 known passwords", 
+  "score": 68
+}
+
+{
+  "analysis": "The given password has 6 lowercase characters", 
+  "score": 63
+}
+
+{
+  "analysis": "The given password occurs as part of 1 out of 1001 known passwords", 
+  "score": 31
+}
+
+{
+  "analysis": "The given password has 6 lowercase characters", 
+  "score": 36
+}
+
+{
+  "analysis": "The third character of the given password occurs in 37 out of 1001 known passwords", 
+  "score": 43
+}
+
+{
+  "analysis": "The first character of the given password occurs in 115 out of 1001 known passwords", 
+  "score": 19
+}
+
+{
+  "analysis": "The given password is longer than 0 out of 1001 known passwords", 
+  "score": 41
+}
+
+{
+  "analysis": "The given password is longer than 602 out of 1001 known passwords", 
+  "score": 27
+}
+
+{
+  "analysis": "The given password has 0 digits", 
+  "score": 34
+}
+
+{
+  "analysis": "1 out of 1001 known passwords are suffixed with the given password", 
+  "score": 30
+}
+
+{
+  "analysis": "The first character of the given password occurs in 433 out of 1001 known passwords", 
+  "score": 50
+}
+
+{
+  "analysis": "The length of the given password equals 173 out of 1001 known passwords", 
+  "score": 42
+}
+
+{
+  "analysis": "The given password has 8 lowercase characters", 
+  "score": 37
+}
+
+{
+  "analysis": "The given password occurs as part of 1 out of 1001 known passwords", 
+  "score": 18
+}
+
+{
+  "analysis": "The second character of the given password occurs in 142 out of 1001 known passwords", 
+  "score": 19
+}
+
+{
+  "analysis": "The given password has 0 digits", 
+  "score": 48
+}
+
+{
+  "analysis": "The length of the given password equals 447 out of 1001 known passwords", 
+  "score": 65
+}
+
+{
+  "analysis": "The given password has 0 digits", 
+  "score": 43
+}
+
+{
+  "analysis": "The fifth character of the given password occurs in 126 out of 1001 known passwords", 
+  "score": 16
+}
+
+{
+  "analysis": "The third character of the given password occurs in 196 out of 1001 known passwords", 
+  "score": 46
+}
+
+{
+  "analysis": "The third character of the given password occurs in 41 out of 1001 known passwords", 
+  "score": 48
+}
+
+{
+  "analysis": "1 out of 1001 known passwords are suffixed with the given password", 
+  "score": 57
+}
+
+{
+  "analysis": "1 out of 1001 known passwords are suffixed with the given password", 
+  "score": 28
+}
+
+{
+  "analysis": "The third character of the given password occurs in 41 out of 1001 known passwords", 
+  "score": 55
+}
+
+{
+  "analysis": "The given password has the same amount of lowercase characters as 390 out of 1001 known passwords", 
+  "score": 54
+}
+
+{
+  "analysis": "The fourth character of the given password occurs in 125 out of 1001 known passwords", 
+  "score": 21
+}
+
+{
+  "analysis": "The first character of the given password occurs in 131 out of 1001 known passwords", 
+  "score": 26
+}
+
+{
+  "analysis": "1 out of 1001 known passwords are suffixed with the given password", 
+  "score": 29
+}
+
+{
+  "analysis": "The given password has 0 uppercase characters", 
+  "score": 43
+}
+
+{
+  "analysis": "The fifth character of the given password occurs in 61 out of 1001 known passwords", 
+  "score": 30
+}
+
+{
+  "analysis": "The given password has 4 lowercase characters", 
+  "score": 54
+}
+
+{
+  "analysis": "The fifth character of the given password occurs in 131 out of 1001 known passwords", 
+  "score": 72
+}
+
+{
+  "analysis": "The given password has 0 digits", 
+  "score": 60
+}
+
+{
+  "analysis": "1 out of 1001 known passwords are suffixed with the given password", 
+  "score": 33
+}
+
+{
+  "analysis": "The fifth character of the given password occurs in 228 out of 1001 known passwords", 
+  "score": 18
+}
+
+{
+  "analysis": "The given password has 0 digits", 
+  "score": 31
+}
+
+{
+  "analysis": "The third character of the given password occurs in 83 out of 1001 known passwords", 
+  "score": 36
+}
+
+{
+  "analysis": "The fourth character of the given password occurs in 196 out of 1001 known passwords", 
+  "score": 19
+}
+
+{
+  "analysis": "The second character of the given password occurs in 391 out of 1001 known passwords", 
+  "score": 39
+}
+
+{
+  "analysis": "The third character of the given password occurs in 41 out of 1001 known passwords", 
+  "score": 29
+}
+
+{
+  "analysis": "1 out of 1001 known passwords are suffixed with the given password", 
+  "score": 63
+}
+
+{
+  "analysis": "The given password has 0 digits", 
+  "score": 57
+}
+
+{
+  "analysis": "The second character of the given password occurs in 433 out of 1001 known passwords", 
+  "score": 21
+}
+
+{
+  "analysis": "The given password has the same amount of lowercase characters as 137 out of 1001 known passwords", 
+  "score": 69
+}
+
+{
+  "analysis": "The given password occurs as part of 1 out of 1001 known passwords", 
+  "score": 36
+}
+
+{
+  "analysis": "The given password occurs as part of 1 out of 1001 known passwords", 
+  "score": 28
+}
+
+{
+  "analysis": "1 out of 1001 known passwords are suffixed with the given password", 
+  "score": 15
+}
+
+{
+  "analysis": "The given password has the same amount of digits as 816 out of 1001 known passwords", 
+  "score": 35
+}
+
+{
+  "analysis": "The third character of the given password occurs in 242 out of 1001 known passwords", 
+  "score": 56
+}
+
+{
+  "analysis": "The given password has 8 lowercase characters", 
+  "score": 37
+}
+
+{
+  "analysis": "The given password has 7 characters", 
+  "score": 59
+}
+
+{
+  "analysis": "1 out of 1001 known passwords are suffixed with the given password", 
+  "score": 21
+}
+
+{
+  "analysis": "The given password has 1 digits", 
+  "score": 49
+}
+
+{
+  "analysis": "The last character of the given password occurs in 126 out of 1001 known passwords", 
+  "score": 46
+}
+
+{
+  "analysis": "The given password has 0 digits", 
+  "score": 50
+}
+
+{
+  "analysis": "1 out of 1001 known passwords are suffixed with the given password", 
+  "score": 27
+}
+
+{
+  "analysis": "The given password has 0 lowercase characters", 
+  "score": 62
+}
+
+{
+  "analysis": "The given password has the same amount of lowercase characters as 390 out of 1001 known passwords", 
+  "score": 24
+}
+
+{
+  "analysis": "The given password has 0 digits", 
+  "score": 55
+}
+
+{
+  "analysis": "The first character of the given password occurs in 70 out of 1001 known passwords", 
+  "score": 24
+}
+
+{
+  "analysis": "The second character of the given password occurs in 125 out of 1001 known passwords", 
+  "score": 44
+}
+
+{
+  "analysis": "The given password has 0 uppercase characters", 
+  "score": 31
+}
+
+{
+  "analysis": "The given password has 8 characters", 
+  "score": 29
+}
+
+{
+  "analysis": "The given password has 0 digits", 
+  "score": 57
+}
+
+{
+  "analysis": "The fifth character of the given password occurs in 105 out of 1001 known passwords", 
+  "score": 39
+}
+
+{
+  "analysis": "The last character of the given password occurs in 38 out of 1001 known passwords", 
+  "score": 39
+}
+
+{
+  "analysis": "The third character of the given password occurs in 302 out of 1001 known passwords", 
+  "score": 31
+}
+
+{
+  "analysis": "The given password is longer than 155 out of 1001 known passwords", 
+  "score": 21
+}
+
+{
+  "analysis": "The fourth character of the given password occurs in 460 out of 1001 known passwords", 
+  "score": 23
+}
+
+{
+  "analysis": "The fourth character of the given password occurs in 165 out of 1001 known passwords", 
+  "score": 71
+}
+
+{
+  "analysis": "The given password has 5 lowercase characters", 
+  "score": 55
+}
+
+{
+  "analysis": "The given password has 6 characters", 
+  "score": 33
+}
+
+{
+  "analysis": "The last character of the given password occurs in 105 out of 1001 known passwords", 
+  "score": 43
+}
+
+{
+  "analysis": "The first character of the given password occurs in 142 out of 1001 known passwords", 
+  "score": 45
+}
+
+{
+  "analysis": "The given password has 6 lowercase characters", 
+  "score": 40
+}
+
+{
+  "analysis": "The third character of the given password occurs in 460 out of 1001 known passwords", 
+  "score": 58
+}
+
+{
+  "analysis": "The third character of the given password occurs in 25 out of 1001 known passwords", 
+  "score": 18
+}
+
+{
+  "analysis": "The fourth character of the given password occurs in 105 out of 1001 known passwords", 
+  "score": 64
+}
+
+{
+  "analysis": "The given password has the same amount of lowercase characters as 182 out of 1001 known passwords", 
+  "score": 30
+}
+
+{
+  "analysis": "The last character of the given password occurs in 137 out of 1001 known passwords", 
+  "score": 27
+}
+
+{
+  "analysis": "The given password has 4 characters", 
+  "score": 31
+}
+
+{
+  "analysis": "The given password has 0 lowercase characters", 
+  "score": 28
+}
+
+{
+  "analysis": "The third character of the given password occurs in 242 out of 1001 known passwords", 
+  "score": 21
+}
+
+{
+  "analysis": "The second character of the given password occurs in 391 out of 1001 known passwords", 
+  "score": 38
+}
+
+{
+  "analysis": "The first character of the given password occurs in 302 out of 1001 known passwords", 
+  "score": 36
+}
+
+{
+  "analysis": "The given password has the same amount of uppercase characters as 997 out of 1001 known passwords", 
+  "score": 42
+}
+
+{
+  "analysis": "The length of the given password equals 84 out of 1001 known passwords", 
+  "score": 26
+}
+
+{
+  "analysis": "The given password has the same amount of digits as 816 out of 1001 known passwords", 
+  "score": 60
+}
+
+{
+  "analysis": "The given password is shorter than 399 out of 1001 known passwords", 
+  "score": 49
+}
+
+{
+  "analysis": "The given password is shorter than 32 out of 1001 known passwords", 
+  "score": 46
+}
+
+{
+  "analysis": "The given password has 7 lowercase characters", 
+  "score": 39
+}
+
+{
+  "analysis": "The given password has the same amount of digits as 816 out of 1001 known passwords", 
+  "score": 48
+}
+
+{
+  "analysis": "The length of the given password equals 173 out of 1001 known passwords", 
+  "score": 63
+}
+
+{
+  "analysis": "The given password has 0 uppercase characters", 
+  "score": 24
+}
+
+{
+  "analysis": "The given password is longer than 84 out of 1001 known passwords", 
+  "score": 56
+}
+
+{
+  "analysis": "The given password has the same amount of lowercase characters as 74 out of 1001 known passwords", 
+  "score": 23
+}
+
+{
+  "analysis": "The last character of the given password occurs in 302 out of 1001 known passwords", 
+  "score": 59
+}
+
+{
+  "analysis": "The second character of the given password occurs in 284 out of 1001 known passwords", 
+  "score": 48
+}
+
+{
+  "analysis": "The given password has the same amount of digits as 816 out of 1001 known passwords", 
+  "score": 39
+}
+
+{
+  "analysis": "The given password occurs as part of 1 out of 1001 known passwords", 
+  "score": 48
+}
+
+{
+  "analysis": "The given password has 0 uppercase characters", 
+  "score": 47
+}
+
+{
+  "analysis": "The given password has 5 characters", 
+  "score": 45
+}
+
+{
+  "analysis": "The given password has 6 characters", 
+  "score": 51
+}
+
+{
+  "analysis": "The length of the given password equals 194 out of 1001 known passwords", 
+  "score": 40
+}
+
+{
+  "analysis": "The given password has 8 characters", 
+  "score": 69
+}
+
+{
+  "analysis": "The given password has 8 characters", 
+  "score": 50
+}
+
+{
+  "analysis": "The fourth character of the given password occurs in 50 out of 1001 known passwords", 
+  "score": 29
+}
+
+{
+  "analysis": "The given password has the same amount of lowercase characters as 390 out of 1001 known passwords", 
+  "score": 62
+}
+
+{
+  "analysis": "The given password occurs as part of 1 out of 1001 known passwords", 
+  "score": 37
+}
+
+{
+  "analysis": "The last character of the given password occurs in 433 out of 1001 known passwords", 
+  "score": 34
+}
+
+{
+  "analysis": "The second character of the given password occurs in 302 out of 1001 known passwords", 
+  "score": 32
+}
+
+{
+  "analysis": "The given password has the same amount of uppercase characters as 997 out of 1001 known passwords", 
+  "score": 46
+}
+
+{
+  "analysis": "The given password occurs as part of 1 out of 1001 known passwords", 
+  "score": 52
+}
+
+{
+  "analysis": "The third character of the given password occurs in 196 out of 1001 known passwords", 
+  "score": 21
+}
+
+{
+  "analysis": "The given password has 8 characters", 
+  "score": 62
+}
+
+{
+  "analysis": "The fourth character of the given password occurs in 105 out of 1001 known passwords", 
+  "score": 19
+}
+
+{
+  "analysis": "The last character of the given password occurs in 179 out of 1001 known passwords", 
+  "score": 64
+}
+
+{
+  "analysis": "The given password has 0 digits", 
+  "score": 50
+}
+
+{
+  "analysis": "The given password is longer than 0 out of 1001 known passwords", 
+  "score": 16
+}
+
+{
+  "analysis": "The fourth character of the given password occurs in 83 out of 1001 known passwords", 
+  "score": 20
+}
+
+{
+  "analysis": "The given password is shorter than 399 out of 1001 known passwords", 
+  "score": 36
+}
+
+{
+  "analysis": "The third character of the given password occurs in 302 out of 1001 known passwords", 
+  "score": 29
+}
+
+{
+  "analysis": "The second character of the given password occurs in 242 out of 1001 known passwords", 
+  "score": 33
+}
+
+{
+  "analysis": "The given password is shorter than 32 out of 1001 known passwords", 
+  "score": 66
+}
+
+{
+  "analysis": "The given password has the same amount of digits as 816 out of 1001 known passwords", 
+  "score": 48
+}
+
+{
+  "analysis": "The given password is shorter than 846 out of 1001 known passwords", 
+  "score": 25
+}
+
+{
+  "analysis": "The first character of the given password occurs in 137 out of 1001 known passwords", 
+  "score": 54
+}
+
+{
+  "analysis": "The fifth character of the given password occurs in 125 out of 1001 known passwords", 
+  "score": 44
+}
+
+{
+  "analysis": "The given password has 0 uppercase characters", 
+  "score": 62
+}
+
+{
+  "analysis": "The given password has the same amount of digits as 816 out of 1001 known passwords", 
+  "score": 33
+}
+
+{
+  "analysis": "The third character of the given password occurs in 83 out of 1001 known passwords", 
+  "score": 40
+}
+
+{
+  "analysis": "The given password has 7 characters", 
+  "score": 55
+}
+
+{
+  "analysis": "The fourth character of the given password occurs in 391 out of 1001 known passwords", 
+  "score": 62
+}
+
+{
+  "analysis": "The given password has 6 digits", 
+  "score": 27
+}
+
+{
+  "analysis": "The given password occurs as part of 1 out of 1001 known passwords", 
+  "score": 30
+}
+
+{
+  "analysis": "The given password has the same amount of digits as 12 out of 1001 known passwords", 
+  "score": 38
+}
+
+{
+  "analysis": "The last character of the given password occurs in 126 out of 1001 known passwords", 
+  "score": 45
+}
+
+{
+  "analysis": "The first character of the given password occurs in 38 out of 1001 known passwords", 
+  "score": 63
+}
+
+{
+  "analysis": "The fifth character of the given password occurs in 142 out of 1001 known passwords", 
+  "score": 42
+}
+
+{
+  "analysis": "1 out of 1001 known passwords are suffixed with the given password", 
+  "score": 30
+}
+
+{
+  "analysis": "The given password has 0 digits", 
+  "score": 57
+}
+
+{
+  "analysis": "The length of the given password equals 194 out of 1001 known passwords", 
+  "score": 22
+}
+
+{
+  "analysis": "The given password has the same amount of lowercase characters as 74 out of 1001 known passwords", 
+  "score": 33
+}
+
+{
+  "analysis": "The given password has the same amount of lowercase characters as 126 out of 1001 known passwords", 
+  "score": 22
+}
+
+{
+  "analysis": "The second character of the given password occurs in 284 out of 1001 known passwords", 
+  "score": 58
+}
+
+{
+  "analysis": "The given password has 5 characters", 
+  "score": 30
+}
+
+{
+  "analysis": "The given password has 0 digits", 
+  "score": 60
+}
+
+{
+  "analysis": "The third character of the given password occurs in 391 out of 1001 known passwords", 
+  "score": 29
+}
+
+{
+  "analysis": "1 out of 1001 known passwords are suffixed with the given password", 
+  "score": 51
+}
+
+{
+  "analysis": "The given password has 8 lowercase characters", 
+  "score": 33
+}
+
+{
+  "analysis": "The fifth character of the given password occurs in 119 out of 1001 known passwords", 
+  "score": 29
+}
+
+{
+  "analysis": "The length of the given password equals 194 out of 1001 known passwords", 
+  "score": 46
+}
+
+{
+  "analysis": "The given password has 0 digits", 
+  "score": 34
+}
+
+{
+  "analysis": "The given password has 6 lowercase characters", 
+  "score": 35
+}
+
+{
+  "analysis": "The given password has 8 lowercase characters", 
+  "score": 30
+}
+
+{
+  "analysis": "The given password has the same amount of uppercase characters as 997 out of 1001 known passwords", 
+  "score": 55
+}
+
+{
+  "analysis": "The given password occurs as part of 1 out of 1001 known passwords", 
+  "score": 18
+}
+
+{
+  "analysis": "The given password has 7 characters", 
+  "score": 34
+}
+
+{
+  "analysis": "The given password has 0 uppercase characters", 
+  "score": 45
+}
+
+{
+  "analysis": "The first character of the given password occurs in 302 out of 1001 known passwords", 
+  "score": 21
+}
+
+{
+  "analysis": "The third character of the given password occurs in 302 out of 1001 known passwords", 
+  "score": 37
+}
+
+{
+  "analysis": "The given password has 0 uppercase characters", 
+  "score": 25
+}
+
+{
+  "analysis": "The fifth character of the given password occurs in 142 out of 1001 known passwords", 
+  "score": 26
+}
+
+{
+  "analysis": "The first character of the given password occurs in 137 out of 1001 known passwords", 
+  "score": 30
+}
+
+{
+  "analysis": "1 out of 1001 known passwords are suffixed with the given password", 
+  "score": 41
+}
+
+{
+  "analysis": "The given password has 8 characters", 
+  "score": 57
+}
+
+{
+  "analysis": "The last character of the given password occurs in 391 out of 1001 known passwords", 
+  "score": 22
+}
+
+{
+  "analysis": "The given password has 0 digits", 
+  "score": 41
+}
+
+{
+  "analysis": "The given password has the same amount of digits as 49 out of 1001 known passwords", 
+  "score": 27
+}
+
+{
+  "analysis": "The fourth character of the given password occurs in 131 out of 1001 known passwords", 
+  "score": 63
+}
+
+{
+  "analysis": "The given password has the same amount of lowercase characters as 182 out of 1001 known passwords", 
+  "score": 59
+}
+
+{
+  "analysis": "The given password has 5 lowercase characters", 
+  "score": 17
+}
+
+{
+  "analysis": "The fourth character of the given password occurs in 228 out of 1001 known passwords", 
+  "score": 56
+}
+
+{
+  "analysis": "The length of the given password equals 194 out of 1001 known passwords", 
+  "score": 31
+}
+
+{
+  "analysis": "The last character of the given password occurs in 97 out of 1001 known passwords", 
+  "score": 52
+}
+
+{
+  "analysis": "The given password is shorter than 917 out of 1001 known passwords", 
+  "score": 14
+}
+
+{
+  "analysis": "The given password has 8 characters", 
+  "score": 29
+}
+
+{
+  "analysis": "The given password has the same amount of lowercase characters as 182 out of 1001 known passwords", 
+  "score": 36
+}
+
+{
+  "analysis": "The given password has 7 lowercase characters", 
+  "score": 47
+}
+
+{
+  "analysis": "The given password is longer than 602 out of 1001 known passwords", 
+  "score": 58
+}
+
+{
+  "analysis": "The given password is longer than 796 out of 1001 known passwords", 
+  "score": 66
+}
+
+{
+  "analysis": "The given password occurs as part of 1 out of 1001 known passwords", 
+  "score": 29
+}
+
+{
+  "analysis": "The given password is longer than 155 out of 1001 known passwords", 
+  "score": 48
+}
+
+{
+  "analysis": "The given password has 0 uppercase characters", 
+  "score": 63
+}
+
+{
+  "analysis": "The given password has 8 characters", 
+  "score": 27
+}
+
+{
+  "analysis": "The second character of the given password occurs in 325 out of 1001 known passwords", 
+  "score": 39
+}
+
+{
+  "analysis": "The fifth character of the given password occurs in 433 out of 1001 known passwords", 
+  "score": 61
+}
+
+{
+  "analysis": "The given password has the same amount of lowercase characters as 11 out of 1001 known passwords", 
+  "score": 75
+}
+
+{
+  "analysis": "The length of the given password equals 71 out of 1001 known passwords", 
+  "score": 54
+}
+
+{
+  "analysis": "The given password has 6 characters", 
+  "score": 23
+}
+
+{
+  "analysis": "The given password has 0 digits", 
+  "score": 42
+}
+
+{
+  "analysis": "The given password has 7 characters", 
+  "score": 44
+}
+
+{
+  "analysis": "The given password has the same amount of lowercase characters as 126 out of 1001 known passwords", 
+  "score": 48
+}
+
+{
+  "analysis": "The second character of the given password occurs in 61 out of 1001 known passwords", 
+  "score": 21
+}
+
+{
+  "analysis": "The fifth character of the given password occurs in 97 out of 1001 known passwords", 
+  "score": 59
+}
+
+{
+  "analysis": "The length of the given password equals 84 out of 1001 known passwords", 
+  "score": 52
+}
+
+{
+  "analysis": "The given password has the same amount of lowercase characters as 182 out of 1001 known passwords", 
+  "score": 65
+}
+
+{
+  "analysis": "The length of the given password equals 447 out of 1001 known passwords", 
+  "score": 54
+}
+
+{
+  "analysis": "The given password is longer than 0 out of 1001 known passwords", 
+  "score": 54
+}
+
+{
+  "analysis": "The given password is longer than 155 out of 1001 known passwords", 
+  "score": 49
+}
+
+{
+  "analysis": "The first character of the given password occurs in 325 out of 1001 known passwords", 
+  "score": 48
+}
+
+{
+  "analysis": "The length of the given password equals 71 out of 1001 known passwords", 
+  "score": 37
+}
+
+{
+  "analysis": "The fifth character of the given password occurs in 137 out of 1001 known passwords", 
+  "score": 20
+}
+
+{
+  "analysis": "The last character of the given password occurs in 460 out of 1001 known passwords", 
+  "score": 52
+}
+
+{
+  "analysis": "The given password has the same amount of digits as 816 out of 1001 known passwords", 
+  "score": 52
+}
+
+{
+  "analysis": "The given password has the same amount of uppercase characters as 997 out of 1001 known passwords", 
+  "score": 31
+}
+
+{
+  "analysis": "The given password is shorter than 32 out of 1001 known passwords", 
+  "score": 68
+}
+
+{
+  "analysis": "1 out of 1001 known passwords are suffixed with the given password", 
+  "score": 63
+}
+
+{
+  "analysis": "The fifth character of the given password occurs in 44 out of 1001 known passwords", 
+  "score": 64
+}
+
+{
+  "analysis": "The given password has the same amount of digits as 816 out of 1001 known passwords", 
+  "score": 30
+}
+
+{
+  "analysis": "The given password has the same amount of uppercase characters as 997 out of 1001 known passwords", 
+  "score": 19
+}
+
+{
+  "analysis": "The third character of the given password occurs in 460 out of 1001 known passwords", 
+  "score": 39
+}
+
+{
+  "analysis": "The fifth character of the given password occurs in 196 out of 1001 known passwords", 
+  "score": 33
+}
+
+{
+  "analysis": "1 out of 1001 known passwords are suffixed with the given password", 
+  "score": 63
+}
+
+{
+  "analysis": "The given password has 6 lowercase characters", 
+  "score": 20
+}
+
+{
+  "analysis": "The given password has the same amount of uppercase characters as 997 out of 1001 known passwords", 
+  "score": 25
+}
+
+{
+  "analysis": "The fourth character of the given password occurs in 242 out of 1001 known passwords", 
+  "score": 51
+}
+
+{
+  "analysis": "The given password has the same amount of digits as 49 out of 1001 known passwords", 
+  "score": 27
+}
+
+{
+  "analysis": "The given password occurs as part of 1 out of 1001 known passwords", 
+  "score": 58
+}
+
+{
+  "analysis": "The given password is longer than 84 out of 1001 known passwords", 
+  "score": 17
+}
+
+{
+  "analysis": "The given password has the same amount of uppercase characters as 997 out of 1001 known passwords", 
+  "score": 55
+}
+
+{
+  "analysis": "The first character of the given password occurs in 142 out of 1001 known passwords", 
+  "score": 37
+}
+
+{
+  "analysis": "The given password has 0 uppercase characters", 
+  "score": 64
+}
+
+{
+  "analysis": "The fourth character of the given password occurs in 228 out of 1001 known passwords", 
+  "score": 34
+}
+
+{
+  "analysis": "The given password has the same amount of uppercase characters as 997 out of 1001 known passwords", 
+  "score": 45
+}
+
+{
+  "analysis": "The given password has 8 lowercase characters", 
+  "score": 55
+}
+
+{
+  "analysis": "The given password has 0 uppercase characters", 
+  "score": 19
+}
+
+{
+  "analysis": "The given password has the same amount of lowercase characters as 390 out of 1001 known passwords", 
+  "score": 66
+}
+
+{
+  "analysis": "The given password has 5 characters", 
+  "score": 15
+}
+
+{
+  "analysis": "The third character of the given password occurs in 284 out of 1001 known passwords", 
+  "score": 27
+}
+
+{
+  "analysis": "The given password has the same amount of lowercase characters as 55 out of 1001 known passwords", 
+  "score": 39
+}
+
+{
+  "analysis": "The given password has 7 characters", 
+  "score": 29
+}
+
+{
+  "analysis": "The given password occurs as part of 2 out of 1001 known passwords", 
+  "score": 40
+}
+
+{
+  "analysis": "The given password has 0 lowercase characters", 
+  "score": 35
+}
+
+{
+  "analysis": "The second character of the given password occurs in 1 out of 1001 known passwords", 
+  "score": 51
+}
+
+{
+  "analysis": "The given password has 0 uppercase characters", 
+  "score": 51
+}
+
+{
+  "analysis": "The fifth character of the given password occurs in 433 out of 1001 known passwords", 
+  "score": 51
+}
+
+{
+  "analysis": "The given password has 6 lowercase characters", 
+  "score": 59
+}
+
+{
+  "analysis": "The given password has the same amount of lowercase characters as 126 out of 1001 known passwords", 
+  "score": 28
+}
+
+{
+  "analysis": "The given password occurs as part of 1 out of 1001 known passwords", 
+  "score": 68
+}
+
+{
+  "analysis": "The given password has the same amount of uppercase characters as 997 out of 1001 known passwords", 
+  "score": 63
+}
+
+{
+  "analysis": "The given password has the same amount of digits as 816 out of 1001 known passwords", 
+  "score": 39
+}
+
+{
+  "analysis": "The length of the given password equals 447 out of 1001 known passwords", 
+  "score": 60
+}
+
+{
+  "analysis": "The last character of the given password occurs in 126 out of 1001 known passwords", 
+  "score": 53
+}
+
+{
+  "analysis": "The fifth character of the given password occurs in 391 out of 1001 known passwords", 
+  "score": 24
+}
+
+{
+  "analysis": "The given password is shorter than 205 out of 1001 known passwords", 
+  "score": 22
+}
+
+{
+  "analysis": "The fourth character of the given password occurs in 242 out of 1001 known passwords", 
+  "score": 30
+}
+
+{
+  "analysis": "The first character of the given password occurs in 179 out of 1001 known passwords", 
+  "score": 44
+}
+
+{
+  "analysis": "The fourth character of the given password occurs in 302 out of 1001 known passwords", 
+  "score": 23
+}
+
+{
+  "analysis": "The given password is shorter than 32 out of 1001 known passwords", 
+  "score": 60
+}
+
+{
+  "analysis": "The length of the given password equals 447 out of 1001 known passwords", 
+  "score": 48
+}
+
+{
+  "analysis": "The third character of the given password occurs in 97 out of 1001 known passwords", 
+  "score": 62
+}
+
+{
+  "analysis": "The given password has the same amount of digits as 816 out of 1001 known passwords", 
+  "score": 22
+}
+
+{
+  "analysis": "The given password is shorter than 205 out of 1001 known passwords", 
+  "score": 42
+}
+
+{
+  "analysis": "The given password has the same amount of digits as 816 out of 1001 known passwords", 
+  "score": 21
+}
+
+{
+  "analysis": "The given password has the same amount of uppercase characters as 997 out of 1001 known passwords", 
+  "score": 29
+}
+
+{
+  "analysis": "The second character of the given password occurs in 433 out of 1001 known passwords", 
+  "score": 38
+}
+
+{
+  "analysis": "The given password has the same amount of lowercase characters as 55 out of 1001 known passwords", 
+  "score": 58
+}
+
+{
+  "analysis": "The given password has the same amount of digits as 816 out of 1001 known passwords", 
+  "score": 68
+}
+
+{
+  "analysis": "The first character of the given password occurs in 302 out of 1001 known passwords", 
+  "score": 42
+}
+
+{
+  "analysis": "The given password has the same amount of lowercase characters as 182 out of 1001 known passwords", 
+  "score": 39
+}
+
+{
+  "analysis": "The given password has the same amount of uppercase characters as 997 out of 1001 known passwords", 
+  "score": 25
+}
+
+{
+  "analysis": "The given password has the same amount of lowercase characters as 10 out of 1001 known passwords", 
+  "score": 68
+}
+
+{
+  "analysis": "The given password has the same amount of lowercase characters as 74 out of 1001 known passwords", 
+  "score": 62
+}
+
+{
+  "analysis": "The third character of the given password occurs in 302 out of 1001 known passwords", 
+  "score": 69
+}
+
+{
+  "analysis": "The third character of the given password occurs in 196 out of 1001 known passwords", 
+  "score": 33
+}
+
+{
+  "analysis": "The given password has 0 uppercase characters", 
+  "score": 51
+}
+
+{
+  "analysis": "The given password occurs as part of 1 out of 1001 known passwords", 
+  "score": 56
+}
+
+{
+  "analysis": "The given password has the same amount of uppercase characters as 997 out of 1001 known passwords", 
+  "score": 32
+}
+
+{
+  "analysis": "The given password has 0 uppercase characters", 
+  "score": 18
+}
+
+{
+  "analysis": "The given password occurs as part of 2 out of 1001 known passwords", 
+  "score": 50
+}
+
+{
+  "analysis": "The given password has 7 characters", 
+  "score": 55
+}
+
+{
+  "analysis": "The given password is longer than 155 out of 1001 known passwords", 
+  "score": 47
+}
+
+{
+  "analysis": "The given password is longer than 155 out of 1001 known passwords", 
+  "score": 64
+}
+
+{
+  "analysis": "The third character of the given password occurs in 196 out of 1001 known passwords", 
+  "score": 38
+}
+
+{
+  "analysis": "The given password has 0 digits", 
+  "score": 32
+}
+
+{
+  "analysis": "The fourth character of the given password occurs in 179 out of 1001 known passwords", 
+  "score": 60
+}
+
+{
+  "analysis": "The fourth character of the given password occurs in 115 out of 1001 known passwords", 
+  "score": 45
+}
+
+{
+  "analysis": "The last character of the given password occurs in 242 out of 1001 known passwords", 
+  "score": 20
+}
+
+{
+  "analysis": "The given password has 6 lowercase characters", 
+  "score": 22
+}
+
+{
+  "analysis": "The given password has the same amount of digits as 816 out of 1001 known passwords", 
+  "score": 52
+}
+
+{
+  "analysis": "1 out of 1001 known passwords are suffixed with the given password", 
+  "score": 59
+}
+
+{
+  "analysis": "The given password has the same amount of uppercase characters as 997 out of 1001 known passwords", 
+  "score": 28
+}
+
+{
+  "analysis": "The third character of the given password occurs in 44 out of 1001 known passwords", 
+  "score": 55
+}
+
+{
+  "analysis": "The given password has 0 digits", 
+  "score": 42
+}
+
+{
+  "analysis": "The given password occurs as part of 1 out of 1001 known passwords", 
+  "score": 26
+}
+
+{
+  "analysis": "The given password occurs as part of 1 out of 1001 known passwords", 
+  "score": 71
+}
+
+{
+  "analysis": "The given password has the same amount of digits as 816 out of 1001 known passwords", 
+  "score": 24
+}
+
+{
+  "analysis": "The second character of the given password occurs in 53 out of 1001 known passwords", 
+  "score": 36
+}
+
+{
+  "analysis": "The third character of the given password occurs in 165 out of 1001 known passwords", 
+  "score": 48
+}
+
+{
+  "analysis": "The given password has 7 lowercase characters", 
+  "score": 55
+}
+
+{
+  "analysis": "The given password has 0 digits", 
+  "score": 24
+}
+
+{
+  "analysis": "The given password has the same amount of lowercase characters as 390 out of 1001 known passwords", 
+  "score": 42
+}
+
+{
+  "analysis": "The third character of the given password occurs in 50 out of 1001 known passwords", 
+  "score": 36
+}
+
+{
+  "analysis": "The first character of the given password occurs in 30 out of 1001 known passwords", 
+  "score": 25
+}
+
+{
+  "analysis": "The fourth character of the given password occurs in 74 out of 1001 known passwords", 
+  "score": 60
+}
+
+{
+  "analysis": "The given password has the same amount of uppercase characters as 997 out of 1001 known passwords", 
+  "score": 60
+}
+
+{
+  "analysis": "The given password occurs as part of 1 out of 1001 known passwords", 
+  "score": 32
+}
+
+{
+  "analysis": "The given password has 5 lowercase characters", 
+  "score": 56
+}
+
+{
+  "analysis": "The given password has 7 characters", 
+  "score": 33
+}
+
+{
+  "analysis": "The given password has the same amount of lowercase characters as 74 out of 1001 known passwords", 
+  "score": 58
+}
+
+{
+  "analysis": "The given password is shorter than 32 out of 1001 known passwords", 
+  "score": 62
+}
+
+{
+  "analysis": "The third character of the given password occurs in 391 out of 1001 known passwords", 
+  "score": 59
+}
+
+{
+  "analysis": "The third character of the given password occurs in 115 out of 1001 known passwords", 
+  "score": 51
+}
+
+{
+  "analysis": "The given password is longer than 155 out of 1001 known passwords", 
+  "score": 38
+}
+
+{
+  "analysis": "The second character of the given password occurs in 97 out of 1001 known passwords", 
+  "score": 54
+}
+
+{
+  "analysis": "The given password is shorter than 205 out of 1001 known passwords", 
+  "score": 49
+}
+
+{
+  "analysis": "The given password has the same amount of digits as 816 out of 1001 known passwords", 
+  "score": 43
+}
+
+{
+  "analysis": "The first character of the given password occurs in 115 out of 1001 known passwords", 
+  "score": 55
+}
+
+{
+  "analysis": "The last character of the given password occurs in 142 out of 1001 known passwords", 
+  "score": 64
+}
+
+{
+  "analysis": "The given password has the same amount of uppercase characters as 997 out of 1001 known passwords", 
+  "score": 38
+}
+
+{
+  "analysis": "The fourth character of the given password occurs in 119 out of 1001 known passwords", 
+  "score": 19
+}
+
+{
+  "analysis": "The third character of the given password occurs in 325 out of 1001 known passwords", 
+  "score": 72
+}
+
+{
+  "analysis": "The given password has the same amount of lowercase characters as 137 out of 1001 known passwords", 
+  "score": 27
+}
+
+{
+  "analysis": "The given password occurs as part of 1 out of 1001 known passwords", 
+  "score": 34
+}
+
+{
+  "analysis": "The given password has 6 characters", 
+  "score": 63
+}
+
+{
+  "analysis": "The given password has 0 uppercase characters", 
+  "score": 60
+}
+
+{
+  "analysis": "The third character of the given password occurs in 228 out of 1001 known passwords", 
+  "score": 66
+}
+
+{
+  "analysis": "3 out of 1001 known passwords are suffixed with the given password", 
+  "score": 36
+}
+
+{
+  "analysis": "The first character of the given password occurs in 70 out of 1001 known passwords", 
+  "score": 31
+}
+
+{
+  "analysis": "The fifth character of the given password occurs in 302 out of 1001 known passwords", 
+  "score": 39
+}
+
+{
+  "analysis": "1 out of 1001 known passwords are suffixed with the given password", 
+  "score": 30
+}
+
+{
+  "analysis": "The given password has 0 uppercase characters", 
+  "score": 39
+}
+
+{
+  "analysis": "The last character of the given password occurs in 433 out of 1001 known passwords", 
+  "score": 27
+}
+
+{
+  "analysis": "The fifth character of the given password occurs in 44 out of 1001 known passwords", 
+  "score": 36
+}
+
+{
+  "analysis": "The length of the given password equals 173 out of 1001 known passwords", 
+  "score": 24
+}
+
+{
+  "analysis": "The given password has the same amount of lowercase characters as 390 out of 1001 known passwords", 
+  "score": 21
+}
+
+{
+  "analysis": "The given password has 0 digits", 
+  "score": 54
+}
+
+{
+  "analysis": "The given password has the same amount of uppercase characters as 997 out of 1001 known passwords", 
+  "score": 69
+}
+
+{
+  "analysis": "The given password has 6 characters", 
+  "score": 21
+}
+
+{
+  "analysis": "The last character of the given password occurs in 460 out of 1001 known passwords", 
+  "score": 56
+}
+
+{
+  "analysis": "The first character of the given password occurs in 74 out of 1001 known passwords", 
+  "score": 32
+}
+
+{
+  "analysis": "The given password has 0 uppercase characters", 
+  "score": 52
+}
+
+{
+  "analysis": "The given password has 0 digits", 
+  "score": 22
+}
+
+{
+  "analysis": "The given password has the same amount of lowercase characters as 390 out of 1001 known passwords", 
+  "score": 65
+}
+
+{
+  "analysis": "The given password has the same amount of uppercase characters as 997 out of 1001 known passwords", 
+  "score": 45
+}
+
+{
+  "analysis": "The third character of the given password occurs in 125 out of 1001 known passwords", 
+  "score": 66
+}
+
+{
+  "analysis": "The given password occurs as part of 1 out of 1001 known passwords", 
+  "score": 64
+}
+
+{
+  "analysis": "The fifth character of the given password occurs in 284 out of 1001 known passwords", 
+  "score": 24
+}
+
+{
+  "analysis": "The given password has the same amount of digits as 816 out of 1001 known passwords", 
+  "score": 63
+}
+
+{
+  "analysis": "The given password has 0 digits", 
+  "score": 43
+}
+
+{
+  "analysis": "The fourth character of the given password occurs in 433 out of 1001 known passwords", 
+  "score": 58
+}
+
+{
+  "analysis": "The given password has the same amount of uppercase characters as 997 out of 1001 known passwords", 
+  "score": 62
+}
+
+{
+  "analysis": "1 out of 1001 known passwords are suffixed with the given password", 
+  "score": 54
+}
+
+{
+  "analysis": "The given password has 0 lowercase characters", 
+  "score": 70
+}
+
+{
+  "analysis": "The given password has 0 digits", 
+  "score": 57
+}
+
+{
+  "analysis": "The given password is longer than 155 out of 1001 known passwords", 
+  "score": 26
+}
+
+{
+  "analysis": "The first character of the given password occurs in 433 out of 1001 known passwords", 
+  "score": 58
+}
+
+{
+  "analysis": "The given password has 0 lowercase characters", 
+  "score": 23
+}
+
+{
+  "analysis": "The fifth character of the given password occurs in 125 out of 1001 known passwords", 
+  "score": 37
+}
+
+{
+  "analysis": "The last character of the given password occurs in 433 out of 1001 known passwords", 
+  "score": 49
+}
+
+{
+  "analysis": "The fifth character of the given password occurs in 242 out of 1001 known passwords", 
+  "score": 37
+}
+
+{
+  "analysis": "The fifth character of the given password occurs in 302 out of 1001 known passwords", 
+  "score": 62
+}
+
+{
+  "analysis": "The given password has 0 uppercase characters", 
+  "score": 48
+}
+
+{
+  "analysis": "The given password is longer than 84 out of 1001 known passwords", 
+  "score": 15
+}
+
+{
+  "analysis": "The given password has 0 uppercase characters", 
+  "score": 51
+}
+
+{
+  "analysis": "The first character of the given password occurs in 228 out of 1001 known passwords", 
+  "score": 50
+}
+
+{
+  "analysis": "1 out of 1001 known passwords are suffixed with the given password", 
+  "score": 50
+}
+
+{
+  "analysis": "The given password has the same amount of lowercase characters as 390 out of 1001 known passwords", 
+  "score": 62
+}
+
+{
+  "analysis": "The given password has 5 lowercase characters", 
+  "score": 31
+}
+
+{
+  "analysis": "The given password has 4 lowercase characters", 
+  "score": 37
+}
+
+{
+  "analysis": "The given password has 8 lowercase characters", 
+  "score": 56
+}
+
+{
+  "analysis": "1 out of 1001 known passwords are suffixed with the given password", 
+  "score": 45
+}
+
+{
+  "analysis": "The third character of the given password occurs in 125 out of 1001 known passwords", 
+  "score": 63
+}
+
+{
+  "analysis": "The fifth character of the given password occurs in 284 out of 1001 known passwords", 
+  "score": 64
+}
+
+{
+  "analysis": "The third character of the given password occurs in 165 out of 1001 known passwords", 
+  "score": 27
+}
+
+{
+  "analysis": "The fifth character of the given password occurs in 460 out of 1001 known passwords", 
+  "score": 64
+}
+
+{
+  "analysis": "The fifth character of the given password occurs in 325 out of 1001 known passwords", 
+  "score": 54
+}
+
+{
+  "analysis": "The given password has the same amount of lowercase characters as 390 out of 1001 known passwords", 
+  "score": 34
+}
+
+{
+  "analysis": "The first character of the given password occurs in 88 out of 1001 known passwords", 
+  "score": 66
+}
+
+{
+  "analysis": "The given password has 0 uppercase characters", 
+  "score": 45
+}
+
+{
+  "analysis": "The given password has the same amount of uppercase characters as 997 out of 1001 known passwords", 
+  "score": 24
+}
+
+{
+  "analysis": "The last character of the given password occurs in 126 out of 1001 known passwords", 
+  "score": 42
+}
+
+{
+  "analysis": "The given password is shorter than 32 out of 1001 known passwords", 
+  "score": 46
+}
+
+{
+  "analysis": "The first character of the given password occurs in 137 out of 1001 known passwords", 
+  "score": 54
+}
+
+{
+  "analysis": "The given password has 0 lowercase characters", 
+  "score": 64
+}
+
+{
+  "analysis": "The given password occurs as part of 3 out of 1001 known passwords", 
+  "score": 42
+}
+
+{
+  "analysis": "The fourth character of the given password occurs in 179 out of 1001 known passwords", 
+  "score": 50
+}
+
+{
+  "analysis": "The given password is longer than 155 out of 1001 known passwords", 
+  "score": 44
+}
+
+{
+  "analysis": "2 out of 1001 known passwords are suffixed with the given password", 
+  "score": 45
+}
+
+{
+  "analysis": "The given password has 4 digits", 
+  "score": 25
+}
+
+{
+  "analysis": "The given password has 6 lowercase characters", 
+  "score": 67
+}
+
+{
+  "analysis": "1 out of 1001 known passwords are suffixed with the given password", 
+  "score": 24
+}
+
+{
+  "analysis": "The length of the given password equals 84 out of 1001 known passwords", 
+  "score": 26
+}
+
+{
+  "analysis": "The given password has 0 uppercase characters", 
+  "score": 38
+}
+
+{
+  "analysis": "The given password occurs as part of 1 out of 1001 known passwords", 
+  "score": 41
+}
+
+{
+  "analysis": "The fifth character of the given password occurs in 284 out of 1001 known passwords", 
+  "score": 54
+}
+
+{
+  "analysis": "The given password has 0 digits", 
+  "score": 67
+}
+
+{
+  "analysis": "The fourth character of the given password occurs in 179 out of 1001 known passwords", 
+  "score": 33
+}
+
+{
+  "analysis": "The given password has 8 lowercase characters", 
+  "score": 56
+}
+
+{
+  "analysis": "The fourth character of the given password occurs in 37 out of 1001 known passwords", 
+  "score": 71
+}
+
+{
+  "analysis": "1 out of 1001 known passwords are suffixed with the given password", 
+  "score": 26
+}
+
+{
+  "analysis": "The given password has 0 uppercase characters", 
+  "score": 55
+}
+
+{
+  "analysis": "The given password has 0 digits", 
+  "score": 53
+}
+
+{
+  "analysis": "The given password has 6 characters", 
+  "score": 54
+}
+
+{
+  "analysis": "The given password has 6 lowercase characters", 
+  "score": 50
+}
+
+{
+  "analysis": "The first character of the given password occurs in 460 out of 1001 known passwords", 
+  "score": 67
+}
+
+{
+  "analysis": "The fifth character of the given password occurs in 284 out of 1001 known passwords", 
+  "score": 43
+}
+
+{
+  "analysis": "The last character of the given password occurs in 83 out of 1001 known passwords", 
+  "score": 62
+}
+
+{
+  "analysis": "The given password has 8 characters", 
+  "score": 29
+}
+
+{
+  "analysis": "The first character of the given password occurs in 302 out of 1001 known passwords", 
+  "score": 27
+}
+
+{
+  "analysis": "The given password occurs as part of 1 out of 1001 known passwords", 
+  "score": 39
+}
+
+{
+  "analysis": "The given password has 6 lowercase characters", 
+  "score": 33
+}
+
+{
+  "analysis": "The fifth character of the given password occurs in 165 out of 1001 known passwords", 
+  "score": 66
+}
+
+{
+  "analysis": "The given password is longer than 969 out of 1001 known passwords", 
+  "score": 40
+}
+
+{
+  "analysis": "The given password has the same amount of digits as 816 out of 1001 known passwords", 
+  "score": 31
+}
+
+{
+  "analysis": "The given password is shorter than 32 out of 1001 known passwords", 
+  "score": 63
+}
+
+{
+  "analysis": "The fourth character of the given password occurs in 302 out of 1001 known passwords", 
+  "score": 59
+}
+
+{
+  "analysis": "The given password has 0 digits", 
+  "score": 32
+}
+
+{
+  "analysis": "The second character of the given password occurs in 97 out of 1001 known passwords", 
+  "score": 70
+}
+
+{
+  "analysis": "The length of the given password equals 194 out of 1001 known passwords", 
+  "score": 25
+}
+
+{
+  "analysis": "The given password has 0 uppercase characters", 
+  "score": 24
+}
+
+{
+  "analysis": "The third character of the given password occurs in 165 out of 1001 known passwords", 
+  "score": 18
+}
+
+{
+  "analysis": "The given password has the same amount of digits as 816 out of 1001 known passwords", 
+  "score": 57
+}
+
+{
+  "analysis": "The third character of the given password occurs in 125 out of 1001 known passwords", 
+  "score": 33
+}
+
+{
+  "analysis": "The given password has 3 digits", 
+  "score": 59
+}
+
+{
+  "analysis": "The third character of the given password occurs in 433 out of 1001 known passwords", 
+  "score": 18
+}
+
+{
+  "analysis": "The second character of the given password occurs in 433 out of 1001 known passwords", 
+  "score": 27
+}
+
+{
+  "analysis": "The third character of the given password occurs in 115 out of 1001 known passwords", 
+  "score": 50
+}
+
+{
+  "analysis": "The given password has 6 characters", 
+  "score": 62
+}
+
+{
+  "analysis": "The given password has 0 uppercase characters", 
+  "score": 29
+}
+
+{
+  "analysis": "The given password has the same amount of uppercase characters as 997 out of 1001 known passwords", 
+  "score": 28
+}
+
+{
+  "analysis": "The given password has 0 uppercase characters", 
+  "score": 65
+}
+
+{
+  "analysis": "The fourth character of the given password occurs in 325 out of 1001 known passwords", 
+  "score": 61
+}
+
+{
+  "analysis": "The first character of the given password occurs in 74 out of 1001 known passwords", 
+  "score": 31
+}
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>404 Not Found</title>
+<h1>Not Found</h1>
+<p>The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.</p>
+

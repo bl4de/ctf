@@ -1,0 +1,1 @@
+from .alphabet import app

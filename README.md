@@ -9,6 +9,14 @@
 # 2018
 
 
+
+### DEFCON QUALS 2018
+
+**sbva, Web 110**                                   
+
+https://github.com/bl4de/ctf/blob/master/2018/DEF_CON_Quals_2018/sbva/sbva_web.md
+
+
 ### INSHACK CTF 2018
 
 **Crimemail, Web 20**

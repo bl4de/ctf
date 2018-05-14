@@ -85,6 +85,10 @@ OOO{0ld@dm1nbr0wser1sth30nlyw@y}
 ```
 
 
+
+Later I've realized that **sbva**, the challenge name, contains a clue as well: **s**coped**b**attery**v**ideo**a**utoplay :D
+
+
 ![Screen caption](2.png)
 
 

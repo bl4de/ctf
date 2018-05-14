@@ -1,4 +1,4 @@
-# sbva, Web (score based on solves)
+# sbva, Web, 110pts
 
 ## Problem
 

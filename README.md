@@ -1,9 +1,14 @@
 # CTF (Capture The Flag) writeups
 
-- [2015 Writeups](#2015)
-- [2016 Writeups](#2016)
-- [2017 Writeups](#2017)
+- [2019 Writeups](#2019)
 - [2018 Writeups](#2018)
+- [2017 Writeups](#2017)
+- [2016 Writeups](#2016)
+- [2015 Writeups](#2015)
+- [Stats](#Stats)
+
+# 2019
+
 
 
 # 2018
@@ -238,6 +243,43 @@ https://github.com/bl4de/ctf/blob/master/2015/BostonKeyPartyCTF_2015/Prudential.
 **Symphony, Web 25**          
 https://github.com/bl4de/ctf/blob/master/2015/BostonKeyPartyCTF_2015/Symphony.md
 
+
+# Stats
+
+
+#### 2019
+
+I've not finished yet... :)
+
+
+#### 2018
+
+Ranking position: 1323 with 13.853 points; finished in **top 7.083%** teams with any points in CTFtime ranking, with **1,27% points of the best team**
+
+teams with any points: 18677
+
+best team result: 1090.146 (Dragon Sector)
+
+Full stats: https://ctftime.org/team/16701 (Stack)
+
+
+#### 2017
+
+Ranking position: 1251 with 13,435 points; finished in **top 8,55%** teams with any points in CTFtime ranking, with **1,72% points of the best team**
+
+teams with any points: 14615
+
+best team result: 780,201 (217)
+
+Full stats: https://ctftime.org/team/16701 (Stack)
+
+#### 2016
+
+Ranking position: 882 with 11,276 points; finished in **top 9%** teams with any points in CTFtime ranking, with **0,69% points of the best team**
+
+teams with any points: 10593
+
+best team result: 1625,714 (dcua)
 
 
 

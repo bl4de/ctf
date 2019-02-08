@@ -254,7 +254,7 @@ I've not finished yet... :)
 
 #### 2018
 
-Ranking position: 1323 with 13.853 points; finished in **top 7.083%** teams with any points in CTFtime ranking, with **1,27% points of the best team**
+Ranking position: 1095 with 17.534 points; finished in **top 7.083%** teams with any points in CTFtime ranking, with **1,60% points of the best team**
 
 teams with any points: 18677
 

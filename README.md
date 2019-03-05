@@ -10,6 +10,17 @@
 # 2019
 
 
+### TAMUctf 2019
+
+**Bird Box, Web 478**
+
+https://medium.com/@_bl4de/tamuctf-2019-web2-bird-box-challenge-writeup-d3fd677b4413
+
+**Login App, Web 477**
+
+https://medium.com/@_bl4de/tamuctf-2019-web4-login-app-challenge-writeup-8e05f59072b1
+
+
 
 # 2018
 

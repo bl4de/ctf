@@ -10,6 +10,17 @@
 # 2019
 
 
+### TAMUctf 2019
+
+**Bird Box, Web 478**
+
+https://medium.com/@_bl4de/tamuctf-2019-web2-bird-box-challenge-writeup-d3fd677b4413
+
+**Login App, Web 477**
+
+https://medium.com/@_bl4de/tamuctf-2019-web4-login-app-challenge-writeup-8e05f59072b1
+
+
 
 # 2018
 
@@ -254,7 +265,7 @@ I've not finished yet... :)
 
 #### 2018
 
-Ranking position: 1323 with 13.853 points; finished in **top 7.083%** teams with any points in CTFtime ranking, with **1,27% points of the best team**
+Ranking position: 1095 with 17.534 points; finished in **top 7.083%** teams with any points in CTFtime ranking, with **1,60% points of the best team**
 
 teams with any points: 18677
 

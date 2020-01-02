@@ -14,11 +14,11 @@
 
 **Bird Box, Web 478**
 
-https://medium.com/@_bl4de/tamuctf-2019-web2-bird-box-challenge-writeup-d3fd677b4413
+https://github.com/bl4de/ctf/blob/master/2019/TAMUCTF_2019/writeups/Web2_Bird_Box_Challenge.md
 
 **Login App, Web 477**
 
-https://medium.com/@_bl4de/tamuctf-2019-web4-login-app-challenge-writeup-8e05f59072b1
+https://github.com/bl4de/ctf/blob/master/2019/TAMUCTF_2019/writeups/Web4_Login_App.md
 
 
 

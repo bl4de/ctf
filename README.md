@@ -258,9 +258,20 @@ https://github.com/bl4de/ctf/blob/master/2015/BostonKeyPartyCTF_2015/Symphony.md
 # Stats
 
 
+#### 2020
+
+In progress...
+
+
 #### 2019
 
-I've not finished yet... :)
+Ranking position: 1167 with 22.539 points; finished in **top 4.701%** teams with any points in CTFtime ranking, with **2,06% points of the best team**
+
+teams with any points: 24822
+
+best team result: 1092.652 (Dragon Sector)
+
+Full stats: https://ctftime.org/team/16701 (Stack)
 
 
 #### 2018

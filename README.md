@@ -1,11 +1,20 @@
 # CTF (Capture The Flag) writeups
 
+- [2020 Writeups](#2020)
 - [2019 Writeups](#2019)
 - [2018 Writeups](#2018)
 - [2017 Writeups](#2017)
 - [2016 Writeups](#2016)
 - [2015 Writeups](#2015)
 - [Stats](#Stats)
+
+
+
+
+# 2020
+
+
+
 
 # 2019
 

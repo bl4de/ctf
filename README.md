@@ -14,6 +14,11 @@
 # 2020
 
 
+### Midnightsun CTF 2020
+
+**Admpanel, Pwn 58pts**
+
+https://github.com/bl4de/ctf/blob/master/2020/Midnight_Sun_2020_CTF/admpanel.md
 
 
 # 2019

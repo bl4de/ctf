@@ -2,12 +2,8 @@
 
 ## Problem
 
-We found this legacy admin panel. Someone has patched it though :(
+![Screen caption](admpanel0.png)
 
-Service: nc admpanel-01.play.midnightsunctf.se 31337
-Download: admpanel.tar.gz
-Author: hspe is available for questions in forum#midnightsun @ freenode 
-Status: Online
 
 ## Solution
 

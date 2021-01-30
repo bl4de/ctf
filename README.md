@@ -1,5 +1,6 @@
 # CTF (Capture The Flag) writeups
 
+- [2021 Writeups](#2021)
 - [2020 Writeups](#2020)
 - [2019 Writeups](#2019)
 - [2018 Writeups](#2018)
@@ -7,6 +8,10 @@
 - [2016 Writeups](#2016)
 - [2015 Writeups](#2015)
 - [Stats](#Stats)
+
+
+
+# 2021
 
 
 
@@ -272,9 +277,22 @@ https://github.com/bl4de/ctf/blob/master/2015/BostonKeyPartyCTF_2015/Symphony.md
 # Stats
 
 
-#### 2020
+#### 2021
 
 In progress...
+
+
+#### 2020
+
+
+Ranking position: 2064 with 16.076 points; finished in **top 5,75%** teams with any points in CTFtime ranking, with **1,126% points of the best team**
+
+teams with any points: 35999
+
+best team result: 1425,658 (perfect blue, USA)
+
+Full stats: https://ctftime.org/team/16701 (Stack)
+
 
 
 #### 2019
@@ -283,7 +301,7 @@ Ranking position: 1167 with 22.539 points; finished in **top 4.701%** teams with
 
 teams with any points: 24822
 
-best team result: 1092.652 (Dragon Sector)
+best team result: 1092.652 (Dragon Sector, PL)
 
 Full stats: https://ctftime.org/team/16701 (Stack)
 
@@ -294,7 +312,7 @@ Ranking position: 1095 with 17.534 points; finished in **top 7.083%** teams with
 
 teams with any points: 18677
 
-best team result: 1090.146 (Dragon Sector)
+best team result: 1089,866 (Dragon Sector, PL)
 
 Full stats: https://ctftime.org/team/16701 (Stack)
 
@@ -305,7 +323,7 @@ Ranking position: 1251 with 13,435 points; finished in **top 8,55%** teams with 
 
 teams with any points: 14615
 
-best team result: 780,201 (217)
+best team result: 791,422 (Eat, Sleep, Pwn, Repeat, Germany)
 
 Full stats: https://ctftime.org/team/16701 (Stack)
 
@@ -315,7 +333,7 @@ Ranking position: 882 with 11,276 points; finished in **top 9%** teams with any 
 
 teams with any points: 10593
 
-best team result: 1625,714 (dcua)
+best team result: 1642,737 (dcua, Ukraine)
 
 
 

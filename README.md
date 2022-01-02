@@ -1,6 +1,6 @@
 # CTF (Capture The Flag) writeups
 
-- [2021 Writeups](#2021)
+- [2022 Writeups](#2022)
 - [2020 Writeups](#2020)
 - [2019 Writeups](#2019)
 - [2018 Writeups](#2018)
@@ -11,7 +11,7 @@
 
 
 
-# 2021
+# 2022
 
 
 
@@ -277,9 +277,18 @@ https://github.com/bl4de/ctf/blob/master/2015/BostonKeyPartyCTF_2015/Symphony.md
 # Stats
 
 
-#### 2021
+#### 2022
 
 In progress...
+
+
+#### 2021
+
+
+Ranking position: 2741 with 13.110, 44 (114 total) in Poland
+
+Full stats: https://ctftime.org/team/16701 (Stack)
+
 
 
 #### 2020

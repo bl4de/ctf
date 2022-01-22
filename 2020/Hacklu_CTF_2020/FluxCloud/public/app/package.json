@@ -13,7 +13,7 @@
     "compression": "^1.7.4",
     "express": "^4.17.1",
     "morgan": "^1.10.0",
-    "nanoid": "^3.1.15",
+    "nanoid": "^3.1.31",
     "redis": "^2.8.0"
   }
 }

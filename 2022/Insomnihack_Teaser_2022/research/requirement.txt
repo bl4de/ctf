@@ -1,0 +1,3 @@
+numpy
+# My years of research are contained in this doctorsecret package
+git+https://github.com/doctor-jebaited/secret1234.git@f464e6774efe95ff3fc0fdf7464659240cfff09f

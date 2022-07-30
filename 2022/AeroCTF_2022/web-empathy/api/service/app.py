@@ -11,6 +11,7 @@ import models
 import storages
 import providers
 
+import pdb
 
 app = fastapi.FastAPI()
 redis = aioredis.Redis(host=os.getenv('REDIS_HOST'))
@@ -38,6 +39,7 @@ async def UserRequired(session: str = fastapi.Cookie(None)) -> models.User:
 async def ping(
         response: fastapi.responses.JSONResponse,
 ):
+    pdb.set_trace()
     return {
         'response': 'pong',
     }
@@ -49,6 +51,7 @@ async def login(
         credentials: models.Credentials,
 ):
     saved_password = await Users.search(credentials.username)
+    pdb.set_trace()
 
     if saved_password is None:
         if not await Users.insert(credentials.username, credentials.password):

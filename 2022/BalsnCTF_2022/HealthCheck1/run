@@ -1,0 +1,3 @@
+#!/bin/bash
+grep -rn -e "*{*" /home > ./status.json
+

@@ -39,9 +39,9 @@ Our goal is to get the flag located somewhere on `chals.2022.squarectf.com:4100`
 ## Solution
 
 From looking at the source code, we can see two `char[]` types being declared.
-The first one is a `command` string of 16 characters and the second one is an input controlled by an attacker - a string `way_too_small_input_buf` of 8 characters. The way how they will be put on stack means that if we overfill `way_too_small_input_buf`, it starts to overwrite the content of `command`. Execution of the `system(command)` line gives us an opportunity to run injected commands on the remote machine. The only caveat here is that our payload can't be longer than 24 characters in total (the rest of the input is going to be truncated).
+The first one is a `command` string of 16 characters and the second one is an input controlled by an attacker - a string `way_too_small_input_buf` of 8 characters. The way how they will be put on stack means that if we overfill `way_too_small_input_buf`, it starts to overwrite the content of `command`. Execution of the `system(command)` line gives us an opportunity to run injected commands on the remote machine.
 
-Let's try see if we can execute our own command then. First 8 characters of our input does not matter as they won't become the part of the `command` variable, so it's just a filler to get us to the beginning of `command` characters array:
+Let's try to see if we can execute our own command then. First 8 characters of our input does not matter as they won't become the part of the `command` variable, so it's just a filler to get us to the beginning of `command` characters array:
 
 ```
 $ nc chals.2022.squarectf.com 4100
@@ -54,7 +54,7 @@ pwnable_user
 
 That seems to work as expected:
 
-- `AAAAAAAA` fills out `way_too_small_input_buf` characters array
+- `AAAAAAAA` fills `way_too_small_input_buf` characters array
 - then, there is `whoami` command, which overwrites `command` buffer, located next to `way_too_small_input_buf` in memory
 - our injected command is then executed
 
@@ -84,7 +84,7 @@ We can see the flag file is located in `./the_flag_is_in_here` directory. To dis
 cat ./the_flag_is_in_here/flag.txt
 ```
 
-The problemn here is that we have only 16 characters to use, because this is the size of `command` characters array used in `system(command);` execution and our payload has 35 characters. We need to shorten it to maximum 16 characters.
+The problem here is that we have only 16 characters to use, because this is the size of `command` characters array used in `system(command);` execution and our payload has 35 characters. We need to shorten it to maximum 16 characters.
 
 To be able to do so, we can use wildcard character (`*`), whcih is going to be expanded by shell. Here's one of the examples:
 
@@ -92,7 +92,7 @@ To be able to do so, we can use wildcard character (`*`), whcih is going to be e
 cat ./the*/*.txt
 ```
 
-In the example above, `the*` is going to be expanded to `the_flag_is_in_here` (because there is no other directory with the name starting from `the`) and `*.txt` will expand to `flag.txt`. We can even make it shorter:
+In the example above, `the*` is going to be expanded to `the_flag_is_in_here` (because there is no other directory with the name starting with `the`, so there is no ambiguity here) and `*.txt` will expand to `flag.txt`. We can even make it shorter:
 
 ```
 cat ./t*/*
@@ -109,6 +109,6 @@ Ok, here ya go!
 flag{congrats_youve_exploited_a_memory_corruption_vulnerability}
 ```
 
-And we get the flag - `flag{congrats_youve_exploited_a_memory_corruption_vulnerability}` and 50 points :)
+We get the flag and 50 points :)
 
 

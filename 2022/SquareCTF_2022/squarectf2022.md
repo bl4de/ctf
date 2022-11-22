@@ -1,37 +1,3 @@
-## EZ pwn 2
-
-Required reading:
-- intro to x86 https://www.cs.virginia.edu/~evans/cs216/guides/x86.html
-- x86-64 stack layout https://eli.thegreenplace.net/2011/09/06/stack-frame-layout-on-x86-64
-- Stack Canaries https://www.sans.org/blog/stack-canaries-gingerly-sidestepping-the-cage/
-- stack based buffer overflows https://en.wikipedia.org/wiki/Stack_buffer_overflow
-- ASLR https://en.wikipedia.org/wiki/Address_space_layout_randomization
-Optional Reading:
-- pwntools https://docs.pwntools.com/en/stable/intro.html#making-connections
-
-
-
-
-
-
-
-
-
-
-
-## its right there
-
-Android, RE, 100
-
-
-
-
-
-
-
-
-
-
 ## Alex Hanlon Has The Flag!
 
 Web, 50

@@ -10,18 +10,25 @@
 - [Stats](#Stats)
 
 
+# 2023
+
+
+(...)
 
 # 2022
 
+### SquareCTF 2022
 
+**EZ Pwn 1, Pwn 50**
 
+https://github.com/bl4de/ctf/blob/master/2022/SquareCTF_2022/ezpwn1_writeup.md
 
 # 2020
 
 
 ### Midnightsun CTF 2020
 
-**Admpanel, Pwn 58pts**
+**Admpanel, Pwn 58**
 
 https://github.com/bl4de/ctf/blob/master/2020/Midnight_Sun_2020_CTF/admpanel.md
 
@@ -277,9 +284,19 @@ https://github.com/bl4de/ctf/blob/master/2015/BostonKeyPartyCTF_2015/Symphony.md
 # Stats
 
 
-#### 2022
+#### 2023
 
 In progress...
+
+
+
+#### 2022
+
+
+Ranking position: 3516 with 11,415, 42 (122 total) in Poland
+
+Full stats: https://ctftime.org/team/16701 (Stack)
+
 
 
 #### 2021

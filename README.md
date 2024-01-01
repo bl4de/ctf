@@ -1,5 +1,6 @@
 # CTF (Capture The Flag) writeups
 
+- [2024 Writeups](#2024)
 - [2022 Writeups](#2022)
 - [2020 Writeups](#2020)
 - [2019 Writeups](#2019)
@@ -10,8 +11,7 @@
 - [Stats](#Stats)
 
 
-# 2023
-
+# 2024
 
 (...)
 
@@ -283,29 +283,29 @@ https://github.com/bl4de/ctf/blob/master/2015/BostonKeyPartyCTF_2015/Symphony.md
 
 # Stats
 
+Full stats: https://ctftime.org/team/16701 (Stack)
+
+
+#### 2024
+
+**GOAL FOR 2024: Top 25 Poland; Top 1000 Global**
+
+(...in progress...)
+
 
 #### 2023
 
-In progress...
-
+Ranking position: 11041 with 3.528 points, 78 (131 total) in Poland
 
 
 #### 2022
 
-
-Ranking position: 3516 with 11,415, 42 (122 total) in Poland
-
-Full stats: https://ctftime.org/team/16701 (Stack)
-
+Ranking position: 3516 with 11.415 points, 42 (122 total) in Poland
 
 
 #### 2021
 
-
-Ranking position: 2741 with 13.110, 44 (114 total) in Poland
-
-Full stats: https://ctftime.org/team/16701 (Stack)
-
+Ranking position: 2741 with 13.110 points, 44 (114 total) in Poland
 
 
 #### 2020
@@ -317,8 +317,6 @@ teams with any points: 35999
 
 best team result: 1425,658 (perfect blue, USA)
 
-Full stats: https://ctftime.org/team/16701 (Stack)
-
 
 
 #### 2019
@@ -329,7 +327,6 @@ teams with any points: 24822
 
 best team result: 1092.652 (Dragon Sector, PL)
 
-Full stats: https://ctftime.org/team/16701 (Stack)
 
 
 #### 2018
@@ -340,7 +337,6 @@ teams with any points: 18677
 
 best team result: 1089,866 (Dragon Sector, PL)
 
-Full stats: https://ctftime.org/team/16701 (Stack)
 
 
 #### 2017
@@ -351,7 +347,7 @@ teams with any points: 14615
 
 best team result: 791,422 (Eat, Sleep, Pwn, Repeat, Germany)
 
-Full stats: https://ctftime.org/team/16701 (Stack)
+
 
 #### 2016
 

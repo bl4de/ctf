@@ -13,7 +13,12 @@
 
 # 2024
 
-(...)
+### IrisCTF 2024
+
+**What's My Password?, Web 50**
+
+https://github.com/bl4de/ctf/blob/master/2024/IrisCTF_2024/whats-my-password/whats_my_password_solution.md
+
 
 # 2022
 

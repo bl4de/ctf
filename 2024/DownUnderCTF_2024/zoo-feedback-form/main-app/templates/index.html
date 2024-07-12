@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="/static/styles.css">
+    <title>Send Feedback to the Zoo</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Send Feedback to the Zoo</h1>
+        <p>We value your feedback! Please let us know your thoughts.</p>
+        <textarea id="feedback" placeholder="Enter your feedback here..."></textarea>
+        <button onclick="submitFeedback()">Submit Feedback</button>
+        <div id="response"></div>
+    </div>
+
+    <script>
+        function submitFeedback() {
+            const feedback = document.getElementById('feedback').value;
+            const xmlData = `<?xml version="1.0" encoding="UTF-8"?>
+            <root>
+                <feedback>${feedback}</feedback>
+            </root>
+            `;
+
+            fetch('/', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/xml'
+                },
+                body: xmlData
+            })
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('response').innerHTML = data;
+            })
+            .catch(error => {
+                console.error('Error:', error);
+            });
+        }
+    </script>
+</body>
+</html>

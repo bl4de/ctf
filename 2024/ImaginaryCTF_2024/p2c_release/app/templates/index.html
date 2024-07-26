@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>P2C (Python To Color)</title>
+    <style>
+        body {
+            background-color: #f5f5f5;
+            color: #333;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        h1 {
+            margin: 25px;
+            font-size: 2em;
+            color: #FFFFFF;
+            -webkit-text-stroke-width: 1px;
+            -webkit-text-stroke-color: black;
+        }
+        .content {
+            padding: 20px;
+        }
+        textarea {
+            width: 80%;
+            height: 200px;
+            margin: 10px 0;
+            font-size: 1em;
+            padding: 10px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 1em;
+            background-color: #6f7880;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #6f7880;
+        }
+    </style>
+    <script>
+        function changeBackgroundColor(rgb) {
+            document.body.style.backgroundColor = rgb;
+        }
+    </script>
+</head>
+<body>
+    <h1>P2C (Python To Color)</h1>
+    <div class="content">
+        <form method="post">
+            <textarea name="code" placeholder="Python code goes here..."></textarea><br>
+            <button type="submit">Run Code</button>
+        </form>
+        {% if rgb %}
+        <script>
+            changeBackgroundColor("{{ rgb }}");
+        </script>
+        {% endif %}
+    </div>
+</body>
+</html>

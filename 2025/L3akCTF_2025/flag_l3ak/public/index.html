@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>L3ak Blog</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+            border-bottom: 2px solid #2dd4bf;
+            padding-bottom: 10px;
+        }
+        .search-form {
+            margin: 30px 0;
+            text-align: center;
+        }
+        input[type="text"] {
+            padding: 12px;
+            width: 300px;
+            border: 2px solid #ddd;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        button {
+            padding: 12px 20px;
+            background: #2dd4bf;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-left: 10px;
+        }
+        button:hover {
+            background: #62cebf;
+        }
+        .results {
+            margin-top: 30px;
+        }
+        .post {
+            background: #f8f9fa;
+            border-left: 4px solid #2dd4bf;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 5px;
+        }
+        .post-title {
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 8px;
+        }
+        .post-content {
+            color: #666;
+            line-height: 1.5;
+            margin-bottom: 8px;
+        }
+        .post-meta {
+            font-size: 12px;
+            color: #999;
+        }
+        .no-results {
+            text-align: center;
+            color: #999;
+            font-style: italic;
+            padding: 20px;
+        }
+        .description {
+            background: #e9ecef;
+            border: 1px solid #dee2e6;
+            border-radius: 5px;
+            padding: 15px;
+            margin: 20px 0;
+            color: #6c757d;
+            text-align: center;
+        }
+        .loading {
+            text-align: center;
+            color: #007bff;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🚩 L3ak's Blog 🚩</h1>
+        
+        <div class="description">
+            <strong>Welcome to L3ak's blog!!!</strong> Read about our various flag capturing adventures. Hopefully, we didn't leave any flags lying around...
+        </div>
+
+        <div class="search-form">
+            <input type="text" id="searchInput" placeholder="Search posts..." />
+            <button onclick="searchPosts()">Search</button>
+        </div>
+
+        <div class="results" id="results">
+            <div class="loading">Loading posts...</div>
+        </div>
+    </div>
+
+    <script>
+        let allPosts = [];
+
+        async function loadAllPosts() {
+            const resultsDiv = document.getElementById('results');
+            
+            try {
+                const response = await fetch('/api/posts');
+                const data = await response.json();
+                
+                allPosts = data.posts || data;
+                displayPosts(allPosts);
+            } catch (error) {
+                resultsDiv.innerHTML = '<div class="no-results">Error occurred while loading posts.</div>';
+                console.error('Load posts error:', error);
+            }
+        }
+
+        function displayPosts(posts) {
+            const resultsDiv = document.getElementById('results');
+            
+            if (!posts || posts.length === 0) {
+                resultsDiv.innerHTML = '<div class="no-results">No posts found.</div>';
+                return;
+            }
+
+            let html = '';
+            posts.forEach(post => {
+                html += `
+                    <div class="post">
+                        <div class="post-title">${post.title}</div>
+                        <div class="post-content">${post.content}</div>
+                        <div class="post-meta">By ${post.author} on ${post.date}</div>
+                    </div>
+                `;
+            });
+
+            resultsDiv.innerHTML = html;
+        }
+
+        async function searchPosts() {
+            const query = document.getElementById('searchInput').value.trim();
+            const resultsDiv = document.getElementById('results');
+            
+            if (!query) {
+                displayPosts(allPosts);
+                return;
+            }
+
+            resultsDiv.innerHTML = '<div class="loading">Searching...</div>';
+
+            try {
+                const response = await fetch('/api/search', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({ query: query })
+                });
+
+                const data = await response.json();
+                if(response.status !== 200) {
+                    throw data
+                }
+                
+                if (data.results.length === 0) {
+                    resultsDiv.innerHTML = '<div class="no-results">No posts found matching your search.</div>';
+                    return;
+                }
+
+                let html = `<h3>Found ${data.results.length} post(s):</h3>`;
+                data.results.forEach(post => {
+                    html += `
+                        <div class="post">
+                            <div class="post-title">${post.title}</div>
+                            <div class="post-content">${post.content}</div>
+                            <div class="post-meta">By ${post.author} on ${post.date}</div>
+                        </div>
+                    `;
+                });
+
+                resultsDiv.innerHTML = html;
+            } catch (error) {
+                resultsDiv.innerHTML = `<div class="no-results">${error['error']}</div>`;
+            }
+        }
+
+        document.getElementById('searchInput').addEventListener('keypress', function(e) {
+            if (e.key === 'Enter') {
+                searchPosts();
+            }
+        });
+
+        document.addEventListener('DOMContentLoaded', loadAllPosts);
+    </script>
+</body>
+</html>

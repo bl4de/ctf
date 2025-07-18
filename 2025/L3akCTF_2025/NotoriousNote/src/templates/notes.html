@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Notes</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-height: 100vh;
+      background: linear-gradient(135deg, #2f2f4f, #1e1e2f);
+      color: #fff;
+      padding: 40px 20px;
+    }
+
+    h2 {
+      margin-bottom: 20px;
+      font-weight: 600;
+      font-size: 24px;
+      color: #f0f0f0;
+    }
+
+    form {
+      background-color: #2d2d44;
+      padding: 25px 30px;
+      border-radius: 16px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+      max-width: 600px;
+      width: 100%;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    textarea {
+      width: 100%;
+      padding: 12px 15px;
+      font-size: 16px;
+      border-radius: 8px;
+      border: none;
+      resize: vertical;
+      min-height: 120px;
+      background-color: #3a3a55;
+      color: #f0f0f0;
+      margin-bottom: 20px;
+      outline: none;
+      transition: background-color 0.2s ease;
+    }
+
+    textarea::placeholder {
+      color: #aaa;
+    }
+
+    textarea:focus {
+      background-color: #444466;
+    }
+
+    button {
+      width: 100%;
+      padding: 12px;
+      font-size: 16px;
+      background-color: #5c6bc0;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background-color 0.2s ease;
+    }
+
+    button:hover {
+      background-color: #7986cb;
+    }
+
+    #notesPlaceholder {
+      width: 100%;
+      max-width: 600px;
+      background-color: #2d2d44;
+      padding: 20px 25px;
+      border-radius: 16px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+      color: #ddd;
+    }
+
+    @media (max-width: 600px) {
+      form, #notesPlaceholder {
+        padding: 20px;
+      }
+
+      h2 {
+        font-size: 20px;
+      }
+    }
+  </style>
+  <script src="/static/js/sanitize-html.min.js"></script>
+  <script src="/static/js/Query.js"></script>
+</head>
+<body>
+  <h2>Notes go here</h2>
+  <form id="notesForm" action="/" method="GET">
+    <textarea name="note" placeholder="Write your note here..." required></textarea><br>
+    <button type="submit">Add Note</button>
+  </form>
+  <div id="notesPlaceholder"></div>
+  <script src="/static/js/index.js"></script>
+</body>
+</html>
